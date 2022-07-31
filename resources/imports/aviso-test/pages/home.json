@@ -1,0 +1,794 @@
+{
+	"meta": {
+		"apimode": "page",
+		"theme": "aviso",
+		"upload": false,
+		"title": "Home | Aviso",
+		"description": "Aviso Deal Insights go beyond basic CRM as-is insights to provide a full picture of the evolution of deals, how deals are pacing versus where they need to be, key events driving the deal, and hidden deals from future quarters that can be tapped earlier.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-stack--dynamic-hero-slideshow",
+			"uid": "homeHero",
+			"subtitle": "<div class='uk-text-primary uk-head-font' style=' margin-bottom:-10px'>MORE REVENUE | LESS CRM</div>",
+			"title": "Your Single Pane of Glass for<br/>",
+			"description": "From predictive forecasting to conversational and deal intelligence, get Aviso’s AI single pane of glass to reach your true revenue potential.",
+
+			"items": [
+				{
+					"title": "Revenue Operations",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/revenue-operations.webp",
+						"alt": "Revenue Operations"
+					},
+					"style": {}
+				},
+				{
+					"title": "Conversational Intelligence",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/conversational-intelligence.webp",
+						"alt": "Conversational Intelligence"
+					},
+					"style": {}
+				},
+				{
+					"title": "Sales Forecasting",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sales-forecasting.webp",
+						"alt": "Sales Forecasting"
+					},
+					"style": {}
+				},
+				{
+					"title": "Deal Intelligence",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/deal-intelligence.webp",
+						"alt": "Deal Intelligence"
+					},
+					"style": {}
+				},
+				{
+					"title": "Relationship Intelligence",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/relationship-intelligence.webp",
+						"alt": "Relationship Intelligence"
+					},
+					"style": {}
+				},
+				{
+					"title": "GTM Collaboration",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/gtm-collaboration.webp",
+						"alt": "GTM Collaboration"
+					},
+					"style": {}
+				},
+				{
+					"title": "Customer Intelligence",
+					"description": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/customer-intelligence.webp",
+						"alt": "Customer Intelligence"
+					},
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 1,
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"mediaWidth": "1/2",
+				"itemMediaPos": "right",
+				"itemAspectRatio": "5:3",
+				"itemAnimation": "fade"
+			}
+		},
+		{
+			"module": "icon-stack--banner-card",
+			"subtitle": "",
+			"title": "",
+			"description": "",
+			"items": [
+				{
+					"title": "See Aviso's AI Guidance in action",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" d=\"M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z\" /><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" d=\"M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+					"ctas": [
+						{
+							"label": "Watch now",
+							"url": "https://www.youtube.com/watch?v=jp762sdJ9gw",
+							"external": true,
+							"type": "link"
+						}
+					],
+					"style": {
+						"background": "#fff",
+						"iconColor": "#E03F27",
+						"justify": "middle",
+						"iconSize": "md"
+					}
+				},
+				{
+					"title": "Try Aviso's AI Value Calculator",
+					"description": "",
+					"icon": "server",
+					"ctas": [
+						{
+							"label": "Download Report",
+							"url": "https://www.aviso.com/valuecalculator/",
+							"type": "link",
+							"external": true
+						}
+					],
+					"style": {
+						"background": "#333366",
+						"iconColor": "#fff",
+						"justify": "middle",
+						"iconSize": "md"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "sm",
+				"spacing": "xs",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"mediaWidth": "3/5"
+			}
+		},
+
+		{
+			"module": "image-stack--moving-logos",
+			"subtitle": "",
+			"title": "",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ringcentral-logo.png",
+						"alt": "RingCentral Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ivanti-red.svg",
+						"alt": "Ivanti Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/github.webp",
+						"alt": "Github Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/seagate_logo.webp",
+						"alt": "Seagate Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/app_annie.webp",
+						"alt": "App Annie Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/nuance.webp",
+						"alt": "Nuance Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "Netapp Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/elastic.webp",
+						"alt": "Elastic Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/conviva_logo.webp",
+						"alt": "Conviva Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/datastax.webp",
+						"alt": "Datastax Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lacework.png",
+						"alt": "Lacework Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/armis-logo.webp",
+						"alt": "Armis Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-venafi.webp",
+						"alt": "Venafi Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/rescale.webp",
+						"alt": "Rescale Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/hpe.webp",
+						"alt": "HPE Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/abn_amro.webp",
+						"alt": "ABN Amro Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/accela.webp",
+						"alt": "Accela Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/8_8.svg",
+						"alt": "8x8 Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jcv.webp",
+						"alt": "JCV Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/star_compliance.webp",
+						"alt": "Star Compliance Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/mufg.webp",
+						"alt": "Mufg Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/phoenix_datacom.webp",
+						"alt": "Phoenix Datacom Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jfrog.svg",
+						"alt": "Jfrog Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/Silver_Peak.webp",
+						"alt": "Sliver Peak Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sourceday.webp",
+						"alt": "SourceDay Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/SS&C.png.webp",
+						"alt": "SS&C Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/secure_code_warrior.webp",
+						"alt": "Secure Code warrior Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lookout.webp",
+						"alt": "Lookout Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/medius.webp",
+						"alt": "Medius Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/redislabs.webp",
+						"alt": "Redis Labs Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/citi.webp",
+						"alt": "Citi Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/singlestore.webp",
+						"alt": "Single Store Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/fireeye.webp",
+						"alt": "Fireeye Logo"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 1,
+				"columnGap": "md",
+				"itemBackground": "#FFF"
+			}
+		},
+		{
+			"module": "image-block--image-bottom",
+			"subtitle": "",
+			"title": "Aviso AI Revenue Operating System",
+			"description": "Single pane of glass for GTM Teams",
+			"ctas": null,
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/platform-home.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+			"style": {
+				"align": "center",
+				"background": "url('https://assets.uiaas.io/web/aviso/platform_bg.webp')",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"mediaWidth": "4/4",
+				"justify": "center"
+			}
+		},
+		{
+			"module": "icon-stack--stats-with-image",
+			"subtitle": "",
+			"description": "Aviso works at the frontier of predictive AI to help teams dive deeper into their pipeline, close more deals and drive more revenue.",
+			"title": "The numbers speak for themselves",
+			"ctas": [
+				{
+					"label": "G2",
+					"url": "https://www.g2.com/products/aviso/reviews",
+					"type": "link",
+					"external": true
+				},
+				{
+					"label": "Forrester RO&I Report",
+					"url": "https://assets.uiaas.io/web/aviso/New-Tech_-Revenue-Operations-And-Intelligence-Q4-2021.pdf",
+					"type": "link",
+					"external": true
+				},
+				{
+					"label": "Gartner Market Guide",
+					"url": "https://assets.uiaas.io/web/aviso/Market_Guide_for_Rev_739765_ndx-1.pdf",
+					"type": "link",
+					"external": true
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/logogrid_2.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+			"items": [
+				{
+					"title": 305,
+					"description": "Billion Insights",
+					"ctas": null,
+					"icon": "",
+					"style": {}
+				},
+				{
+					"title": "$800B",
+					"description": "Pipeline Managed",
+					"ctas": null,
+					"icon": "",
+					"style": {}
+				},
+				{
+					"title": "$466B",
+					"description": "Won Deals",
+					"ctas": null,
+					"icon": "",
+					"style": {}
+				},
+				{
+					"title": "98%+",
+					"description": "Forecasting Accuracy",
+					"ctas": null,
+					"icon": "",
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "lg",
+				"mediaWidth": "1/2",
+				"mediaPos": "right",
+				"itemAlign": "center",
+				"itemBackground": "#f2f2f2",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center"
+			}
+		},
+		{
+			"module": "icon-stack--cards-with-overlay-icons",
+			"subtitle": "WHAT YOU GET",
+			"title": "AI that delivers ROI in weeks",
+			"description": "Aviso’s platform is modular so you can start with conversational intelligence, predictive forecasting, or GTM collaboration, and expand use cases as you grow",
+			"ctas": [
+				{
+					"label": "Aviso AI Platform",
+					"url": "/platform",
+					"type": "link"
+				},
+				{
+					"label": "See Products",
+					"url": "/platform#products",
+					"type": "link"
+				}
+			],
+			"items": [
+				{
+					"title": "More Deal Wins",
+					"description": "Don’t stay lost in CRM. Aviso AI gives sales teams precise guidance on deals that matter most and course correct on at-risk deals. AI even helps you identify hidden gems users can’t see.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z\" /></svg>"
+				},
+				{
+					"title": "Faster Sales Cycles",
+					"description": "Slack and Zoom draining your day? Aviso AI consolidates deal conversations, content, and engagement in one workspace. AI acts as your constant companion across all deal rooms.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z\" /></svg>"
+				},
+				{
+					"title": "Happy Customers & Teams",
+					"description": "Digitally savvy customers buy differently and expect sellers to sell differently. Aviso AI elevates your sales experience across the customer lifecycle. AI nudges right actions at the right time.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>"
+				},
+				{
+					"title": "Reduced CRM burden",
+					"description": "CRM bloat and overspending is killing companies' ability to innovate wih new tools. Aviso AI reduces non-core license burden and brings the CRM data teams need with AI-infused insights.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z\" /></svg>"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#151A42",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "var(--primary)",
+				"itemIconColor": "#fff",
+				"itemIconShape": "rounded",
+				"itemIconSize": "lg"
+			}
+		},
+
+		{
+			"module": "icon-stack--testimonials-with-logos-inline",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "Lori Harmon",
+					"subtitle": "VP Digital Virtual Sales",
+					"description": "I was sold on Aviso and Trevor's vision in my first demo. There is no other platform on the market with such rich functionality. The competition tends to be point solutions that add up to a higher TCO and require separate integrations, eating up the time of your IT team",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "NetApp"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lori_harmon.webp",
+						"alt": "Lori Harmon"
+					},
+					"style": {
+						"background": "#1E46BA"
+					}
+				},
+				{
+					"title": "Charles Forsgard",
+					"subtitle": "VP Sales, Honeywell",
+					"description": "Finally someone figured out how to build a platform that serves two masters: Reps and Managers. At Honeywell, both get tremendous value from Aviso. They are one of the few companies in the space that understand that if you can just give meaningful insights back to a seller, the seller will put more high quality input into CRM",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/charles_forsgard.webp",
+						"alt": "Charles Forsgard"
+					},
+					"style": {
+						"background": "#ED1A2D"
+					}
+				},
+				{
+					"title": "Jeremy Smith",
+					"subtitle": "SVP, Revenue, LaunchDarkly",
+					"description": "As a two-time Aviso AI customer, I strongly endorse their organization. Beyond their tech, which I do believe to be the best in the business, they are a wonderful business partner",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jeremy_smith.webp",
+						"alt": "Jeremy Smith"
+					},
+					"style": {
+						"background": "#000000"
+					}
+				},
+				{
+					"title": "Brian Young",
+					"subtitle": "Chief Commercial Officer, Johnson Controls",
+					"description": "Every company in the world needs Aviso. I am a huge fan. Aviso is an AI guided selling platform that improves sales effectiveness and efficiency better than other technology solutions",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/johnson-controls.png",
+						"alt": "Johnson Controls"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/brian_young.webp",
+						"alt": "Brian Young"
+					},
+					"style": {
+						"background": "#2870AE"
+					}
+				},
+				{
+					"title": "Anjai 'AJ' Gandhi",
+					"subtitle": "Chief Growth Officer, Marlin Equity Partners",
+					"description": "We really like what Aviso is doing. Combining multiple key selling capabilities like deal management, forecasting, conversational intelligence. Every company needs these capabilities and it's great to see these forming into a suite instead of just point solutions",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/aj_marlin.webp",
+						"alt": "Marlin Equity Partners"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					},
+					"style": {
+						"background": "#0F2577"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"mediaWidth": "2/5",
+				"mediaPos": "left",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:7",
+				"itemBackground": ""
+			}
+		},
+
+		{
+			"module": "image-stack--image-cards-grid-group",
+			"uid": "resources",
+			"title": "What's New",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "<span style='color:#fff'>CASE STUDY</span>",
+					"title": "Aviso’s Conversational Intelligence Provided Robust X-Ray for NetApp Sellers to Increase Customer Engagement",
+					"description": "",
+					"image": {
+						"url": "https://www.armis.com/wp-content/uploads/2021/04/Pattern.svg",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read Case Study",
+							"url": "/case-study/netapp",
+							"size": "md"
+						}
+					],
+					"style": {
+						"background": "url(https://www.netapp.com/media/web-side-x-side-t-systems_tcm19-10604.jpg?v=30579); background-size: cover; background-position: right; background-repeat: no-repeat;",
+						"invert": false
+					}
+				},
+				{
+					"subtitle": "<span style='color:#fff'>BLOG</span>",
+					"title": "Aviso AI 2021 Product Summary and Updates",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-coversationalai.webp",
+						"alt": "Incredible"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read now",
+							"url": "/blog",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "var(--primary)"
+					}
+				},
+				{
+					"subtitle": "WEBINAR",
+					"title": "How to be a Revenue Champion in 2022 (with AI!)",
+					"description": "",
+					"icon": "",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-collab.webp",
+						"alt": "Generic"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Watch Webinar",
+							"url": "https://assets.uiaas.io/web/aviso/How%20to%20be%20a%20revenue%20champion%20in%202022%20%28with%20AI%21%29.mp4",
+							"size": "md",
+							"external": true
+						}
+					],
+					"style": {
+						"background": "#f2f2f2",
+						"invert": false
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"justify": "center",
+				"background": "#ffffff",
+				"columns": 3,
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "Request Demo",
+			"title": "Ready to unlock your true revenue potential with Aviso AI?",
+			"description": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/v2.js\" ></script><script>hbspt.forms.create({region: \"na1\",portalId: \"531684\",formId:\"c6bdc787-a5d7-4ecd-b227-2f1d461f89a1\",});</script>",
+			"ctas": [
+				{
+					"label": "Sign up for a demo",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center"
+			}
+		}
+	]
+}

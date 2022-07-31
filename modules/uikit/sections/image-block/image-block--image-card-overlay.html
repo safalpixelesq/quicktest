@@ -1,0 +1,75 @@
+{%- set style = style | setDefaults({background:'#f6f6f6',spacing:'lg',
+align:'left', justify: 'left', mediaWidth: '1/2', mediaPos: 'right'}) -%}
+<div class="uk-position-relative">
+	<div
+		class=" {{ style | setContainer }} "
+		style="padding-left:0px; padding-right:0px; {{ style | setSection('style') }}; background-size: cover"
+		id="{{uid}}"
+	>
+		<div
+			class="{{ style | setMediaContainer }} uk-grid uk-grid-collapse"
+			data-uk-height-match
+			data-uk-grid
+		>
+			<div class="{{ style | setGrid }} uk-flex uk-flex-middle">
+				<div class="{{ style | setSection('class') }} ">
+					<div
+						class="uk-padding-remove-vertical"
+						style="padding-left: 40px; padding-right: 40px"
+					>
+						{% render "@macro-texts", {heading:"2", weight:"normal",
+						size:'lg', align:style.align, justify:style.justify,
+						color: style.color, subtitle: subtitle, title:title,
+						description:description, ctas:ctas } %}
+					</div>
+				</div>
+			</div>
+			<div class="{{ style | setGrid('media') }} uk-position-relative">
+				<div
+					class="uk-position-absolute uk-visible@s"
+					style="
+						background: #fff;
+						top: 0;
+						{{'right' if style.mediaPos === 'right' else 'left'}}: 0;
+						width: 50%;
+						bottom: 0;
+						z-index: 0;
+					"
+				></div>
+				<div
+					class="uk-position-absolute uk-hidden@s"
+					style="
+						background: #fff;
+						top: 50%;
+						left: 0px;
+						width: 100%;
+						bottom: 0;
+						z-index: 0;
+					"
+				></div>
+				<div class="uk-height-large uk-hidden@s">&nbsp;</div>
+				{#
+				<img
+					class="uk-box-shadow-large uk-border-rounded uk-position-relative"
+					width="100%"
+					style="z-index: 1"
+					data-src="{{image.url}}"
+					alt="{{image.alt}}"
+					data-uk-img
+				/>
+				#}
+				<div
+					style="z-index: 10; width: 100%; top: 0px; bottom: 0px"
+					class="uk-position-absolute"
+				>
+					<div class="uk-position-relative uk-height-1-1">
+						<div
+							class="uk-background-cover uk-box-shadow-large uk-border-rounded uk-position-absolute uk-margin-medium-top uk-margin-medium-bottom uk-margin-medium-left uk-margin-medium-right"
+							style="background-image:url({{image.url}}); z-index:20; top:0px; right:0px; left:0px; bottom:0px;"
+						></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

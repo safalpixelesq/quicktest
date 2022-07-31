@@ -1,0 +1,101 @@
+{%- set style = style | setDefaults({background:'#333',container: 'md',
+spacing:'md', align:'left', justify: 'left', mediaWidth: '1/3', mediaPos:
+'left'}) -%} {%- if ctas and ctas[0].type==="video" -%} {%- set video = true -%}
+{%- endif -%}
+
+<div
+	class=""
+	style="margin-top:100px;margin-bottom:100px;{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div
+			class="{{ style | setMediaContainer }} uk-grid-collapse uk-flex"
+			data-uk-grid
+			data-uk-height-match
+		>
+			<div class="{{ style | setGrid }}">
+				<div
+					class="{{ style | setSection('class') }} uk-margin-{{'medium' if style.mediaPos === 'right' else 'large'}}-left uk-margin-medium-right uk-flex-middle"
+				>
+					{%- render "@macro-texts", {heading:"2", weight:"normal",
+					size:'lg', align:style.align, justify:style.justify,
+					color:style.color, subtitle: subtitle, title:title,
+					description:description, ctas:ctas } -%}
+					<div class="uk-margin-medium-top uk-hidden@s"></div>
+				</div>
+			</div>
+			<div
+				class="{{ style | setGrid('media') }} uk-position-relative mot"
+			>
+				{%- if video -%}
+				<a
+					class="uk-background-cover uk-display-block uk-border-rounded uk-box-shadow-large uk-visible@s video-link"
+					href="#modal-media-youtube{{uid}}"
+					style="position:absolute;background-image:url({{image.url}});top:-50px; right:0px; left:0px; bottom:-50px;"
+					data-uk-toggle
+				>
+					<div
+						class="uk-position-small uk-position-center icon-play"
+						data-uk-icon="icon:play-circle; ratio:6"
+					></div>
+				</a>
+				<a
+					class="uk-background-cover uk-border-rounded uk-box-shadow-large uk-height-medium uk-hidden@s"
+					href="#modal-media-youtube{{uid}}"
+					style="position:absolute;background-image:url({{image.url}});top:-50px; right:0px; left:0px; bottom:-50px;"
+				>
+					&nbsp;
+				</a>
+				{%- else -%}
+				<div
+					class="uk-background-cover uk-display-block uk-border-rounded uk-box-shadow-large uk-visible@s"
+					style="position:absolute;background-image:url({{image.url}});top:-50px; right:0px; left:0px; bottom:-50px;"
+				></div>
+				<div
+					class="uk-background-cover uk-border-rounded uk-box-shadow-large uk-height-large uk-hidden@s"
+					style="position:absolute;background-image:url({{image.url}});top:-50px; right:0px; left:0px; bottom:-50px;"
+				>
+					&nbsp;
+				</div>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+	<div
+		id="modal-media-youtube{{uid}}"
+		class="uk-flex-top uk-modal"
+		data-uk-modal
+	>
+		<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+			<button
+				class="uk-modal-close-outside"
+				type="button"
+				uk-close
+			></button>
+			<iframe
+				class="uk-responsive-width"
+				src="https://www.youtube.com/embed/vbAepiWQN-8"
+				width="800"
+				height="600"
+				data-uk-video
+				data-uk-responsive
+			></iframe>
+		</div>
+	</div>
+</div>
+<style>
+	.video-link .icon-play {
+		color: #fff;
+	}
+	.video-link .uk-icon svg {
+		transition-duration: 0.5s;
+		transform-origin: center;
+	}
+	.video-link:hover .uk-icon svg {
+		transform: scale(1.2);
+	}
+	.video-link:hover .uk-icon {
+		color: var(--primary);
+	}
+</style>

@@ -1,0 +1,264 @@
+{
+	"module": "nav-block--footer-with-links-max",
+	"logo": {
+		"url": "#",
+		"src": "https://assets.uiaas.io/web/aviso/aviso-logo.webp",
+		"label": null,
+		"tagline": null
+	},
+	"primary": [
+		{
+			"label": "PRODUCTS",
+			"url": "#",
+			"external": null,
+			"links": [
+				{
+					"label": "AI Guided Platform",
+					"url": "/platform",
+					"external": false
+				},
+				{
+					"label": "Aviso Predict",
+					"url": "/product/revenue-forecasting",
+					"external": false
+				},
+				{
+					"label": "Aviso Sense",
+					"description": "Conversational intelligence for teams",
+					"url": "/product/conversational-intelligence",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+				{
+					"label": "Aviso Engage",
+					"description": "Relationship intelligence for teams",
+					"url": "/product/relationship-intelligence",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+				{
+					"label": "Aviso Coach",
+					"description": "Rep - Manager Coaching and enablement",
+					"url": "/product/manager-coaching",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+				{
+					"label": "Aviso Flow",
+					"description": "Deal and Pipeline Inspection",
+					"url": "/product/deal-pipeline-inspection",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+				{
+					"label": "Aviso Grow",
+					"description": "Aviso Marketing Intelligence for teams",
+					"url": "/product/marketing-intelligence",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				}
+			]
+		},
+		{
+			"label": "&nbsp;",
+			"url": "#",
+			"external": null,
+			"links": [
+				{
+					"label": "Aviso Analyze",
+					"description": "Interactive Reports and Analytics",
+					"url": "/product/reports-analytics",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+				{
+					"label": "Aviso Accelerate",
+					"description": "Deal management and acceleration via nudges",
+					"url": "/product/deal-acceleration",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				},
+
+				{
+					"label": "Aviso Swarm",
+					"description": "Embedded deal and GTM team collaboration",
+					"url": "/product/embedded-collaboration",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/product-icon-color.png"
+				}
+			]
+		},
+		{
+			"label": "SOLUTIONS",
+			"url": "#",
+			"external": null,
+			"links": [
+				{
+					"label": "By Use Cases",
+					"url": "/solution/use-case",
+					"external": false
+				},
+				{
+					"label": "Pharma & Life Sciences",
+					"description": "Predictive Forecasting for teams",
+					"url": "/solution/pharma-and-life-sciences",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/medical_services_black.svg"
+				},
+				{
+					"label": "Financial Services",
+					"description": "Rep - Manager Coaching",
+					"url": "/solution/financial-services",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/payments_black.svg"
+				},
+				{
+					"label": "Technology",
+					"description": "Pipeline, Deal Inspection, ",
+					"url": "/solution/technology",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/devices_black.svg"
+				},
+				{
+					"label": "Aviso vs Clari",
+					"description": "",
+					"url": "/compare/clari-alternative",
+					"external": false,
+					"icon": ""
+				},
+				{
+					"label": "Aviso vs BoostUP",
+					"description": "",
+					"url": "/compare/boostup-alternative",
+					"external": false,
+					"icon": ""
+				},
+				{
+					"label": "Aviso vs Gong",
+					"description": "",
+					"url": "/compare/gong-alternative",
+					"external": false,
+					"icon": ""
+				}
+			]
+		},
+		{
+			"label": "COMPANY",
+			"url": "#",
+			"external": null,
+			"links": [
+				{
+					"label": "Customers",
+					"url": "/customers",
+					"external": false
+				},
+				{
+					"label": "About Us",
+					"description": "Read about Aviso, our mission and vision",
+					"url": "/about",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/about.svg"
+				},
+				{
+					"label": "Careers",
+					"description": "Join our team of experts, see our open positions",
+					"url": "/careers",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/careers.svg"
+				},
+				{
+					"label": "Press Room",
+					"description": "Read our latest news and press releases",
+					"url": "/press",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/whitepaper.svg"
+				},
+				{
+					"label": "Resources",
+					"description": "Read our latest news and press releases",
+					"url": "/resources",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/whitepaper.svg"
+				},
+				{
+					"label": "Blog",
+					"description": "Have any questions? We’re here to help.",
+					"url": "/blog",
+					"external": false,
+					"icon": "https://assets.uiaas.io/web/aviso/contact.svg"
+				}
+			]
+		},
+		{
+			"label": "LEGAL",
+			"url": "#",
+			"external": null,
+			"links": [
+				{
+					"label": "Terms of Service",
+					"url": "/terms-of-service",
+					"external": false
+				},
+				{
+					"label": "Privacy Policy",
+					"url": "/privacy-policy",
+					"external": false
+				},
+				{
+					"label": "Compliance",
+					"url": "/compliance",
+					"external": false
+				},
+				{
+					"label": "Contact Us",
+					"url": "/contact",
+					"external": null
+				}
+			]
+		}
+	],
+	"secondary": [
+		{
+			"label": "Blog",
+			"url": "#",
+			"external": null,
+			"links": null
+		},
+		{
+			"label": "Support",
+			"url": "#",
+			"external": null,
+			"links": null
+		}
+	],
+	"social": [
+		{
+			"label": "twitter",
+			"url": "https://twitter.com/avisoinc",
+			"external": true
+		},
+		{
+			"label": "linkedin",
+			"url": "https://www.linkedin.com/company/aviso-inc",
+			"external": true
+		},
+		{
+			"label": "facebook",
+			"url": "https://fb.com/avisoinc",
+			"external": true
+		},
+		{
+			"label": "youtube",
+			"url": "https://www.youtube.com/channel/UCwjvtMelF7LGfZwYN6llN1w/featured",
+			"external": true
+		}
+	],
+	"description": "&copy;2022 Aviso. All Rights Reserved",
+	"style": {
+		"background": "#fff",
+		"justify": "between",
+		"align": "left",
+		"spacing": "sm",
+		"container": null
+	}
+}

@@ -1,0 +1,179 @@
+{%- set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'center', justify: 'center', container: 'md'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description } -%}
+			</div>
+		</div>
+		<div class="uk-margin-medium-top uk-margin-medium-bottom">
+			<div class="uk-grid uk-grid-collapse" data-uk-grid>
+				<div class="uk-width-expand@m"></div>
+				{%- for cta in ctas -%}
+				<div
+					class="uk-width-1-5@m uk-text-center {{ 'bg-highlight' if loop.last }}"
+					style="
+						border-top-right-radius: 10px;
+						border-top-left-radius: 10px;
+					"
+				>
+					<div class="uk-padding">
+						{%- if cta.image -%}
+						<img
+							src="{{cta.image.url}}"
+							alt="{{cta.label}}"
+							style="max-width: 120px"
+						/>
+						{%- else -%}
+						<div class="uk-h3">{{cta.label}}</div>
+						{%- endif -%}
+					</div>
+				</div>
+				{%- endfor -%}
+			</div>
+			<div>
+				{%- for item in items -%} {%- if item.style -%} {%- set style =
+				style | setAttribute('item', item.style) -%} {%- endif -%} {%-
+				set color = style.itemColor -%} {%- if not item.ctas -%}
+
+				<div
+					class="uk-grid uk-grid-collapse uk-width-1-1 border-cell"
+					data-uk-grid
+					data-uk-height-match="target: .each-cell"
+				>
+					<div class="uk-width-expand">
+						<div class="each-cell uk-flex uk-flex-middle">
+							<div>
+								<div
+									class="uk-body-font uk-h3 uk-margin-remove-bottom"
+								>
+									{{item.title}}
+								</div>
+								<div class="uk-text-meta">
+									{{item.description}}
+								</div>
+							</div>
+						</div>
+					</div>
+					{%- for cta in ctas -%}
+					<div class="uk-width-1-5@m uk-visible@s">
+						<div
+							class="uk-flex uk-flex-center uk-flex-middle each-cell {{ 'bg-highlight' if loop.last }}"
+						>
+							{%- if item.ctas[loop.index-1].url == 'true' -%}
+							<img
+								src="https://assets.uiaas.io/web/aviso/check.svg"
+								alt=""
+								width="50px"
+								class="uk-text-danger"
+								data-uk-svg
+							/>
+							{%- elseif item.ctas[loop.index-1].url == 'false'
+							-%}
+
+							<img
+								src="https://assets.uiaas.io/web/aviso/close.svg"
+								alt=""
+								width="50px"
+								class="uk-text-danger"
+								data-uk-svg
+							/>
+							{%- endif -%}
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+				{%- else -%}
+				<div
+					class="uk-grid uk-grid-collapse uk-width-1-1 border-cell"
+					data-uk-grid
+					data-uk-height-match="target: .each-cell"
+				>
+					<div class="uk-width-expand">
+						<div class="each-cell uk-flex uk-flex-middle">
+							<div>
+								<div
+									class="uk-body-font uk-h4 uk-margin-remove-bottom"
+								>
+									{{item.title}}
+								</div>
+								<div class="uk-text-meta">
+									{{item.description}}
+								</div>
+							</div>
+						</div>
+					</div>
+					{%- for cta in item.ctas -%}
+					<div class="uk-width-1-5@m">
+						<div
+							class="uk-flex uk-flex-center uk-flex-middle each-cell {{ 'bg-highlight' if loop.last }}"
+						>
+							{%- if item.ctas[loop.index-1].url == 'true' -%}
+							<div
+								class="uk-flex uk-flex-between uk-flex-middle uk-width-1-1 uk-margin-right uk-margin-left uk-hidden@s"
+							>
+								<div
+									class="uk-h2 uk-margin-remove-bottom"
+									style="color: #fff"
+								>
+									{{ ctas[1].label }}
+								</div>
+								<div>
+									<img
+										src="https://assets.uiaas.io/web/aviso/check.svg"
+										alt=""
+										width="50px"
+										class="uk-text-danger"
+										data-uk-svg
+									/>
+								</div>
+							</div>
+							<img
+								src="https://assets.uiaas.io/web/aviso/check.svg"
+								alt=""
+								width="50px"
+								class="uk-text-danger uk-visible@s"
+								data-uk-svg
+							/>
+							{%- elseif item.ctas[loop.index-1].url == 'false'
+							-%}
+							<div
+								class="uk-flex uk-flex-between uk-flex-middle uk-width-1-1 uk-margin-right uk-margin-left uk-hidden@s"
+							>
+								<div class="uk-h2 uk-margin-remove-bottom">
+									{{ ctas[0].label }}
+								</div>
+								<div>
+									<img
+										src="https://assets.uiaas.io/web/aviso/close.svg"
+										alt=""
+										width="50px"
+										class="uk-text-danger"
+										data-uk-svg
+									/>
+								</div>
+							</div>
+							<img
+								src="https://assets.uiaas.io/web/aviso/close.svg"
+								alt=""
+								width="50px"
+								class="uk-text-danger uk-visible@s"
+								data-uk-svg
+							/>
+							{%- endif -%}
+						</div>
+					</div>
+					{%- endfor -%} {%- endif -%} {%- endfor -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

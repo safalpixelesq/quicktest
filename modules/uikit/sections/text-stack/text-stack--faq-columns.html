@@ -1,0 +1,31 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md',
+align:'center', justify: 'center', columns: 3}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"bold",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top {{ style | setColumns }} uk-grid-small"
+			data-uk-grid="masonry:true"
+		>
+			{%- for item in items -%}
+			<div>
+				{%- render "@macro-texts", {heading:"4", weight:"bold",
+				size:'lg', justify:style.itemJustify, align:style.itemAlign,
+				color:style.itemColor, subtitle:item.subtitle, title:item.title,
+				description:item.description, ctas:item.ctas } -%}
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

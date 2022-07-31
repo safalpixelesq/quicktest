@@ -1,0 +1,230 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Financial Services | Aviso Solution",
+		"description": "Aviso’s AI revenue operating system is designed to power digital sales transformation for Financial Services & Advisory.",
+
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "FINANCIAL SERVICES",
+			"title": "Scale advisor-client digital engagement to grow your book of business.",
+			"description": "Aviso’s AI revenue operating system is designed to power digital sales transformation for Financial Services & Advisory.",
+			"ctas": [
+				{
+					"label": "Watch Video",
+					"url": "/video",
+					"type": "primary"
+				}
+			],
+			"image": {
+				"url": "https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80",
+				"alt": "Image",
+				"caption": ""
+			},
+			"style": {
+				"background": "#f2f2f2",
+				"container": "md",
+				"invert": true,
+				"mediaWidth": "1/2",
+				"spacing": "lg"
+			}
+		},
+		{
+			"module": "text-stack--text-stack",
+			"subtitle": "",
+			"title": "The Current State of Financial Services Sales",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "",
+					"description": "Even before Covid-19 financial services leaders were dealing with seismic shifts including the greatest intergenerational transfer of wealth exceeding $2 Trillion, increased cybersecurity risks, and the rise of robo-advisors. In 2018, Fidelity research showed that 40% of advisors had no increase in their book of business. The pandemic accelerated digitalization and led financial advisors to further evaluate their customer engagement and sales practices and embrace AI, RPA, and new kinds of SaaS for customer engagement, anti-fraud, regulatory compliance and process optimization. <br/> <br />Personalized, omni-channel customer experiences are now the new frontier in Financial Services. They can help advisors cover more accounts than before, differentiate via novel digital experiences, and align Advisory teams for a world of 100% virtual relationship management. The industry’s future depends on tapping the wallets of a new generation of digital-first clients and family offices, while staying compliant with regulatory authorities. ",
+
+					"ctas": null,
+					"style": {
+						"background": "#fff"
+					}
+				},
+				{
+					"title": "",
+					"description": " <ul class='uk-list uk-text-large uk-list uk-list-square uk-list-divider uk-list-large'><li>31% of of clients under 50 would leave their wealth manager if the technologies they used were inadequate</li><li>63% of clients want to engage differently with Advisors through collaborative messaging, ongoing communications, and the use of chatbots</li><li>Digital Advisors hold 42% more Assets Under Management than tech-indifferent Advisors and millennials are increasingly the main decision makers</li></ul>",
+
+					"ctas": null,
+					"style": {
+						"background": "#fff"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--images-alternating",
+			"subtitle": "",
+			"title": "How Aviso Helps <br/>Financial Services Sales Teams",
+			"description": "Aviso can help Financial Services sales leaders answer critical questions:",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Swarm and Win as One Team",
+					"description": "Aviso is a purpose-built AI platform to help Financial Services teams better manage sprawl of people and tools, grow their client and enabler (e.g. Lawyers) relationships and provide a superior customer experience within one integrated workspace.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/finance-feat-1.webp",
+						"alt": "Sleek"
+					}
+				},
+				{
+					"title": "Strengthen Advisor-Client Relationships",
+					"description": "Aviso focuses on deeper relationships to maximize long-term transaction value. It helps sellers use purpose-built digital channels such as messaging, video, files, e-signatures and more with AI to communicate better with clients, while capturing intelligence on activities and engagement on the health of the relationship.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/finance-feat-2.webp",
+						"alt": "Sleek"
+					}
+				},
+				{
+					"title": "Guide Reps Via Next Best Actions",
+					"description": "Aviso surfaces Next Best Actions via a system of nudges for reps. In addition to providing a 360 view of interaction and engagement between a Financial Services GTM team and Clients, Aviso recommends Next Best Actions on who, when, where, and how sellers can engage broadly to drive transactions and deepen relationships.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/finance-feat-3.webp",
+						"alt": "Sleek"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "var(--secondary)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 1,
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemMediaWidth": "3/5",
+				"itemMediaPos": "right"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-on-side",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "- Will Anastas",
+					"subtitle": "CRO at Conviva",
+					"description": "Aviso is forecasting on steroids. It's got such powerful components to it, you layer in the AI and now I've got dashboards, and I love the analytics around where pipeline's going, what's moving, when it's moving, why it's moving",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/conviva_logo.webp",
+						"alt": "Conviva"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/will_anastas.webp",
+						"alt": "Will Anastas"
+					},
+					"style": {
+						"background": "#033033"
+					}
+				},
+				{
+					"title": "- Sanjay Sadhu",
+					"subtitle": "Global VP and GM, Hitachi Vantara",
+					"description": "With Trevor's leadership, Aviso is leading in product innovation and overall vision. From sales management perspective, Aviso provides excellent benefits that help companies manage sales, forecast accuracy and overall revenue goals and drive the business",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/hitachi-vantara-logo.webp",
+						"alt": "Hitachi Vantara"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sanjay_sadhu.webp",
+						"alt": "Sanjay Sadhu"
+					},
+					"style": {
+						"background": "#000000"
+					}
+				},
+				{
+					"title": "- Luis CiFuentes",
+					"subtitle": "Sales Enablement Leader, Honeywell",
+					"description": "With Aviso, there's no place to hide for those on your team prone to 'sandbagging'. It also helps to de-risk your pipeline when you have the opposite problem with people on your team who may be too optimistic on their deals. Aviso's mechanism and UI to roll up forecasts is intuitive and uses data from multiple sources not just your CRM. We use Intelligent Forecasting and Conversational Intelligence",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/luis_cifuentes.webp",
+						"alt": "Honeywell"
+					},
+					"style": {
+						"background": "#FC1615"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": null,
+				"itemAlign": "center",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center",
+				"mediaWidth": "1/2",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:9",
+				"itemBackground": ""
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "contact",
+			"subtitle": "",
+			"title": "Switch to the most scalable sales intelligence solution on the market.",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Talk to an Expert",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #F3f4f6 0%, #F3f4f6 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center"
+			}
+		}
+	]
+}

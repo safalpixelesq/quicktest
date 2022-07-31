@@ -1,0 +1,184 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md',
+mediaWidth:'1/2', align:'left', justify: 'left', columns: 3, itemMediaPos:
+'left', itemMediaWidth: '1/2', itemAspectRatio: '4:3'}) -%}
+<section
+	class="{{ style | setSection('class') }} boxes-on-side"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}}">
+			{#
+			<div class="">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+			#}
+
+			<div
+				data-uk-slideshow="animation:{{style.itemAnimation}}; autoplay:true; autoplay-interval: 3000; pause-on-hover:false; ratio:{{style.itemAspectRatio}}; "
+				class="uk-slideshow"
+			>
+				<div
+					class="{{ style | setMediaContainer }} uk-margin-medium-top uk-grid "
+					data-uk-grid
+				>
+					<div class="{{ style | setGrid }} uk-position-relative">
+						<div
+							class="uk-flex uk-text-{{style.align}} uk-flex-middle uk-flex-{{style.justify}} uk-height-1-1"
+						>
+							<div class="uk-position-relative">
+								<div
+									class="uk-text-bold uk-head-font uk-text-primary"
+								>
+									{{ subtitle | safe}}
+								</div>
+								<h1
+									class="uk-display-inline-block uk-margin-small-top"
+									style="margin-bottom: 80px"
+								>
+									<span class="uk-h2">{{ title | safe}}</span>
+									<ul
+										class="uk-slideshow-nav uk-display-inline uk-list"
+									>
+										{%- for item in items -%}
+										<li
+											class="word-highlight uk-h2"
+											uk-slideshow-item="{{loop.index - 1}}"
+										>
+											<div
+												class="uk-margin-bottom uk-text-primary"
+											>
+												{{item.title | safe}}
+											</div>
+										</li>
+										{%- endfor -%}
+									</ul>
+								</h1>
+								{%- render "@macro-texts", {heading:"2",
+								weight:"normal", hero: true, size:'lg',
+								justify:style.justify, align:style.align,
+								color:style.color, description:description,
+								ctas:ctas } -%}
+								<div>
+									<!--[if lte IE 8]>
+										<script
+											charset="utf-8"
+											type="text/javascript"
+											src="//js.hsforms.net/forms/v2-legacy.js"
+										></script>
+									<![endif]-->
+									<script
+										charset="utf-8"
+										type="text/javascript"
+										src="//js.hsforms.net/forms/v2.js"
+									></script>
+									<script>
+										hbspt.forms.create({
+											region: "na1",
+											portalId: "531684",
+											formId: "a83c0584-c9a3-4c76-a9b2-c23bc6cfc8b6",
+										});
+									</script>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="{{ style | setGrid('media') }}">
+						<div class="uk-visible-toggle" tabindex="-1">
+							<ul class="uk-slideshow-items dynamic">
+								{%- for item in items -%}
+								<li class="uk-flex uk-flex-middle uk-flex-left">
+									<div class="uk-text-left">
+										<div
+											class="uk-margin-bottom each-slide"
+										>
+											<img
+												src="{{item.image.url}}"
+												alt="{{item.title}}"
+												style="transform: scale(1)"
+											/>
+										</div>
+										{# {%- render "@macro-texts",
+										{heading:"4", hstyle:"uk-h3",
+										weight:"light", size:'lg',
+										justify:'left', align:'left',
+										color:style.itemColor, title:item.title
+										} -%}
+										<div
+											class="uk-h4 uk-body-font uk-margin-small-top"
+										>
+											{{item.description | safe}}
+										</div>
+										{%- render "@macro-texts",
+										{ctas:item.ctas } -%} #}
+									</div>
+								</li>
+								{%- endfor -%}
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				{#
+				<div class="uk-height-small">asd</div>
+				#}
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.word-highlight {
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s, opacity 0.5s linear;
+		position: absolute;
+		display: inline;
+		{# animation: 2s anim-lineUp ease-out; #}
+	}
+	.word-highlight.uk-active {
+		display: inline-block;
+		margin-top: 0px !important;
+		visibility: visible;
+		transition: visibility 0s, opacity 0.5s linear;
+		opacity: 1;
+		animation: .5s anim-lineUp ease-out;
+	}
+	.word-highlight.uk-active > * {
+		display: inline-block;
+	}
+
+	@keyframes anim-lineUp {
+		0% {
+			opacity: 0;
+			transform: translateY(80%);
+		}
+		20% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+			transform: translateY(0%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0%);
+		}
+	}
+	.each-slide {
+			transform: scale(1.2) !important;
+			transform-origin: top left;
+	}
+
+	.uk-slideshow-items.dynamic {
+		overflow: visible !important;
+	}
+
+	.uk-slideshow-items li {
+
+		overflow: visible !important;
+	}
+</style>

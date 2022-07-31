@@ -1,0 +1,630 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Conversational Intelligence | Aviso Sense",
+		"description": "Aviso Sense captures and analyzes signals to help reps uncover hidden buyer behaviors, take action on at-risk deals, and push winnable ones over the fence faster.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-split",
+			"subtitle": "<div class='uk-flex uk-flex-middle'><div class='uk-margin-small-right uk-width-auto'><img src='https://assets.uiaas.io/web/aviso/aviso_sense.svg' width='50px' alt='Aviso Sense'></div><div class='uk-width-auto '><div class='uk-head-font label uk-margin-remove-bottom uk-h4'>Aviso Sense</div></div></div>",
+			"title": "Drive momentum into every deal with <span class='uk-text-primary'>Conversational Intelligence</span>",
+			"description": "Aviso Sense captures and analyzes over 1000+ signals to help reps say more of the right things on every call, execute next-best-actions and drive deals over the finish line faster",
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/sense-herobg.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "See Aviso Sense in action",
+					"url": "#requestDemo"
+				}
+			],
+			"style": {
+				"background": "#f3f3f3",
+				"invert": true,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"spacing": "md"
+			}
+		},
+		{
+			"module": "text-stack--giant-card",
+			"uid": "overview",
+			"subtitle": "",
+			"title": "Closing isn’t about more calls. It’s about more effective calls.",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "",
+					"title": "The Deal Blindness problem",
+					"description": "<ul class='list-bad uk-margin-medium-top'><li>No way to know how buyers truly feel on a sales call - interested or politely nodding</li><li>Reps struggle to understand if buyers are positive or negative about moving forward</li><li>Guesswork-based rep bias on deals means forecasting goes for a toss</li><li>Time wasted on manually poring through transcripts or searching for  action items</li><li>Meetings scattered all over the place. No way to quickly pull up calls for reference</li></ul>",
+					"style": {}
+				},
+				{
+					"subtitle": "",
+					"title": "The Aviso Sense Advantage",
+					"description": "<ul class='list-good'><li>Emotion analysis reveal unspoken thoughts buyers have through identifying visual and tonal markers</li><li>Sentiment Analysis shows you which buyers are likely to say yes! Or stall</li><li>Knowing the true nature of every deal means a 98%+ forecast accuracy</li><li>Smart Transcripts gives you everything you need to know about any call</li><li>All your recordings and transcripts in one place means faster collaboration</li></ul>",
+					"style": {
+						"background": "#333366"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-block--testimonial-with-image",
+			"subtitle": "NETAPP",
+			"title": "<i class='uk-body-font uk-h3'>Conversational Intelligence with Aviso is like an X-ray of what’s happening in your sales team. It equips your reps with the tools to produce higher numbers, receive better compensation, and increase customer success</i>",
+			"description": "Lori Harmon, VP Global Renewals & Virtual Sales",
+			"ctas": [
+				{
+					"type": "video",
+					"label": "Watch now",
+					"url": "https://www.youtube.com/embed/V6vhK5RELTc",
+					"size": "sm",
+					"external": false
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+				"alt": "Lori Harmon",
+				"caption": ""
+			},
+			"style": {
+				"align": "left",
+				"background": "#f3f3f3",
+				"color": null,
+				"invert": false,
+				"container": "ex",
+				"spacing": "md",
+				"mediaPos": "left",
+				"mediaWidth": "2/5",
+				"justify": "left"
+			}
+		},
+		{
+			"module": "nav-block--subnav",
+			"logo": {
+				"url": "#",
+				"src": null,
+				"label": "<div class='uk-flex uk-flex-middle' style='margin-top:-3px'><div class='uk-margin-small-right uk-width-auto'><img src='https://assets.uiaas.io/web/aviso/aviso_sense.svg' width='42px' alt='Aviso Sense'></div><div class='uk-width-expand'><div class='uk-head-font label uk-margin-remove-bottom uk-h4'>Aviso Sense</div></div></div>",
+				"tagline": null
+			},
+			"primary": [
+				{
+					"label": "Overview",
+					"url": "#overview",
+					"external": null
+				},
+				{
+					"label": "Features",
+					"url": "#features",
+					"external": null
+				},
+				{
+					"label": "Reviews",
+					"url": "#reviews",
+					"external": null
+				},
+				{
+					"label": "Resources",
+					"url": "#resources",
+					"external": null
+				},
+				{
+					"label": "Contact",
+					"url": "#requestDemo",
+					"external": null,
+					"type": "primary"
+				}
+			],
+			"style": {
+				"background": "#fff",
+				"container": "md",
+				"spacing": "xs",
+				"justify": "middle",
+				"align": "left"
+			}
+		},
+
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "features",
+			"subtitle": "ADVANCED EMOTION & SENTIMENT ANALYSIS",
+			"title": "Know the buyer like the back of your hand",
+			"description": "No more false positives. Understand the real status of every deal. Prioritize winnable deals, drive at-risk deals back on track and set more reliable forecasts",
+			"ctas": [
+				{
+					"type": "default",
+					"label": "See How it Works",
+					"url": "https://assets.uiaas.io/web/aviso/Advanced%20Conversational%20Insights.pdf",
+					"external": true
+				}
+			],
+			"items": [
+				{
+					"title": "Emotion Analysis",
+					"description": "NLP-based insights reveal hiddens cues that highlight buyer feelings about your product/ service",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "Sentiment Analysis",
+					"description": "Deep Learning models and aspect-based sentiment analysis shows you who's positively disposed and who’s likely to stall ",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "Buyer Intent",
+					"description": "Aviso Sense mines customer intent through analyzing data from every touchpoint so you prioritize the right deals",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/sense-feat-1.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "#151A41",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "right",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#fff",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "sentiment",
+			"subtitle": "SMART TRANSCRIPTIONS & AUTO-SUMMARIZATION",
+			"title": "Hours of meetings. Insights in minutes",
+			"description": "Advanced NLP models generate all the insights you need on every call in a single, easy-to-consume report. Control every call by being fully prepared, handle questions and destroy objections.",
+			"ctas": [
+				{
+					"type": "link",
+					"label": "See sample Transcript",
+					"url": "https://assets.uiaas.io/web/aviso/logz_io__Dec162016-05_25PM.pdf",
+					"external": true
+				}
+			],
+			"items": [
+				{
+					"title": "Smart visual summaries",
+					"description": "No more note-taking. Know the keywords highlighted, the thoughts of decision-makers and next steps to take",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "Call Prep Guide",
+					"description": "Know the questions buyers asked around key focus areas, the competitors named and objections raised",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "Lightning Share",
+					"description": "Easily send the smart transcript to your executives and buyers. Bring everyone on the same page",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "1-click Snippets",
+					"description": "Avoid enduring endless recordings to get to one action item. Easily share call snippets and add timestamps and comments",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": "Fantastic"
+					},
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/sense-feat-2.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "#eceefd",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "left",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#333466",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "transcript",
+			"subtitle": "SEAMLESS INTEGRATION WITH DEAL ROOMS",
+			"title": "From chaos to collaboration. One collective space",
+			"description": "All your reps. All your deals. All the calls in every deal-current, past and scheduled. All in one place. So you can review deal progress, gauge rep-buyer relationships, and coach with precision",
+			"ctas": [
+				{
+					"type": "default",
+					"label": "Why Aviso CI?",
+					"url": "https://www.moxtra.com/service6/#view/CAEqBXJRaWxQehdCR2pyYm1SZ2lLa0xaamQ3VjNKTVM4NoABoQqQAxQ",
+					"external": true
+				}
+			],
+			"items": [
+				{
+					"title": "Instant Scheduling",
+					"description": "Quickly set up meetings inside Deal Rooms using any web conference platform-all calls are still logged into Deal Rooms.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "Digital Warrooms",
+					"description": "Track every meeting. Find all the call recordings linked to a deal in a single space for easy review",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3MXxKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Handmade"
+					},
+					"ctas": null
+				},
+				{
+					"title": "Deal Filters",
+					"description": "Search, find and analyze any call linked to any deal based on different filters like pricing mention, competitor names, etc.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620589125083-86893487a0a3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwN3xyblNLREh3d1lVa3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Fantastic"
+					},
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/sense-feat-3.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "right",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#FFF",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+		{
+			"module": "text-stack--stats-cards",
+			"subtitle": "",
+			"title": "Aviso works at the frontier of predictive AI to help teams close more deals and drive more revenue.",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": 305,
+					"description": "Billion Insights",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"style": {}
+				},
+				{
+					"title": "1.5M",
+					"description": "Calls Transcribed",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"style": {}
+				},
+				{
+					"title": "99.99%",
+					"description": "Transcription Accuracy",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"style": {}
+				},
+				{
+					"title": "50%",
+					"description": "Faster Deal Cycles",
+					"ctas": null,
+					"icon": "<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z\"></path></svg>",
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 4,
+				"columnGap": "md",
+				"itemAlign": "center",
+				"itemBackground": "#f3f4f5",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-on-side",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "- Charles Forsgard",
+					"subtitle": "VP Sales, Honeywell",
+					"description": "Aviso Conversational Intelligence (CI) gives insights right to the seller and at the same time, it gives insights to me (the sales leader) on what I should really be coaching the seller on right now, in their pipeline",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/charles_forsgard.webp",
+						"alt": "Honeywell"
+					},
+					"style": {
+						"background": "#FC1615"
+					}
+				},
+				{
+					"title": "- Anjai 'AJ' Gandhi",
+					"subtitle": "Chief Growth Officer, Marlin Equity Partners",
+					"description": "We really like what Aviso is doing. Combining multiple key selling capabilities like deal management, forecasting, conversational intelligence. Every company needs these capabilities and it's great to see these forming into a suite instead of just point solutions",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/aj_marlin.webp",
+						"alt": "Anjai Gandhi"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					},
+					"style": {
+						"background": "#0F2577"
+					}
+				},
+				{
+					"title": "- Craig Pratt",
+					"subtitle": "Next Level Leader",
+					"description": "Aviso has become the next generation transformational platform for Revenue Operations (CRO/VP of Ops) who are betting the farm on leveraging the platform for forecast, relationship, and conversational intelligence just to name a few. I've spoken with CROs of high tech unicorns who spend 90% of his time in Aviso on CRM",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/craig_pratt.webp",
+						"alt": "Craig Pratt"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/nll-logo.png",
+						"alt": "Next Level Leader Logo"
+					},
+					"style": {
+						"background": "#309BD5"
+					}
+				},
+				{
+					"title": "- Bill Heil",
+					"subtitle": "Former COO, VMWare",
+					"description": "I continue to be impressed by Trevor Templar's vision, relentless execution, team, platform, and all the Aviso customers that see value. Conversation AI is a game changer and a great example delivering new value this year. Simplifying the GTM stack provides hard savings as well",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/bill_heil.webp",
+						"alt": "Bill Heil"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/vmware-logo.webp",
+						"alt": "VMWare Logo"
+					},
+					"style": {
+						"background": "#1D428A"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": null,
+				"itemAlign": "center",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center",
+				"mediaWidth": "1/2",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:9",
+				"itemBackground": ""
+			}
+		},
+		{
+			"module": "image-stack--image-cards-grid-group",
+			"uid": "resources",
+			"title": "Resources",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Gartner Market Guide for Revenue Intelligence Platforms 2021",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-sentimentanalysis.webp",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read Report",
+							"url": "https://www.aviso.com/wp-content/uploads/2021/11/Market_Guide_for_Rev_739765_ndx-1.pdf",
+							"size": "md",
+							"external": true
+						}
+					],
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/gartner.jpeg); background-size: cover; background-position: left; background-repeat: no-repeat;"
+					}
+				},
+				{
+					"title": "What Is Conversational AI And How Does It Work?",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-coversationalai.webp",
+						"alt": "Incredible"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Find out how",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%);"
+					}
+				},
+				{
+					"title": "Accelerate Remote Selling with Guided Collaboration",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-collab.webp",
+						"alt": "Generic"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Get to know how",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "url(https://images.unsplash.com/photo-1501526029524-a8ea952b15be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3JhcGh8ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60); background-size: cover; background-position: left; background-repeat: no-repeat;",
+						"invert": false
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"justify": "center",
+				"background": "#191919",
+				"columns": 3,
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "",
+			"title": "Ready to close more deals with intelligent, AI-driven meetings?",
+			"description": "",
+			"ctas": [
+				{
+					"label": "See Aviso Sense in action",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #191919 0%, #191919 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center"
+			}
+		}
+	]
+}

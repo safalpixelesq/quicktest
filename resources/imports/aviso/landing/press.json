@@ -1,0 +1,44 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"title": "Press Room | Aviso",
+		"description": "Check out Aviso AI's buzz on product offerings to help businesses for profitablity through business & revenue intelligence, and sales forecasting.",
+		"image": "https://images.unsplash.com/photo-1543242594-c8bae8b9e708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "PRESS ROOM",
+			"title": "The latest company news and press releases about <div class='uk-text-primary'>Aviso AI</div>",
+			"description": "",
+			"image": {
+				"url": "https://images.unsplash.com/photo-1543242594-c8bae8b9e708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+				"alt": "Blog background"
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Contact Us",
+					"url": "/contact"
+				},
+				{
+					"type": "link",
+					"label": "In the News",
+					"url": ""
+				}
+			],
+			"style": {
+				"align": "left",
+				"justify": "left",
+				"background": "#f2f2f2",
+				"container": "md",
+				"spacing": "lg",
+				"mediaWidth": "1/2",
+				"shapeFill": "#ECEEFD"
+			}
+		}
+	]
+}

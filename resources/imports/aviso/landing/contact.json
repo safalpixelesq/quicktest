@@ -1,0 +1,250 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"title": "Contact Us | Aviso",
+		"description": "Aviso AI is your single pane of glass for revenue operations. Contacts us to see Aviso in action.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-stack--moving-logos",
+			"subtitle": "",
+			"title": "",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ringcentral-logo.png",
+						"alt": "RingCentral Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ivanti-red.svg",
+						"alt": "Ivanti Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/github.webp",
+						"alt": "Github Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/seagate_logo.webp",
+						"alt": "Seagate Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/app_annie.webp",
+						"alt": "App Annie Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/nuance.webp",
+						"alt": "Nuance Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "Netapp Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/elastic.webp",
+						"alt": "Elastic Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/conviva_logo.webp",
+						"alt": "Conviva Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/datastax.webp",
+						"alt": "Datastax Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lacework.png",
+						"alt": "Lacework Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/armis-logo.webp",
+						"alt": "Armis Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-venafi.webp",
+						"alt": "Venafi Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/rescale.webp",
+						"alt": "Rescale Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/hpe.webp",
+						"alt": "HPE Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/abn_amro.webp",
+						"alt": "ABN Amro Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/accela.webp",
+						"alt": "Accela Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/8_8.svg",
+						"alt": "8x8 Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jcv.webp",
+						"alt": "JCV Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/star_compliance.webp",
+						"alt": "Star Compliance Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/mufg.webp",
+						"alt": "Mufg Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/phoenix_datacom.webp",
+						"alt": "Phoenix Datacom Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jfrog.svg",
+						"alt": "Jfrog Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/Silver_Peak.webp",
+						"alt": "Sliver Peak Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sourceday.webp",
+						"alt": "SourceDay Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/SS&C.png.webp",
+						"alt": "SS&C Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/secure_code_warrior.webp",
+						"alt": "Secure Code warrior Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lookout.webp",
+						"alt": "Lookout Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/medius.webp",
+						"alt": "Medius Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/redislabs.webp",
+						"alt": "Redis Labs Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/citi.webp",
+						"alt": "Citi Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/singlestore.webp",
+						"alt": "Single Store Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/fireeye.webp",
+						"alt": "Fireeye Logo"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 1,
+				"columnGap": "md",
+				"itemBackground": "#FFF"
+			}
+		}
+	]
+}

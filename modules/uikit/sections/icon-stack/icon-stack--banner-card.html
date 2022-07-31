@@ -1,0 +1,54 @@
+{%- set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'center', justify: 'center', container: 'md', columns: 2, itemIconPos:
+'top', itemIconSize: 'sm', itemIconBackground: "none", itemIconShape: "none",
+itemBackground:'#fff'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="{{'uk-margin-medium-top' if title or description}} uk-grid uk-grid-collapse uk-box-shadow-medium uk-border-rounded uk-overflow-hidden {{ style | setColumns }}"
+			data-uk-grid
+			data-uk-height-match="target: .uk-card"
+		>
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%} {%- set
+			color = style.itemColor -%} {%- set cta = item.ctas[0] -%}
+			<div>
+				<a
+					class="{{ style | setItem('class') }} uk-card uk-display-block"
+					style="padding:30px;{{ style | setItem('style') }}"
+					href="{{cta.url}}"
+					target="{{ '_blank' if cta.external else '_self' }}"
+					rel="{{ 'noopener' if cta.external else '' }}"
+				>
+					<div class="match-content">
+						<div class="{{ style | setIconPos }}">
+							{%- render "@macro-icon", {style:style,
+							icon:item.icon} -%}
+							<div>
+								{%- render "@macro-texts", {heading:"5",
+								weight:"bold", size:'lg',
+								justify:style.itemJustify,
+								align:style.itemAlign, color:color,
+								subtitle:item.subtitle, title:item.title,
+								description:item.description } -%}
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

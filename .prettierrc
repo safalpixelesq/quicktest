@@ -1,0 +1,10 @@
+{
+  	"semi": false,
+  	"arrowParens": "always",
+  	"singleQuote": true,
+  	"vue/html-closing-bracket-newline": "off",
+	"vue/singleline-html-element-content-newline": "off",
+	"useTabs": true,
+	"jsxBracketSameLine": true,
+	"endOfLine":"auto"
+}

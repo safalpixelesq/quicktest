@@ -1,0 +1,298 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"theme": "aviso",
+		"upload": true,
+		"title": "An enterprise AI platform that scales with your business | Aviso",
+		"description": "Aviso’s Guidance Platform closes the loop from forecasting to deal-actions across an entire revenue team working across CRM and explicit and implicit signals to drive business outcomes with enterprise-grade robust and secure AI.",
+
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "text-stack--pricing-cards",
+			"uid": "pricingBlocks",
+			"subtitle": "SELF-ENABLING",
+			"title": "<i class='uk-h1'>Replace <span class='uk-text-primary'>multiple tools</span> with one suite. Grow  <span class='uk-text-primary'>revenue</span> faster.</i>",
+			"description": "Revenue Operating System that works as a single pane of glass for all <br/> sales, marketing, CS, and other members of a GTM team",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "MID-MARKET SOLUTION",
+					"title": "$84<div class=\" uk-text-light uk-display-inline uk-text-large\"> user/month</div><div class='uk-h4'>AI Digital Rooms + Sales Workflow Intelligence</div>",
+					"description": "<ul class=\"uk-list list-good\"><li>People Intelligence, Deal Intelligence</li><li>Advanced Sentiment Analysis</li><li>Deal, Forecast, Coaching Rooms (Internal deal team collaboration)</li><li>Customer Channels (External)</li><li>SmartTranscripts & Summarization</li><li>Embedded Video Meetings, Chat, To-Dos, Screen Sharing, Documents</li><li>E-Signature & Approval Workflows</li></ul>",
+					"ctas": [
+						{
+							"type": "secondary",
+							"size": "md",
+							"label": "Get Started",
+							"url": "/contact"
+						}
+					]
+				},
+				{
+					"subtitle": "ENTERPRISE SOLUTION",
+					"title": "Contact Sales<div class=\" uk-text-light uk-display-inline uk-text-large\">&nbsp;</div><div class='uk-h4'>AI Digital Rooms + Sales Workflow Intelligence</div>",
+					"description": "<ul class=\"uk-list list-good\"><li>EVERYTHING IN MM SOLUTION+</li><li>Predictive Deal-Level Forecasting</li><li>Deal WinScores™, Maps, Pull-Ins</li><li>Pipeline Inspection, Planning, Yield</li><li>Relationship Intelligence and Next Best Persona & Team Actions</li><li>CRM Activity and Contact Auto-Population + Golden Fields Capture</li><li>Extend revenue workflows across CRM instances, data lakes, etc</li></ul>",
+					"ctas": [
+						{
+							"type": "primary",
+							"size": "lg",
+							"label": "Contact Sales",
+							"url": "/contact"
+						}
+					]
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemBackground": "#FFF",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--moving-logos",
+			"subtitle": "",
+			"title": "Trusted by Thousands of Happy Customers",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ringcentral-logo.png",
+						"alt": "RingCentral Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ivanti-red.svg",
+						"alt": "Ivanti Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/github.webp",
+						"alt": "Github Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/seagate_logo.webp",
+						"alt": "Seagate Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/app_annie.webp",
+						"alt": "App Annie Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/nuance.webp",
+						"alt": "Nuance Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "Netapp Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/elastic.webp",
+						"alt": "Elastic Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/conviva_logo.webp",
+						"alt": "Conviva Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/datastax.webp",
+						"alt": "Datastax Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lacework.png",
+						"alt": "Lacework Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/armis-logo.webp",
+						"alt": "Armis Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-venafi.webp",
+						"alt": "Venafi Logo"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/rescale.webp",
+						"alt": "Rescale Logo"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 1,
+				"columnGap": "md",
+				"itemBackground": "#FFF"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-inline",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": "",
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "Lori Harmon",
+					"subtitle": "VP Digital Virtual Sales",
+					"description": "I was sold on Aviso and Trevor's vision in my first demo. There is no other platform on the market with such rich functionality. The competition tends to be point solutions that add up to a higher TCO and require separate integrations, eating up the time of your IT team",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "NetApp"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lori_harmon.webp",
+						"alt": "Lori Harmon"
+					},
+					"style": {
+						"background": "#1E46BA"
+					}
+				},
+				{
+					"title": "Charles Forsgard",
+					"subtitle": "VP Sales, Honeywell",
+					"description": "Finally someone figured out how to build a platform that serves two masters: Reps and Managers. At Honeywell, both get tremendous value from Aviso. They are one of the few companies in the space that understand that if you can just give meaningful insights back to a seller, the seller will put more high quality input into CRM",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/charles_forsgard.webp",
+						"alt": "Charles Forsgard"
+					},
+					"style": {
+						"background": "#ED1A2D"
+					}
+				},
+				{
+					"title": "Jeremy Smith",
+					"subtitle": "SVP, Revenue, LaunchDarkly",
+					"description": "As a two-time Aviso AI customer, I strongly endorse their organization. Beyond their tech, which I do believe to be the best in the business, they are a wonderful business partner",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/jeremy_smith.webp",
+						"alt": "Jeremy Smith"
+					},
+					"style": {
+						"background": "#000000"
+					}
+				},
+				{
+					"title": "Brian Young",
+					"subtitle": "Chief Commercial Officer, Johnson Controls",
+					"description": "Every company in the world needs Aviso. I am a huge fan. Aviso is an AI guided selling platform that improves sales effectiveness and efficiency better than other technology solutions",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/johnson-controls.png",
+						"alt": "Johnson Controls"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/brian_young.webp",
+						"alt": "Brian Young"
+					},
+					"style": {
+						"background": "#2870AE"
+					}
+				},
+				{
+					"title": "Anjai 'AJ' Gandhi",
+					"subtitle": "Chief Growth Officer, Marlin Equity Partners",
+					"description": "We really like what Aviso is doing. Combining multiple key selling capabilities like deal management, forecasting, conversational intelligence. Every company needs these capabilities and it's great to see these forming into a suite instead of just point solutions",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/aj_marlin.webp",
+						"alt": "Marlin Equity Partners"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners Logo"
+					},
+					"style": {
+						"background": "#0F2577"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"mediaWidth": "2/5",
+				"mediaPos": "left",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:7",
+				"itemBackground": ""
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{%- set style = style | setDefaults({background:'#fff', container:'md',
+spacing:'xs', align:'center', justify: 'center'}) -%}
+<header
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-flex uk-flex-between" data-uk-navbar>
+			<div class="uk-flex uk-flex-{{style.justify}} uk-width-expand">
+				<div class="uk-navbar-left uk-margin-right">
+					{%- render "@macro-logo", {logo:logo} -%}
+				</div>
+				<div
+					class="uk-navbar-{{style.align}} uk-visible@{{'s' if primary.length < 6 else 'm'}}"
+				>
+					{%- render "@macro-offmenu", {mode:'menu',primary:primary}
+					-%}
+				</div>
+			</div>
+
+			<a
+				href="#"
+				class="uk-navbar-toggle uk-hidden@{{'s' if primary.length < 6 else 'm'}} uk-flex-right"
+				uk-navbar-toggle-icon
+				uk-toggle="target: #mobnav"
+			></a>
+		</div>
+	</div>
+	<nav id="mobnav" data-uk-offcanvas="flip: true" class="uk-offcanvas">
+		{%- render "@macro-offmenu", {mode:'offmenu',primary:primary} -%}
+	</nav>
+</header>

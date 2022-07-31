@@ -1,0 +1,70 @@
+{%- set style = style | setDefaults({background:'#f8f8f8',spacing:'md',
+align:'left', justify: 'left', mediaWidth: '1/2', mediaPos: 'right'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div
+			class="{{ style | setMediaContainer }}"
+			data-uk-grid="data-uk-grid"
+		>
+			<div class="{{ style | setGrid }} uk-grid-collapse">
+				<div class="uk-flex">
+					<div class="">
+						{%- render "@macro-texts", {heading:"1",
+						weight:"normal", size:'lg', align:style.align,
+						justify:style.justify, color:style.color, hero:true,
+						subtitle: subtitle, title:title,
+						description:description, ctas:ctas } -%}
+					</div>
+				</div>
+			</div>
+			<div class="{{ style | setGrid('media') }}">
+				{%- if video -%}
+				<div class="uk-position-relative">
+					<video
+						src="{{video.url}}"
+						autoplay="autoplay"
+						loop="loop"
+						width="100%"
+						muted="muted"
+						playsinline="playsinline"
+						data-uk-cover
+					></video>
+					{%- if video.caption -%}
+					<div
+						class="uk-text-center uk-margin-small-top uk-text-muted uk-text-meta"
+					>
+						{{video.caption}}
+					</div>
+					{%- endif -%}
+				</div>
+				{%- else -%} {%- if image -%}
+				<div
+					class="uk-position-relative uk-margin-large-left"
+					data-uk-lightbox="animation: scale"
+				>
+					<a href="{{image.url}}">
+						<img
+							class="img{{ ' uk-box-shadow-large' if _self.handle === 'image-block--image-showcase' }}"
+							width="100%"
+							data-src="{{image.url}}"
+							alt="{{image.alt}}"
+							data-uk-img
+						/>
+					</a>
+					{%- if image.caption -%}
+					<div
+						class="uk-text-center uk-margin-small-top uk-text-muted uk-text-meta"
+					>
+						{{image.caption}}
+					</div>
+					{%- endif -%}
+				</div>
+				{%- endif -%}{%- endif -%}
+			</div>
+		</div>
+	</div>
+</section>

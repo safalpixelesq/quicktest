@@ -1,0 +1,52 @@
+{%- set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'center', justify: 'center'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-grid {{ style | setColumns }}"
+			data-uk-grid
+		>
+			{%- for item in items -%}
+			<div>
+				<div class="uk-grid-small uk-flex-top uk-flex" data-uk-grid>
+					<div class="uk-width-auto">
+						<div
+							class="uk-display-inline-block"
+							style="
+								border: 1px solid #32d296;
+								background-color: #32d296;
+								border-radius: 100%;
+							"
+						>
+							<span
+								class="uk-text-bold"
+								style="color: #fff; font-weight: 900"
+								data-uk-icon="icon: check; ratio: 1.5"
+							></span>
+						</div>
+					</div>
+					<div class="uk-width-expand">
+						{%- set color = style.itemColor -%} {%- render
+						"@macro-texts", {heading:"3", weight:"bold", size:'lg',
+						justify:style.itemJustify, align:style.itemAlign,
+						color:color, subtitle:item.subtitle, title:item.title,
+						description:item.description, ctas:item.ctas } -%}
+					</div>
+				</div>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

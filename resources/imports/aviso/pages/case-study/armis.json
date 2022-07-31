@@ -1,0 +1,309 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Armis | Case Study",
+		"description": "Armis Increases Agility And Performance Of It’s Sales Team with Aviso’s AI Forecasting and Deal Signals",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "CASE STUDY",
+			"title": "Armis Replaces Gong and Clari With Aviso to <span class='uk-text-primary'>Increase Agility & Performance</span>",
+			"description": "",
+			"image": {
+				"url": "https://www.armis.com/wp-content/uploads/2021/05/About-Page-Hero.png",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Get a Demo",
+					"url": "#requestDemo"
+				},
+				{
+					"type": "link",
+					"label": "Download PDF",
+					"url": "https://assets.uiaas.io/web/aviso/Armis_Aviso_CaseStudy_Summary.pdf",
+					"external": true
+				}
+			],
+			"style": {
+				"background": "#f3f3f3",
+				"invert": true,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"spacing": "lg"
+			}
+		},
+		{
+			"module": "image-stack--image-split-features",
+			"subtitle": "TECHNOLOGY",
+			"title": "<img class=' uk-margin-bottom' width='200px' src='https://assets.uiaas.io/web/aviso/armis-logo.webp' alt='Armis Logo'>",
+			"description": "Founded in 2015 and HQed in Palo Alto, CA, Armis helps businesses discover and secure managed, unmanaged, and IoT devices, including medical devices and industrial control systems (ICS)",
+			"items": [
+				{
+					"subtitle": "<span data-uk-icon='icon:quote-right; ratio:2.5'></span>",
+					"title": "Trevor and the team are pioneering the vision of what true unified sales and revenue operations platform. Aviso AI is the only platform that can truly say they are AI-based GTM compass",
+					"description": "<img class='uk-border-circle uk-margin-right' width='120px' src='https://assets.uiaas.io/web/aviso/jasonmead.jpeg' alt='Ivanti Logo'><span class='uk-text-middle'> Jason Mead, VP, Global Revenue Operations, Armis</span>",
+					"style": {
+						"background": "#333366; border-top-left-radius: 12px; border-top-right-radius: 12px;"
+					}
+				}
+			],
+			"image": {
+				"url": ""
+			},
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"mediaWidth": "3/5",
+				"mediaPos": "left",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#ff0",
+				"itemMediaPos": "right"
+			}
+		},
+		{
+			"module": "text-stack--giant-card",
+			"uid": "overview",
+			"subtitle": "",
+			"title": "Armis replaced Gong and Clari with Aviso for better accuracy with deal guidance and  forecasting towards a unified revenue operations platform",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "",
+					"title": "Challenges Faced",
+					"description": "<ul class='list-bad uk-margin-medium-top'><li>Inaccurate forecasting because of Clari system (by almost margin of 90% at times)</li><li>Lack of forecasting guidance or historical time-series data to support insights </li><li>Complex forecasting using spreadsheets</li><li>Clari implemented system showed lagging indicators versus leading indicators</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620608964186-18a8cfc2ad44?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExOHxhZXU2ckwtajZld3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Refined"
+					},
+					"ctas": [
+						{
+							"type": "link",
+							"label": "Get Started",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				},
+				{
+					"subtitle": "",
+					"title": "Solution Provided",
+					"description": "<ul class='list-good'><li>Aviso Insights with Deal rooms, configured Forecasting processes, and Custom Labels</li><li>Predictive forecasting (with 95% accuracy) based on data science-driven predictive modeling</li><li>Deal and Pipeline insights</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3MXxKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Intelligent"
+					},
+
+					"style": {
+						"background": "#f2f2f2"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+
+		{
+			"module": "text-stack--feature-list-offset",
+			"subtitle": "",
+			"title": "Benefits for Armis",
+			"description": "Armis replaced Gong and Clari with Aviso for better accuracy with deal guidance and  forecasting towards a unified revenue operations platform",
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Get a Demo",
+					"url": "#requestDemo"
+				}
+			],
+			"items": [
+				{
+					"title": "“Single pane of glass” for real time insights across a hypergrowth startup business",
+					"description": "",
+					"ctas": null,
+					"style": {}
+				},
+				{
+					"title": "Agility in the go-to-market process with analysis of incoming signals",
+					"style": {}
+				},
+				{
+					"title": "Consolidated tools and forecasting process across teams, segments, and products",
+					"style": {}
+				},
+				{
+					"title": "Seamless bi-directional integration with Salesforce CRM",
+					"style": {}
+				},
+				{
+					"title": "Increased accuracy for predictions and financial planning",
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#ffffff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--image-cards-grid-group",
+			"uid": "resources",
+			"title": "Related Resources",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "<span style='color:#fff'>CASE STUDY</span>",
+					"title": "Aviso’s Conversational Intelligence Provided Robust X-Ray for NetApp Sellers to Increase Customer Engagement",
+					"description": "",
+					"image": {
+						"url": "https://www.armis.com/wp-content/uploads/2021/04/Pattern.svg",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read Case Study",
+							"url": "/case-study/netapp",
+							"size": "md"
+						}
+					],
+					"style": {
+						"background": "url(https://www.netapp.com/media/web-side-x-side-t-systems_tcm19-10604.jpg?v=30579); background-size: cover; background-position: right; background-repeat: no-repeat;",
+						"invert": false
+					}
+				},
+				{
+					"subtitle": "<span style='color:#fff'>BLOG</span>",
+					"title": "Aviso AI 2021 Product Summary and Updates",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-coversationalai.webp",
+						"alt": "Incredible"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read now",
+							"url": "/blog",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "var(--primary)"
+					}
+				},
+				{
+					"subtitle": "<span style='color:#fff'>LOST IN CRM?</span>",
+					"title": "Find out how AI can be your compass",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-collab.webp",
+						"alt": "Generic"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Watch Webinar",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "url('https://www.aviso.com/wp-content/uploads/2020/07/forecasting_hero-image-Adaptive-Forecasting@1.5x.png')",
+						"invert": false
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"justify": "center",
+				"background": "#F2f2f2",
+				"columns": 3,
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "",
+			"title": "Ready to unlock your true revenue potential with Aviso AI?",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Sign up for a demo",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #F2f2f2 0%, #F2f2f2 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center"
+			}
+		}
+	]
+}

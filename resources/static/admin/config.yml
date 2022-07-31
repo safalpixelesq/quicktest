@@ -1,0 +1,185 @@
+# local_backend: true
+backend:
+    name: git-gateway
+    repo: devanandb/pixelesq
+    site_domain: devanandb.github.io
+    branch: master
+    base_url: https://api.netlify.com
+
+publish_mode: editorial_workflow
+media_folder: static/media
+public_folder: /media
+site_url: https://pixelesq.com
+logo_url: https://uiaas.sfo2.cdn.digitaloceanspaces.com/web/logo.svg
+
+collections:
+    - label: 'Pages'
+      name: 'pages'
+      editor:
+          preview: false
+      files:
+          - label: 'Home'
+            name: Home
+            file: content/home.yml
+            preview_path: /
+            fields:
+                - { label: Meta Title, name: metaTitle, widget: string }
+                - { label: Meta Description, name: metaDesc, widget: string }
+                - { label: 'Hero: Title', name: title, widget: string }
+                - {
+                      label: Hero Description,
+                      name: description,
+                      widget: markdown,
+                  }
+                - label: Features
+                  name: features
+                  widget: list
+                  fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Subtitle, name: subtitle, widget: string }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+                      - { label: Sub text, name: subtext, widget: markdown }
+                      - { label: Icon, name: icon, widget: string }
+                - label: 'Modules Section'
+                  widget: object
+                  name: modules
+                  fields:
+                      - { label: Title, name: title, widget: string }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+                      - label: Features
+                        name: features
+                        widget: list
+                        fields:
+                            - { label: Title, name: title, widget: string }
+                            - {
+                                  label: Description,
+                                  name: description,
+                                  widget: markdown,
+                              }
+                            - { label: Icon, name: icon, widget: string }
+                - label: 'UIaaS Section'
+                  widget: object
+                  name: uiaas
+                  fields:
+                      - { label: Title, name: title, widget: string }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+                      - label: API Modes
+                        name: apimodes
+                        widget: list
+                        fields:
+                            - { label: Title, name: title, widget: string }
+                            - {
+                                  label: Description,
+                                  name: description,
+                                  widget: markdown,
+                              }
+                            - { label: Icon, name: icon, widget: string }
+          - label: 'The Logo'
+            name: Logo
+            file: content/logo.yml
+            preview_path: thelogo
+            fields:
+                - { label: Meta Title, name: metaTitle, widget: string }
+                - { label: Meta Description, name: metaDesc, widget: string }
+                - { label: Hero Title, name: title, widget: string }
+                - {
+                      label: Hero Description,
+                      name: description,
+                      widget: markdown,
+                  }
+                - { label: Story Title, name: storyTitle, widget: string }
+                - {
+                      label: Story Description,
+                      name: storyDesc,
+                      widget: markdown,
+                  }
+                - label: Story Image
+                  name: storyImage
+                  widget: object
+                  fields:
+                      - { label: Image, name: src, widget: image }
+                      - { label: Alt, name: alt, widget: string }
+          - label: 'Faq'
+            name: faq
+            file: content/faq.yml
+            preview_path: /
+            fields:
+                - { label: Meta Title, name: metaTitle, widget: string }
+                - { label: Meta Description, name: metaDesc, widget: string }
+                - { label: 'Hero: Title', name: title, widget: string }
+                - {
+                      label: Hero Description,
+                      name: description,
+                      widget: markdown,
+                  }
+                - label: FAQs
+                  name: faqs
+                  widget: list
+                  fields:
+                      - { label: Title, name: title, widget: string }
+                      - {
+                            label: Description,
+                            name: description,
+                            widget: markdown,
+                        }
+    # - name: 'Page'
+    #   label: 'Page'
+    #   format: 'json'
+    #   folder: 'assets/content/pages'
+    #   create: true
+    #   slug: '{{slug}}'
+    #   editor:
+    #     preview: false
+    #   fields:
+    #     - { label: 'Title', name: 'title', widget: 'string' }
+    #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+    #     - label: Meta
+    #       name: meta
+    #       widget: object
+    #       fields:
+    #         - { label: 'Title', name: 'title', widget: 'string' }
+    #         - { label: 'Description', name: 'description', widget: 'string' }
+    #     - label: 'Sections'
+    #       name: 'section'
+    #       widget: 'list'
+    #       types:
+    #         - label: Simple Block
+    #           name: simple-block
+    #           widget: object
+    #           fields:
+    #             - { label: 'Title', name: 'title', widget: 'string' }
+    #             - { label: 'Description', name: 'description', widget: 'markdown' }
+    #             - label: CTAs
+    #               name: ctas
+    #               widget: list
+    #               fields:
+    #                 - { label: 'Label', name: 'label', widget: 'string' }
+    #                 - { label: 'Url', name: 'url', widget: 'string' }
+    #                 - { label: 'External', name: 'external', widget: boolean }
+    #                 - label: Type
+    #                   name: type
+    #                   widget: select
+    #                   options: ['primary', 'secondary', 'tertiary']
+    #                 - label: Size
+    #                   name: size
+    #                   widget: select
+    #                   options: ['sm', 'md', 'xl']
+    #         - label: Image Block
+    #           name: image-block
+    #           widget: object
+    #           fields:
+    #             - { label: 'Title', name: 'title', widget: 'string' }
+    #             - { label: 'Description', name: 'description', widget: 'markdown' }
+    #             - { label: 'Image', name: 'image', widget: 'image' }

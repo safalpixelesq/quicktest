@@ -1,0 +1,49 @@
+{
+	"meta": {
+		"apimode": "page",
+		"theme": "aviso",
+		"upload": false,
+		"title": "Value Estimate Calculator | Aviso",
+		"description": "With Aviso Value Calculator, one can estimate their true business value just by entering few mandate metrics and see how much true ROI your business can generate.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "simple-block--simple-hero",
+			"subtitle": "VALUE ESTIMATION CALCULATOR",
+			"title": "How much true ROI can your business generate from using AI?",
+			"description": "Use the calculator below to simulate the business value you could produce for your GTM teams with Aviso’s revenue intelligence platform. Enter your current metrics below, and we’ll calculate the projected annual benefits you will see, including impact on both revenue and costs.",
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/sales-forecasting.webp",
+				"alt": "Aviso"
+			},
+
+			"style": {
+				"background": "#f2f2f2",
+				"invert": false,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"justify": "center",
+				"align": "center",
+				"spacing": "md"
+			}
+		},
+		{
+			"module": "simple-block--simple-block",
+			"subtitle": "",
+			"title": "",
+			"description": "<div class=\"loading-graphs\"> <div class=\"spinner-border\" role=\"status\"> <span class=\"sr-only\"></span> </div></div><section class=\"value-calc container\"> <div class=\"row\"> <div class=\"col col-12 col-lg-4 col-xl-5\" id=\"left-side\"> <form id=\"calc-input\"> <div class=\"vc-title\"> <div> <img src=\"https://assets.uiaas.io/web/aviso/calculator-icon2.svg\"> <div> <h1>Value Calculator</h1> <p>Estimate the business value you could achieve with the Aviso AI platform</p></div></div><h2>Move the sliders or type in new values to tailor your results</h2> </div><div class=\"vc-controls\"> <div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"revenue\">Annual Revenue</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">$</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"revenue\" value=\"100000000\" name=\"revenue\"> </div></div><input type=\"range\" min=\"0\" max=\"1000000000\" step=\"100000\" value=\"100000000\" class=\"slider\" id=\"range1\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"num-employees\">No. Of Sales Employees</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">#</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"num-employees\" value=\"200\" name=\"numEmployees\"> </div></div><input type=\"range\" min=\"0\" max=\"1000\" step=\"10\" value=\"200\" class=\"slider\" id=\"range2\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"num-orders\">Number Of Annual Orders (#)</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">#</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"num-orders\" value=\"1000\" name=\"numOrders\"> </div></div><input type=\"range\" min=\"0\" max=\"10000\" step=\"100\" value=\"1000\" class=\"slider\" id=\"range3\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"percent-time\">% Of Time Spent On Administrative Activities By Sales Staff <span class=\"info-icon\" data-bs-toggle=\"tooltip\" title=\"Time spent on activity and contact logging on CRM, sharing content and deal collaboration\"><img src=\"https://assets.uiaas.io/web/aviso/info-icon.svg\"></span> </label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">%</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"percent-time\" value=\"25\" name=\"percentTime\"> </div></div><input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"25\" class=\"slider\" id=\"range4\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"win-loss\">Win-Loss Ratio (%) <span class=\"info-icon\" data-bs-toggle=\"tooltip\" title=\"A win/loss ratio compares your own opportunities against your lost opportunities to put wins and losses side-by-side \"><img src=\"https://assets.uiaas.io/web/aviso/info-icon.svg\"></span></label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">%</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"win-loss\" value=\"40\" name=\"winLoss\"> </div></div><input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"40\" class=\"slider\" id=\"range5\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"flcs\">Fully Loaded Cost Sales FTE ($)</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">$</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"flcs\" value=\"60000\" name=\"flCostSales\"> </div></div><input type=\"range\" min=\"0\" max=\"100000\" step=\"1000\" value=\"60000\" class=\"slider\" id=\"range6\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"turnover\">Turnover Rate Of Sales FTE (%)</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">%</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"turnover\" value=\"14\" name=\"turnover\"> </div></div><input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"14\" class=\"slider\" id=\"range7\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"percent-sale\">% Of Sales Coming From Cross-Sell And Up-Sell Activities</label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">%</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"percent-sale\" value=\"10\" name=\"percentSale\"> </div></div><input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"10\" class=\"slider\" id=\"range8\"> </div><div class=\"form-group input-box\"> <div class=\"in-head\"> <label for=\"conv-rate\">Lead-To-Opportunity Conversion Rate <span class=\"info-icon\" data-bs-toggle=\"tooltip\" title=\"Lead conversion rate measures the percentage of your leads that end up converting to opportunities\"><img src=\"https://assets.uiaas.io/web/aviso/info-icon.svg\"></span></label> <div class=\"input-group mb-3\"> <span class=\"input-group-text\">%</span> <input type=\"number\" class=\"form-control\" placeholder=\"\" id=\"conv-rate\" value=\"32\" name=\"convRate\"> </div></div><input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"32\" class=\"slider\" id=\"range9\"> </div></div><div class=\"vc-btn-box\"> <input type=\"submit\" class=\"btn-orange\" value=\"Calculate\"> <button type=\"reset\" class=\"\">Reset</button> </div></form> <div class=\"sign-up-form\"> <form> <h4>Want to know more? <span>Let's get in touch</span></h4> <div> <input type=\"text\" name=\"first-name\" placeholder=\"First Name\"> <input type=\"text\" name=\"last-name\" placeholder=\"Last Name\"> </div><input type=\"text\" name=\"company-name\" placeholder=\"Enter your company name\"> <input type=\"email\" name=\"email\" placeholder=\"Enter your email address\"> <button type=\"submit\" class=\"btn-orange\"> Sign Up </button> </form> </div></div><div class=\"col col-12 col-lg-8 col-xl-7\" id=\"right-side\"> <div class=\"total-value\"> <h4>Your total expected annual value</h4> <h5>$<span>_,___,___</span></h5> </div><div class=\"vc-info-box\"> <div class=\"row flex-grow-1\"> <div class=\"col col-12 col-lg-6 \"> <div class=\"g-head\">Revenue Benefits</div><div class=\"position-relative d-chart\"> <canvas id=\"d-chart1\"></canvas> </div><div class=\"ch-legend\" id=\"d-chart1-legend\"> </div></div><div class=\"col col-12 col-lg-6\"> <div class=\"g-head\">Cost Benefits</div><div class=\"position-relative d-chart\"> <canvas id=\"d-chart2\"></canvas> </div><div class=\"ch-legend\" id=\"d-chart2-legend\"> </div></div></div></div></div></div></section>",
+
+			"style": {
+				"background": "#fff",
+				"invert": false,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"justify": "left",
+				"align": "left",
+				"spacing": "md"
+			}
+		}
+	]
+}

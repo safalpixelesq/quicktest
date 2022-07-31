@@ -1,0 +1,61 @@
+{% set style = style | setDefaults({background:'#fff',spacing:'md',
+align:'center', justify: 'center'}) %}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div class="uk-margin-medium-top">
+			<div
+				class="uk-position-relative"
+				data-uk-slideshow="animation: {{style.itemAnimation}}; autoplay:true;"
+			>
+				<ul class="uk-slideshow-items">
+					{%- for item in items -%}
+					<li>
+						<img
+							src="{{item.image.url}}"
+							alt="{{item.image.alt}}"
+							uk-cover
+						/>
+					</li>
+					{%- endfor -%}
+				</ul>
+
+				<div
+					class="uk-position-bottom-{{style.itemAlign}} uk-position-small"
+				>
+					<ul class="uk-thumbnav">
+						{%- for item in items -%}
+						<li uk-slideshow-item="{{loop.index - 1}}">
+							<a
+								href="#"
+								class="uk-overflow-hidden"
+								style="width: 100px; height: 70px"
+								><img
+									src="{{item.image.url}}"
+									class="uk-width-1-1"
+									alt="{{item.image.alt}}"
+									style="
+										width: 100px;
+										height: 70px;
+										object-fit: cover;
+									"
+							/></a>
+						</li>
+						{%- endfor -%}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

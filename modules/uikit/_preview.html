@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="pqc">
+	<head>
+		<meta charset="utf-8" />
+		<title>Preview Layout</title>
+		<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+		<!-- <link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/> -->
+		<!-- <style>
+			@import url("https://rsms.me/inter/inter.css");
+		</style> -->
+		<link rel="stylesheet" href="{{ '/app.css' | path }}" />
+		<script>
+			const urlParams = new URLSearchParams(window.location.search);
+			console.log();
+			const screen = urlParams.get("png");
+
+			document.addEventListener("DOMContentLoaded", function () {
+				if (screen) {
+					var body = document.body.classList.add("makepng");
+					let stringss = document.getElementsByClassName("desc");
+					stringss = Array.from(stringss);
+					stringss.map((sr, index) => {
+						document.getElementsByClassName("desc")[
+							index
+						].innerHTML = `<span>${sr.textContent
+							.trim()
+							.split(" ")
+							.join("</span> <span>")}</span>`;
+					});
+
+					let imgs = document.getElementsByClassName("img");
+					console.log(imgs);
+					imgs = Array.from(imgs);
+					imgs.map((sr, index) => {
+						console.log(sr, index);
+
+						document
+							.getElementsByClassName("img")
+							[index].removeAttribute("data-src");
+						document
+							.getElementsByClassName("img")
+							[index].removeAttribute("src");
+
+						document.getElementsByClassName("img")[
+							index
+						].src = `http://singlecolorimage.com/get/f3f5f6/300x150`;
+					});
+
+					let icons = document.getElementsByClassName("uk-icon");
+					console.log(icons);
+					icons = Array.from(icons);
+					icons.map((sr, index) => {
+						console.log(sr, index);
+
+						document
+							.getElementsByClassName("uk-icon")
+							[index].parentElement.classList.add("icon");
+
+						document.getElementsByClassName("uk-icon")[
+							index
+						].parentElement.style.backgroundImage =
+							"url('http://singlecolorimage.com/get/F46149/100x100')";
+						document.getElementsByClassName("uk-icon")[
+							index
+						].parentElement.style.color = "#F46149";
+					});
+
+					let bgimgs = document.getElementsByClassName("uk-section");
+					bgimgs = Array.from(bgimgs);
+					bgimgs.map((sr, index) => {
+						document.getElementsByClassName("uk-section")[
+							index
+						].style.backgroundImage =
+							"url('http://singlecolorimage.com/get/ffffff/300x150')";
+					});
+				}
+			});
+		</script>
+		<style>
+			body.makepng {
+				background: #efefef;
+			}
+			.makepng h1,
+			.makepng h2 {
+				display: inline-block !important;
+				background: #555 !important;
+				color: transparent !important;
+				text-align: left !important;
+				height: 28px;
+				border-radius: 4px;
+				line-height: 0px;
+			}
+
+			.makepng h3,
+			.makepng h4,
+			.makepng h5,
+			.makepng h6 {
+				display: inline-block !important;
+				background: #777 !important;
+				color: transparent !important;
+				text-align: left !important;
+				height: 20px;
+				border-radius: 4px;
+				margin-right: 10px;
+				line-height: 0px;
+			}
+
+			.makepng .icon {
+				/* background: linear-gradient(to right bottom, rgb(71, 158, 237), rgb(38, 142, 242), rgb(19, 124, 245), rgb(40, 104, 243), rgb(71, 79, 237)); */
+				border-color: #f46149 !important;
+				border-radius: 100% !important;
+			}
+
+			.makepng .uk-text-primary {
+				display: block !important;
+				width: 300px;
+				background: #999 !important;
+				color: transparent !important;
+				margin: 0px auto 20px auto !important;
+				height: 24px;
+				border-radius: 4px;
+				line-height: 0px;
+				margin-bottom: 20px;
+			}
+
+			.makepng .uk-text-primary.uk-text-left {
+				margin-left: 0px !important;
+			}
+
+			.makepng h4.text-left {
+				text-align: left !important;
+			}
+			.makepng .uk-border-rounded {
+				border: 1px solid #ddd;
+				border-radius: 8px;
+			}
+
+			.makepng span.uk-icon {
+				display: block;
+			}
+
+			.makepng .uk-button {
+				display: inline-block !important;
+				background: #c1c7cc !important;
+				color: transparent !important;
+				text-align: left !important;
+				width: 160px;
+				height: 5px !important;
+				border: 15px solid #dee3e7;
+				border-left-width: 20px;
+				border-right-width: 20px;
+				padding: 2px !important;
+				border-radius: 16px;
+			}
+
+			.makepng .uk-button.uk-button-primary {
+				background: #fff !important;
+				border: 15px solid #4777ed;
+				border-left-width: 20px;
+				border-right-width: 20px;
+			}
+			.makepng .btn.btn-link {
+				height: 0px !important;
+				line-height: 0px;
+				width: 100px;
+				background: #005493 !important;
+				border: 6px solid #005493;
+				border-left-width: 10px;
+				border-right-width: 10px;
+			}
+			.makepng .desc span {
+				font-size: 18px;
+				text-transform: uppercase;
+				line-height: 14px;
+				background: #c1c7cc;
+				color: transparent;
+				display: inline-block;
+				margin-right: -5px;
+			}
+
+			.makepng .desc span:first-child {
+				border-top-left-radius: 4px;
+				border-bottom-left-radius: 4px;
+			}
+
+			.makepng .desc span:last-child {
+				border-top-right-radius: 4px;
+				border-bottom-right-radius: 4px;
+			}
+
+			.makepng img {
+				border: 2px solid #f46149 !important;
+				/* padding: 2px;
+			filter: contrast(0) sepia(100%) hue-rotate(175deg)
+				brightness(1.4) saturate(0.28) !important; 
+			filter: url('#sepia') brightness(0) contrast(0) opacity(0.1) sepia(0.25) saturate(0.9);*/
+				border-radius: 6px;
+				background: #fff !important;
+			}
+
+			.makepng .logo img {
+				/* filter: contrast(0) !important; */
+				/* background: #fdc53e !important; */
+				width: 200px !important;
+			}
+
+			.makepng .bgimg {
+				/* background: #fdc53e !important; */
+				/* opacity: 0.5; */
+			}
+
+			.makepng i.material-icons {
+				background: #fdc53e !important;
+				color: #fdc53e !important;
+				border-radius: 100%;
+			}
+
+			.makpng .uk-light {
+				background: #fff !important!;
+			}
+		</style>
+	</head>
+
+	<body class="theme-startup">
+		<script type="text/javascript" src="{{ '/app.js' | path }}"></script>
+		{{ yield | safe }}
+	</body>
+</html>

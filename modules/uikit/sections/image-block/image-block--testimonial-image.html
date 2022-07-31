@@ -1,0 +1,74 @@
+{%- set style = style | setDefaults({background:'#efefef',spacing:'md',
+align:'left', justify: 'center'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="{{ style | setContainer }} uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}"
+	>
+		<div class="uk-width-2-3@m">
+			<span
+				class="uk-text-primary uk-margin-bottom"
+				data-uk-icon="icon: quote-right; ratio: 3"
+			></span>
+			{%- render "@macro-texts", {heading:"3", weight:"light", size:'lg',
+			justify:style.itemJustify, align:style.itemAlign,
+			color:style.itemColor, title: description} -%}
+			<div class="uk-margin-medium-top">
+				<img
+					src="{{image.url}}"
+					class="uk-border-circle uk-height-max-small"
+					alt="{{image.title}}"
+				/>
+			</div>
+			<div class="uk-margin-medium-top">
+				{%- render "@macro-texts", {heading:"4", weight:"bold",
+				size:'lg', justify:style.itemJustify, align:style.itemAlign,
+				color:style.itemColor, title: title } -%}
+			</div>
+			<div class="uk-margin-small-top">
+				{%- render "@macro-texts", {heading:"5", weight:"light",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.itemColor, title: subtitle, ctas:ctas } -%}
+			</div>
+		</div>
+	</div>
+	<div
+		id="modal-media-youtube{{uid}}"
+		class="uk-flex-top uk-modal"
+		data-uk-modal
+	>
+		<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+			<button
+				class="uk-modal-close-outside"
+				type="button"
+				uk-close
+			></button>
+			<iframe
+				class="uk-responsive-width"
+				src="{{ctas[0].url}}"
+				width="800"
+				height="600"
+				data-uk-video
+				data-uk-responsive
+			></iframe>
+		</div>
+	</div>
+</section>
+<style>
+	.video-link .icon-play {
+		color: #fff;
+	}
+	.video-link .uk-icon svg {
+		transition-duration: 0.5s;
+		transform-origin: center;
+	}
+	.video-link:hover .uk-icon svg {
+		transform: scale(1.2);
+	}
+	.video-link:hover .uk-icon {
+		color: var(--primary);
+	}
+</style>

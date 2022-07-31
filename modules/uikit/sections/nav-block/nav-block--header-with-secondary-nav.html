@@ -1,0 +1,106 @@
+{% set style = style | setDefaults({background:'#fff',spacing:'xxs',
+align:'center', justify: 'center', container:'md' }) %}
+<header
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+>
+	<div class="{{ style | setContainer }}">
+		<div
+			class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}} uk-navbar"
+			data-uk-navbar
+		>
+			<div class="uk-flex uk-flex-{{style.justify}} uk-width-expand">
+				<div class="uk-navbar-left uk-margin-right">
+					{%- render "@macro-logo", {logo:logo} -%}
+				</div>
+				<div
+					class="uk-navbar-center uk-visible@{{'s' if primary.length < 5 else 'm'}}"
+				>
+					{%- render "@macro-offmenu", {mode:'menu',primary:primary,
+					drop:'hover'} -%}
+				</div>
+				<div
+					class="uk-navbar-right uk-visible@{{'s' if primary.length < 5 else 'm'}}"
+				>
+					{# {%- render "@macro-offmenu",
+					{mode:'menu',primary:secondary} -%} #}
+					<div
+						class="uk-flex uk-flex-middle"
+						style="margin-top: -12px"
+					>
+						{%- render "@macro-texts", { justify:'right',
+						align:style.align, ctas:ctas } -%}
+					</div>
+				</div>
+			</div>
+			<a
+				href="#"
+				class="uk-navbar-toggle uk-hidden@{{'s' if primary.length < 5 else 'm'}} uk-flex-right"
+				uk-navbar-toggle-icon
+				data-uk-toggle="target: #mobnav"
+			></a>
+		</div>
+	</div>
+	<nav id="mobnav" data-uk-offcanvas="flip: true" class="uk-offcanvas">
+		{%- render "@macro-offmenu", {mode:'offmenu',primary:primary,
+		secondary:secondary, ctas:ctas} -%}
+	</nav>
+</header>
+<style>
+	.pq-droparea {
+		width: 980px !important;
+	}
+	.pq-drop {
+		background: #ffffff;
+		border-radius: 8px;
+		box-shadow: 0 5px 10px rgb(0 0 0 / 10%), 0 0 10px rgb(0 0 0 / 15%);
+		{# padding: 10px; #}
+	}
+	.mainmenu > div  {
+		padding: 30px;
+	}
+	.submenu > div {
+		padding: 30px;
+	}
+	.secondary .uk-navbar-nav li a {
+		min-height: 0px;
+	}
+	.arrowdown {
+		position: absolute;
+		{# display: none; #}
+		display:inline-block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 18px 15px 18px;
+		bottom: 3px;
+		border-color: transparent transparent #fff transparent;
+		z-index:1050;
+		opacity: 0;
+
+	}
+	a[aria-expanded=true] .arrowdown {
+		animation: fadeIn .2s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes fadeIn {
+		from { opacity: 0; }
+		to { opacity: 1; }
+	}
+
+	.mainmenu li a .label, .submenu .label {
+		color:#000 !important;
+	}
+
+	.mainmenu .uk-text-primary.label {
+		color: var(--primary) !important;
+	}
+
+	.mainmenu li a:hover, .mainmenu li a:hover .label {
+		color: var(--primary) !important;
+	}
+	.submenu a.uk-link-color.uk-text-link:hover {
+		color: var(--link-color) !important;
+		font-weight: bold;
+	}
+</style>

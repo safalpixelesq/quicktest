@@ -1,0 +1,705 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "The AI-powered alternative to Gong | Aviso vs Gong",
+		"description": "Proven at a Fortune 500 scale, Aviso is the only revenue intelligence platform to supply sales teams with AI-powered selling tips, improve win rates by up to 30%, and eliminate 14+ hours worth of CRM operating time for reps",
+
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image",
+			"subtitle": "AVISO VS BOOSTUP",
+			"title": "Why are <i class='uk-text-primary'>Revenue Leaders</i> choosing Aviso over Gong?",
+			"description": "Proven at a Fortune 500 scale, Aviso is the only revenue intelligence platform to supply sales teams with AI-powered selling tips, improve win rates by up to 30%, and eliminate 14+ hours worth of CRM operating time for reps",
+
+			"image": {
+				"url": "https://info.aviso.com/hubfs/Landing%20page%20updated-1.gif",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"url": "#compareTable",
+					"label": "See Comparison",
+					"type": "primary"
+				}
+			],
+			"style": {
+				"background": "#f2f2f2",
+				"invert": true,
+				"mediaWidth": "3/5",
+				"container": "md",
+				"spacing": "lg"
+			}
+		},
+		{
+			"module": "image-stack--logos-boxed",
+			"uid": "customers",
+			"subtitle": null,
+			"title": "These high-performance selling teams use Aviso to succeed",
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/ringcentral-logo.png",
+						"alt": "RingCentral"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/launchdarkly.webp",
+						"alt": "LaunchDarkly"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/seagate_logo.webp",
+						"alt": "Seagate"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/marlin-logo.webp",
+						"alt": "Marlin Equity Partners"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#ffffff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": null,
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"itemAnimation": "fade",
+				"itemBackground": ""
+			}
+		},
+
+		{
+			"module": "text-stack--comparison-block",
+			"uid": "compareTable",
+			"subtitle": "",
+			"title": "Why settle for an expensive call recording tool? <br/>Get more features for a fraction of the price.",
+			"description": "Gong treats essential revenue functions like forecasting, CRM data capture, and collaboration as an afterthought and still costs as much as your CRM (!) With Aviso, you get a forecasting, deal execution, and advanced conversational intelligence platform, all in one package.",
+			"ctas": [
+				{
+					"label": "Gong",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/gong-logo.webp",
+						"alt": "Gong Logo"
+					}
+				},
+				{
+					"label": "Aviso",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/aviso-logo.webp",
+						"alt": "Aviso Logo"
+					}
+				}
+			],
+			"items": [
+				{
+					"title": "Core Revenue Operations"
+				},
+				{
+					"title": "Basic Forecasting",
+					"ctas": [
+						{
+							"url": "true"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Complex Roll-Up Forecasts",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Pipeline Inspection",
+					"description": "",
+					"ctas": [
+						{
+							"url": "true"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Customized AI nudges",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "AI WinScore with explanations",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Advanced Revenue Analytics & Reporting",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Activity and Relationship Intelligence"
+				},
+				{
+					"title": "Owner Insights",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Booking timeline Insights",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Engagement grade",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Rep Leaderboards",
+					"ctas": [
+						{
+							"url": "true"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Email body insights",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Conversational Intelligence"
+				},
+				{
+					"title": "Emotional analysis",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Aspect based Sentiment analysis and NLP",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Call recordings",
+					"ctas": [
+						{
+							"url": "true"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Customer intent and Key Themes",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Transcription Summary",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "CI Insights",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Transcription Accuracy",
+					"description": "",
+					"ctas": [
+						{
+							"label": "90%",
+							"url": "false"
+						},
+						{
+							"label": "95%",
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Collaboration"
+				},
+				{
+					"title": "Deal WaRooms",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Forecast Rooms",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Coaching Rooms",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Customer Collaboration Rooms",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "CRM Automation"
+				},
+				{
+					"title": "Activity and Contact Auto-population",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Full CRM Replication",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Advanced Machine Learning"
+				},
+				{
+					"title": "Temporal Database with 6-8 Quarters of CRM and other data history",
+					"description": "",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				},
+				{
+					"title": "Comprehensive factor-based machine learning algorithms",
+					"ctas": [
+						{
+							"url": "false"
+						},
+						{
+							"url": "true"
+						}
+					]
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 3,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#4B5563",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--images-alternating",
+			"subtitle": "",
+			"title": "Features Gong wishes it had",
+			"description": "Packed with features to end all your revenue intelligence woes",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Aspect and Intent-Based Sentiment analysis",
+					"description": "Gauge customer and buyer intent through visual indicators. Aviso’s sentiment analysis picks up on the underlying tone of a conversation in any given prospect meeting and assigns a sentiment score to it. This enables you to discern meeting effectiveness and how buyer sentiment changes with each call.",
+
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/compare/image1.webp",
+						"alt": "Sentiment analysis"
+					}
+				},
+				{
+					"title": "Keep a live pulse on prospect engagement during deal meetings",
+					"description": "Understand your prospects' feelings during a video call -- are they unimpressed, happy, or disengaged? Picking up on these cues and tailoring pitches to them could be the difference between deals that win and ones that don’t.",
+
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/compare/image2.webp",
+						"alt": "Fantastic"
+					}
+				},
+				{
+					"title": "Unite people and deal data within collaboration spaces",
+					"description": "Dedicated embedded collaboration spaces inside the platform where you can align teams on forecasts, review deals, and coach teams on deal best practices.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/compare/image5.webp",
+						"alt": "Generic"
+					}
+				},
+				{
+					"title": "Relationship Maps",
+					"description": "Understand buyer-seller engagement levels to see if your reps are engaging the right personas for the deal. Get a summary of the engagement levels– emails sent and received, meetings set up, and whether the frequency of rep-prospect interactions has increased or decreased over time.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/compare/image6.webp",
+						"alt": "Generic"
+					}
+				},
+				{
+					"title": "Transcription Summary",
+					"description": "Automatically-generated call transcriptions and summaries will save your reps lots of valuable time, allowing them to obtain the key takeaways of each call without having to listen to it from start to finish.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/compare/image7.webp",
+						"alt": "Generic"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(135deg, #151A42 20%, rgba(220,71,62,1) 100%)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 1,
+				"columnGap": "lg",
+				"mediaPos": "right",
+				"mediaWidth": "1/2",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"itemAnimation": "push"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-on-side",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "- Lori Harmon",
+					"subtitle": "VP Digital Virtual Sales, NetApp",
+					"description": "The key was the Conversational Intelligence. We could look at calls that our reps were doing with customers, channel partners, or even some of our sellers and learn from those calls. Because everything is digitized immediately and Aviso shows us the keywords that were discussed in that call. So, we could identify opportunities for training our CSMs, our sellers, and even learning about customers, where they could be confused about our product. That’s invaluable if you want to learn what’s happening with your customers or partner organizations.",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "NetApp"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lori_harmon.webp",
+						"alt": "Lori Harmon"
+					},
+					"style": {
+						"background": "#1E46BA"
+					}
+				},
+				{
+					"title": "- Kanish Jindal",
+					"subtitle": "Head of Global Strategies and and Operations, RingCentral",
+					"description": "Aviso has greatly helped us in driving more transparency, conversation, and incremental growth (which more than pays for the investment in Aviso). I highly recommend Aviso to global operations and strategy teams to run their business with the power of predictive Artificial Intelligence",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/ringcentral-logo.png",
+						"alt": "RingCentral Logo"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/kanish-jindal_ringcentral.png",
+						"alt": "Kanish Jindal"
+					},
+					"style": {
+						"background": "#1F84BC"
+					}
+				},
+				{
+					"title": "- Craig Pratt",
+					"subtitle": "Founder, Next Level Leader",
+					"description": "Aviso has built the next generation transformational platform for Revenue leaders (sales/ops). I've spoken to multiple CRO's who are betting the farm on leveraging Aviso’s platform for forecast, relationship, and conversational intelligence. The future is bright for reimagining the RevTech category.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/craig_pratt.webp",
+						"alt": "Craig Pratt"
+					},
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/nll-logo.png",
+						"alt": "Next Level Leader Logo"
+					},
+					"style": {
+						"background": "#309BD5"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": null,
+				"itemAlign": "center",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center",
+				"mediaWidth": "1/2",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:9",
+				"itemBackground": ""
+			}
+		},
+
+		{
+			"module": "image-stack--logos-boxed",
+			"subtitle": "INTEGRATIONS",
+			"title": "Connect your favorite selling tools to Aviso",
+			"description": "Leverage Aviso's growing integration marketplace to continue using your favorite sales-driving tools along with our revenue intelligence hub: CRM, Video conferencing, Sales engagement, customer ticketing, and more",
+			"ctas": [
+				{
+					"type": "link",
+					"label": "See all Integrations",
+					"url": "/platform#integrations"
+				}
+			],
+			"items": [
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/salesforce.webp",
+						"alt": "Salesforce"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/microsoft_dynamics.webp",
+						"alt": "Microsoft Dynamics 365"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sap.webp",
+						"alt": "SAP"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/oracle.webp",
+						"alt": "Oracle"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/google_workspace.webp",
+						"alt": "Google"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/zendesk.svg",
+						"alt": "Zendesk"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/office_365.webp",
+						"alt": "Microsoft Office 365"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/zoom.webp",
+						"alt": "Zoom"
+					}
+				},
+				{
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/outreach-n.webp",
+						"alt": "Outreach"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 6,
+				"itemAlign": "center",
+				"columnGap": "md",
+				"itemBackground": "#FFF"
+			}
+		},
+
+		{
+			"module": "simple-block--full-card",
+			"uid": "contact",
+			"subtitle": "",
+			"title": "Make the Switch, talk to our experts today.",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Talk to an Expert",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #F3f4f6 0%, #F3f4f6 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center"
+			}
+		}
+	]
+}

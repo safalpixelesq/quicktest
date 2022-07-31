@@ -1,0 +1,21 @@
+{%- set style = style | setDefaults({background:'#ffffff', align: 'left',
+spacing:'xs', container: 'md'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }} uk-text-{{style.align}}">
+		<div class="uk-flex uk-flex-between@m uk-flex-middle uk-flex-wrap">
+			<div>
+				{%- render "@macro-texts", {heading:"4", weight:"normal",
+				justify:style.justify, align:style.align, color: style.color,
+				title:title, description:description } -%}
+			</div>
+			<div class="uk-flex-right" style="margin-top: -10px">
+				{%- render "@macro-texts", { justify:'right', align:style.align,
+				ctas:ctas } -%}
+			</div>
+		</div>
+	</div>
+</section>

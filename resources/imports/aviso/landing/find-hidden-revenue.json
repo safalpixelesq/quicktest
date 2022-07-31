@@ -1,0 +1,238 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"index": true,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"title": "Let’s find the $10M trapped in your pipeline | Aviso",
+		"description": "Aviso is the only AI-guided Revenue Operating System for Sales and Go-to-Market teams. Aviso’s single pane of glass helps Fortune 500 and high-growth leaders win more deals, reduce CRM burden, and find their revenue True North.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image",
+			"subtitle": "<div class='animate-charcter uk-head-font' style='font-size:27px'>REVENUE MINING</div><br/> <div class='animate-charcter' style='font-size:39px'>CHALLENGE</div>",
+			"title": "<div style='' >Let's find the <i class='uk-text-primary uk-display-block  uk-h1 uk-heading-medium uk-margin-remove-bottom'  data-uk-parallax='target: !.uk-section +* +*; end: 100%; '>$9.87M*</i><div class='uk-h2 uk-margin-remove-top' >trapped in your pipeline</div></div>",
+			"description": "<div class='uk-body-font' id='intro' data-uk-parallax='target: !.uk-section +* +*; end: 100%;'>Let Aviso’s proprietary AI-based Revenue Intelligence Platform surface nearly $10M worth of hidden deals in your pipeline</div> <div class='uk-text-small uk-margin-medium-top uk-margin-large-bottom'>* Our Data team is obsessed with pi</div>",
+			"ctas": [
+				{
+					"label": "Start mining my pipeline ( it’s free)",
+					"url": "#requestDemo",
+					"type": "primary"
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/hidden-revenue.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+
+			"style": {
+				"background": "#f2f2f2",
+				"container": "md",
+				"spacing": "lg",
+				"mediaWidth": "3/5"
+			}
+		},
+		{
+			"module": "text-stack--cards",
+			"subtitle": "HOW IT WORKS",
+			"title": "<div class='uk-h3'>Aviso’s Time Series AI Engine will dive into your CRM and other data sources and emerge with insights into hidden revenue in your pipeline</div>",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "<div class=''>Data Ingestion for Time Series Analysis</div>",
+					"description": "Sync data from past quarters including data in CRM, email, calendar, calls, meetings. Worried about stale or limited CRM data? Don’t worry. Aviso’s AI can work with any kind of data. ",
+					"icon": "",
+
+					"ctas": null,
+					"style": {}
+				},
+				{
+					"title": "Advanced ML & Deep Learning Analysis",
+					"description": "Feed data into Aviso’s AI which applies Recurrent Neural Networks, LSTMs, Gradient Boosted Methods, Locality Sensitive Hashing, NER, NLI models to get the full picture on your deals.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3MXxKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Rustic"
+					},
+					"ctas": null,
+					"style": {}
+				},
+				{
+					"title": "Current & Future Quarter Pipeline Analysis",
+					"description": "Analyze both existing quarter pipeline and ”unborn” pipeline and get a more strategic view of your pipeline using the best of both automated AI judgment and expert human judgment",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620589125083-86893487a0a3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwN3xyblNLREh3d1lVa3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Practical"
+					},
+					"ctas": null,
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#153891",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "middle",
+				"columns": 3,
+				"columnGap": null,
+				"itemAlign": "left",
+				"itemBackground": "#f2f2f2",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "top",
+				"itemIconBackground": "#FC8F34",
+				"itemIconColor": "#fff",
+				"itemIconShape": "rounded",
+				"itemIconSize": "lg"
+			}
+		},
+		{
+			"module": "icon-stack--steps",
+			"subtitle": "",
+			"title": "Revenue Mining - as easy as 1, 2, 3! Apply Now.",
+			"description": "&nbsp;",
+			"ctas": "",
+			"items": [
+				{
+					"title": "",
+					"description": "Once you apply, our reps will reach out and determine eligibility to join the challenge. Once you qualify, we’ll get the challenge underway through a Pipeline Assessment Call!",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620608964186-18a8cfc2ad44?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExOHxhZXU2ckwtajZld3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Licensed"
+					},
+					"ctas": null,
+					"style": {}
+				},
+
+				{
+					"title": "",
+					"description": "During the Pipeline Assessment, we show you where your revenue is trapped and how you can tap into it using Aviso’s Fortune 500-tested Revenue Intelligence Platform",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620589125083-86893487a0a3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwN3xyblNLREh3d1lVa3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Practical"
+					},
+					"ctas": null,
+					"style": {}
+				},
+				{
+					"title": "",
+					"description": "You get a detailed, personalized report of all the hidden revenue lying untapped in your pipeline and the next steps you need to take in order to ‘unblock’ it.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620589125083-86893487a0a3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwN3xyblNLREh3d1lVa3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Practical"
+					},
+					"ctas": null,
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "lg",
+				"spacing": "lg",
+				"justify": "center",
+				"columns": 3,
+				"columnGap": "xl",
+				"itemAlign": "center",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "center",
+				"itemIconPos": "top",
+				"itemIconBackground": "var(--primary)",
+				"itemIconColor": "#fff",
+				"itemIconShape": "circle",
+				"itemIconSize": "xl"
+			}
+		},
+		{
+			"module": "image-block--testimonial-with-image",
+			"subtitle": "VENAFI",
+			"title": "<i class='uk-body-font uk-h3'>I've been a customer for 5 years at 2 companies, and its analytics are next level. I evaluated Clari and its not even close. The outlook integration is very insightful, as you can dive deep into analyzing customer touches and stalled deals and processes. Aviso is super responsive to enhancements and the team is always driving their product to the next level of insights. Great job Aviso team.</i>",
+			"description": "Brad Stratton",
+			"ctas": [
+				{
+					"type": "video",
+					"label": "Watch now",
+					"url": "https://www.youtube.com/embed/MGqMMNVPAiM",
+					"size": "sm",
+					"external": false
+				}
+			],
+			"image": {
+				"url": "https://res.cloudinary.com/pixelesq/image/upload/v1646092351/aviso_2/brad_stratton_nobg-1646092351053.webp",
+				"alt": "Brad Stratton",
+				"caption": ""
+			},
+			"style": {
+				"align": "left",
+				"background": "#f3f3f3",
+				"color": null,
+				"invert": false,
+				"container": "ex",
+				"spacing": "md",
+				"mediaPos": "left",
+				"mediaWidth": "2/5",
+				"justify": "left"
+			}
+		},
+		{
+			"module": "simple-block--simple-block",
+			"uid": "",
+			"subtitle": "",
+			"title": "<div style='margin-bottom:300px'><i class=' uk-h1 uk-display-block' style='' data-uk-parallax='x:-500,0,0;y:0,0,300; scale:1,1,.8; opacity:0,1, 1;start: 100% + 100; end: 100% + 100;'>If we don’t find the hidden $10M, we’ll donate $50,000 worth of software to a non-profit of your choice.</i><div class='uk-text-primary uk-h1 uk-display-block' data-uk-parallax='opacity:0,0,1;x:0,0, 0;start: 100% + 100; end: 100% + 100;y:100,220,360;scale:1,1.2,1.2'>Either way, it's a win-win</div></div>",
+			"description": "",
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/aboutshapebg.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+
+			"style": {
+				"background": "#f2f2f2",
+				"container": "md",
+				"align": "center",
+				"spacing": "xl",
+				"mediaWidth": "1/2"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "",
+			"title": "Its your pipeline vs Aviso’s Advanced AI Engine.",
+			"description": "<!--[if lte IE 8]><script charset='utf-8' type='text/javascript' src='//js.hsforms.net/forms/v2-legacy.js'></script><![endif]--><script charset='utf-8' type='text/javascript' src='//js.hsforms.net/forms/v2.js'></script><script>hbspt.forms.create({region: 'na1',portalId: '531684',formId: '664f6389-90e1-4818-b4d6-39d8482e1b00'});</script>",
+			"ctas": [
+				{
+					"label": "Start mining my pipeline",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center"
+			}
+		}
+	]
+}

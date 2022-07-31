@@ -1,0 +1,17 @@
+{%- set style = style | setDefaults({background:'linear-gradient(to bottom,
+rgba(76, 81, 191, 0.9), rgba(76, 81, 191, 0.7))',spacing:'md', align:'center',
+justify: 'center'}) -%}
+<div class="uk-position-relative uk-padding">
+	<div
+		class="{{ style | setSection('class') }} {{ style | setContainer }} uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}} uk-border-rounded uk-box-shadow-large"
+		style="{{ style | setSection('style') }}"
+	>
+		<div class="uk-width-2-3@m">
+			{%- render "@macro-texts", {heading:"1", weight:"normal", size:'lg',
+			justify:style.justify, align:style.align, color: style.color, hero:
+			true, subtitle:subtitle, title:title, description:description,
+			ctas:ctas } -%}
+		</div>
+	</div>
+</div>
+z

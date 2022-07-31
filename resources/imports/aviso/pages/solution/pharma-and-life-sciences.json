@@ -1,0 +1,230 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Pharma and Life Sciences | Aviso Solution",
+		"description": "Aviso’s AI revenue operating system is designed to power digital sales transformation for specialized industries such as Pharma & Life Sciences.",
+
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "PHARMA AND LIFE SCIENCES",
+			"title": "Scale seller-HCP digital engagement to drive business value.",
+			"description": "Aviso’s AI revenue operating system is designed to power digital sales transformation for specialized industries such as Pharma & Life Sciences.",
+			"ctas": [
+				{
+					"label": "See Aviso in action",
+					"url": "/video",
+					"type": "primary"
+				}
+			],
+			"image": {
+				"url": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80",
+				"alt": "Image",
+				"caption": ""
+			},
+			"style": {
+				"background": "#f2f2f2",
+				"container": "md",
+				"invert": true,
+				"mediaWidth": "1/2",
+				"spacing": "lg"
+			}
+		},
+		{
+			"module": "text-stack--text-stack",
+			"subtitle": "",
+			"title": "The Current State of Pharma Sales",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "",
+					"description": "Covid-19 forced pharmaceutical companies globally to critically evaluate their customer engagement and sales practices. Pharmaceutical companies, on an average, reduced the size of their sales workforce 4%-6% during the pandemic. Research indicates that going forward less than 25% of interactions between a healthcare professional (HCP), medical sales liaison (MSL), and sales rep could be ‘in-person’. Over 60% of interactions will be ‘hybrid’, both in-person and virtual. Lockdowns, social distancing, and travel restrictions have permanently altered how both HCP’s and pharmaceutical reps engage with each other. </br> </br>Omni-channel communication and AI-driven engagement is emerging as a top trend in Life Sciences and Pharma, with increasing pressure on delivering a digital new normal for all participants. HCPs are under more stress and need to balance time between patient care and virtual sales interactions.  The industry’s future depends on balancing regulatory compliance, improving rep productivity, and engaging differently across a new generation of digital-first Field Reps, HCPs, and MSLs.",
+
+					"ctas": null,
+					"style": {
+						"background": "#fff"
+					}
+				},
+				{
+					"title": "",
+					"description": " <ul class='uk-list uk-text-large uk-list-square uk-list-divider uk-list-large'><li>Of the 75% of physicians who preferred in-person visits from MedTech/Pharma reps prior to Covid-19, 47% now prefer virtual exchanges or less-frequent visits.</li><li>For over 40% of the interactions between HCP’s and reps, video calls is the preferred medium. Emails and Messaging (using WhatsApp, Slack etc.) constituted over 25% of the interactions.</li><li>HCP’s today have fewer hours (down 8% - 10% from pre-pandemic levels) to engage with reps, severely reducing walk-ins, drop-by and face-to-face interactions</li></ul>",
+
+					"ctas": null,
+					"style": {
+						"background": "#fff"
+					}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--images-alternating",
+			"subtitle": "",
+			"title": "How Aviso Helps Pharma Sales Teams",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Swarm and Win as One Team",
+					"description": "Aviso is a purpose-built AI platform to help Pharma and Life Sciences teams better manage sprawl of people and tools, grow their HCP and MSL relationships and provide a superior customer experience within one integrated workspace.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/pharma-feat-1.webp",
+						"alt": "Sleek"
+					}
+				},
+				{
+					"title": "Strengthen HCP Relationships",
+					"description": "Aviso focuses on deeper relationships to maximize long-term transaction value. It helps sellers use purpose-built digital channels such as messaging and video, with AI guidance to communicate better with HCPs, while capturing intelligence on activities and engagement (calls & emails) signals on the health of the relationship.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/pharma-feat-2.webp",
+						"alt": "Sleek"
+					}
+				},
+				{
+					"title": "Guide Reps Via Next Best Actions",
+					"description": "Aviso surfaces Next Best Actions via a system of nudges for reps. In addition to providing a 360 view of interaction and engagement between a Pharma GTM team and HCPs, Aviso recommends Next Best Actions on who, when, where, and how sellers can engage with HCPs and MSLs to drive transactions and deepen relationships.",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/pharma-feat-3.webp",
+						"alt": "Sleek"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "var(--secondary)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 1,
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemMediaWidth": "3/5",
+				"itemMediaPos": "right"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-on-side",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "- Will Anastas",
+					"subtitle": "CRO at Conviva",
+					"description": "Aviso is forecasting on steroids. It's got such powerful components to it, you layer in the AI and now I've got dashboards, and I love the analytics around where pipeline's going, what's moving, when it's moving, why it's moving",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/conviva_logo.webp",
+						"alt": "Conviva"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/will_anastas.webp",
+						"alt": "Will Anastas"
+					},
+					"style": {
+						"background": "#033033"
+					}
+				},
+				{
+					"title": "- Sanjay Sadhu",
+					"subtitle": "Global VP and GM, Hitachi Vantara",
+					"description": "With Trevor's leadership, Aviso is leading in product innovation and overall vision. From sales management perspective, Aviso provides excellent benefits that help companies manage sales, forecast accuracy and overall revenue goals and drive the business",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/hitachi-vantara-logo.webp",
+						"alt": "Hitachi Vantara"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/sanjay_sadhu.webp",
+						"alt": "Sanjay Sadhu"
+					},
+					"style": {
+						"background": "#000000"
+					}
+				},
+				{
+					"title": "- Luis CiFuentes",
+					"subtitle": "Sales Enablement Leader, Honeywell",
+					"description": "With Aviso, there's no place to hide for those on your team prone to 'sandbagging'. It also helps to de-risk your pipeline when you have the opposite problem with people on your team who may be too optimistic on their deals. Aviso's mechanism and UI to roll up forecasts is intuitive and uses data from multiple sources not just your CRM. We use Intelligent Forecasting and Conversational Intelligence",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/luis_cifuentes.webp",
+						"alt": "Honeywell"
+					},
+					"style": {
+						"background": "#FC1615"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": null,
+				"itemAlign": "center",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center",
+				"mediaWidth": "1/2",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:9",
+				"itemBackground": ""
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "contact",
+			"subtitle": "",
+			"title": "Switch to the most scalable sales intelligence solution on the market.",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Talk to an Expert",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #F3f4f6 0%, #F3f4f6 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center"
+			}
+		}
+	]
+}

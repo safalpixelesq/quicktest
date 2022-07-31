@@ -1,0 +1,41 @@
+{% set style = style | setDefaults({background:'#fff', spacing:'sm',
+align:'center', justify: 'center', container:'md' }) %}
+<footer
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+>
+	<div class="{{ style | setContainer }}">
+		<div
+			class="uk-text-{{style.align}} primary uk-grid uk-flex uk-flex-middle uk-flex-{{style.justify}}"
+			data-uk-grid
+		>
+			<div class="uk-width-expand@s">
+				<div class="desc uk-text-small">{{description | safe}}</div>
+			</div>
+
+			<div class="uk-width-auto@s social">
+				<ul class="uk-iconnav">
+					{%- for link in social -%}
+					<li>
+						<a
+							class="
+								uk-icon-button
+								uk-flex
+								uk-flex-middle
+								uk-text-center
+							"
+							href="{{link.url}}"
+							data-uk-icon="icon: {{link.label}}"
+						></a>
+					</li>
+					{%- endfor -%}
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<style>
+	.social .uk-icon svg {
+		margin-top: 8px;
+	}
+</style>

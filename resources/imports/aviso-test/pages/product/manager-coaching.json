@@ -1,0 +1,621 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Interactive Reports/Analytics | Aviso Coach",
+		"description": "Aviso Coach is an integrated AI sales coaching system to help modern sales managers create champion sales reps and teams. Aviso’s real-time performance leaderboards and purpose-built coaching rooms help leaders drive deal-specific corrective actions, and model A+ rep behavior to implement specific coaching playbooks with content and sales enablement.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-split",
+			"subtitle": "<div class='uk-flex uk-flex-middle'><div class='uk-margin-small-right uk-width-auto'><img src='https://assets.uiaas.io/web/aviso/aviso_coach.svg' width='50px' alt='Aviso Coach'></div><div class='uk-width-auto '><div class='uk-head-font label uk-margin-remove-bottom uk-h4'>Aviso Coach</div></div></div>",
+			"title": "The only AI-based <span class='uk-text-primary'>Sales Coaching Platform</span>",
+			"description": "Insights don’t get the best out of your sales team. Smart managers like you do. Aviso empowers sales managers to identify winning plays, transfer them across your entire team and turn every rep into a rockstar ",
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/coach-herobg.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "See Aviso Coach in action",
+					"url": "#requestDemo"
+				}
+			],
+			"style": {
+				"background": "#f3f3f3",
+				"invert": true,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"spacing": "md"
+			}
+		},
+		{
+			"module": "text-stack--giant-card",
+			"uid": "overview",
+			"subtitle": "",
+			"title": "Discover how Aviso Coach helps your reps achieve a 300% increase in close rate",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "",
+					"title": "The problem for Sales Managers",
+					"description": "<ul class='list-bad uk-margin-medium-top'><li>No visibility into deals. Coaching reps on commits becomes a biased debate</li><li>No way to ensure reps stick to your playbook and execute the right actions for very deal</li><li>No way to understand why top reps succeed while others fail to hit quota</li><li>Time-consuming to sit on entire calls/ call recordings to gauge what’s being discussed</li><li>Ramping new reps take way too much time</li><li>Difficult to produce context on coaching calls</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620608964186-18a8cfc2ad44?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExOHxhZXU2ckwtajZld3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Refined"
+					},
+					"ctas": [
+						{
+							"type": "link",
+							"label": "Get Started",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				},
+				{
+					"subtitle": "",
+					"title": "The Aviso Coach Solution",
+					"description": "<ul class='list-good'><li>AI gives unbiased answers to which deals to pull in and out of commits</li><li>Understand the true nature of rep-buyer relationships in every deal</li><li>NLP-based insights show what top reps do on every call </li><li>Smart Summaries help you quickly understand how discussions truly went and next steps</li><li>Boost ramp times by 35% through ‘sales cloning’</li><li>Use context-driven spaces to conduct meetings</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3MXxKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Intelligent"
+					},
+
+					"style": {
+						"background": "#333366"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-block--testimonial-with-image",
+			"subtitle": "NETAPP",
+			"title": "<i class='uk-body-font uk-h4'>Aviso helped us find areas where the objection was because a prospect was confused. It created an opportunity to educate the customer or partner and eliminate that objection in the future</i>",
+			"description": "Lori Harmon, VP Digital Virtual Sales",
+			"ctas": [
+				{
+					"type": "video",
+					"label": "Watch now",
+					"url": "https://www.youtube.com/embed/hRwBVRfmnZE",
+					"size": "sm",
+					"external": false
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+				"alt": "Lori Harmon",
+				"caption": ""
+			},
+			"style": {
+				"align": "left",
+				"background": "#f3f3f3",
+				"color": null,
+				"invert": false,
+				"container": "ex",
+				"spacing": "md",
+				"mediaPos": "left",
+				"mediaWidth": "2/5",
+				"justify": "left"
+			}
+		},
+		{
+			"module": "nav-block--subnav",
+			"logo": {
+				"url": "#",
+				"src": null,
+				"label": "<div class='uk-flex uk-flex-middle' style='margin-top:-3px'><div class='uk-margin-small-right uk-width-auto'><img src='https://assets.uiaas.io/web/aviso/aviso_coach.svg' width='42px' alt='Aviso Coach'></div><div class='uk-width-expand'><div class='uk-head-font label uk-margin-remove-bottom uk-h4'>Aviso Coach</div></div></div>",
+				"tagline": null
+			},
+			"primary": [
+				{
+					"label": "Overview",
+					"url": "#overview",
+					"external": null
+				},
+				{
+					"label": "Features",
+					"url": "#features",
+					"external": null
+				},
+				{
+					"label": "Reviews",
+					"url": "#reviews",
+					"external": null
+				},
+				{
+					"label": "Resources",
+					"url": "#resources",
+					"external": null
+				},
+				{
+					"label": "Contact",
+					"url": "#requestDemo",
+					"external": null,
+					"type": "primary"
+				}
+			],
+			"style": {
+				"background": "#fff",
+				"container": "md",
+				"spacing": "xs",
+				"justify": "middle",
+				"align": "left"
+			}
+		},
+
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "features",
+			"subtitle": "REP FORECASTING",
+			"title": "Hit the forecast on the head",
+			"description": "No more flying blind. Know which deals are winnable or at-risk. Aviso uncovers hidden pipeline insights that sidestep rep bias and deliver a 98% forecasting accuracy.",
+
+			"items": [
+				{
+					"title": "",
+					"description": "Time Series AI Engine continuously integrates data from every customer touchpoint and past pipeline",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Know the real status of every rep’s pipe and coach effectively to close the gaps",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Customize forecasting across any frequency. Pivot across multiple business views with a CRM-independent database",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Combine human and AI judgements. Or pit the manager’s forecast vs the rep and AI’s predictions.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/coachn-feat-1.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "#151A41",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "right",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#fff",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "sentiment",
+			"subtitle": "SALES CLONING",
+			"title": "Roger, copy that!",
+			"description": "Why does Jason crush quota every quarter while Roger lags on the leaderboard? Don’t guess. Identify and clone winning sales behaviors across your entire team.",
+
+			"items": [
+				{
+					"title": "",
+					"description": "Get the gist of critical items discussed, questions raised and next steps through AI generated smart transcriptions",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": "Unbranded"
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Find deal insights and AI-driven playbook recommendations in Coach Rooms. Set them up in 1 click and help reps succeed",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": "Unbranded"
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Replicate the tactics top sellers use to keep the buyer emotion and sentiment high - across the whole team",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Use NLP-based insights to guide new reps on what makes a successful call. A 35% increase in ramp rate - now yours",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": ""
+					},
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/coachn-feat-2.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "#eceefd",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "left",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#333466",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+		{
+			"module": "icon-stack--features-with-images-parallax",
+			"uid": "features",
+			"subtitle": "LEADERBOARDS",
+			"title": "Play together. Win together",
+			"description": "Measure reps based on any metric you need. Celebrate your quota-hitters. Train the rest with AI-driven insights. Build a sales culture that wins, quarter after quarter",
+
+			"items": [
+				{
+					"title": "",
+					"description": "Know who your leading and lagging reps are with Scorecards. Analyze your top reps to coach your low performers",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Understand buyer-rep relationships - how many calls were set up per deal, decision-maker engagement and deal trends",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				},
+				{
+					"title": "",
+					"description": "Coach with context through focused Spaces within Aviso. Easily access all relevant deal data embedded in Coach Rooms.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\" clip-rule=\"evenodd\" /></svg>",
+
+					"ctas": null
+				}
+			],
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/coachn-feat-3.webp"
+			},
+			"style": {
+				"animate": true,
+				"align": "left",
+				"background": "#151A41",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"mediaPos": "right",
+				"mediaWidth": "1/2",
+				"columns": 1,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemIconPos": "left",
+				"itemIconBackground": "#FFF",
+				"itemIconColor": "#fff",
+				"itemIconShape": "none",
+				"itemIconSize": "sm"
+			}
+		},
+
+		{
+			"module": "text-stack--stats-cards",
+			"subtitle": "",
+			"title": "Aviso works at the frontier of predictive AI to help teams close more deals and drive more revenue.",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": 305,
+					"description": "Billion Insights",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"style": {}
+				},
+				{
+					"title": "11+",
+					"description": "Coaching Methodologies Supported",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"style": {}
+				},
+				{
+					"title": "20-32%",
+					"description": "Potential CRM Cost Savings",
+					"ctas": null,
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 3,
+				"columnGap": "md",
+				"itemAlign": "center",
+				"itemBackground": "#f3f4f5",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center"
+			}
+		},
+		{
+			"module": "icon-stack--testimonials-with-logos-on-side",
+			"uid": "reviews",
+			"subtitle": null,
+			"title": null,
+			"description": null,
+			"ctas": "",
+			"items": [
+				{
+					"title": "- Charles Forsgard",
+					"subtitle": "VP Sales, Honeywell",
+					"description": "Aviso Conversational Intelligence (CI) gives insights right to the seller and at the same time, it gives insights to me (the sales leader) on what I should really be coaching the seller on right now, in their pipeline",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/logo-honeywell.webp",
+						"alt": "Honeywell"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/charles_forsgard.webp",
+						"alt": "Honeywell"
+					},
+					"style": {
+						"background": "#FC1615"
+					}
+				},
+				{
+					"title": "- Brian Gumbel",
+					"subtitle": "CRO at Armis",
+					"description": "Under Trevor's leadership, Aviso will become the global standard for organizations and CROs. Such an incredible and easy to use platform!",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/armis-logo.webp",
+						"alt": "Armis"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/brian_gumble.webp",
+						"alt": "Brian Gumbel"
+					},
+					"style": {
+						"background": "#481F6D"
+					}
+				},
+				{
+					"title": "- Lori Harmon",
+					"subtitle": "VP Digital Virtual Sales, NetApp",
+					"description": "I was sold on Aviso and Trevor's vision in my first demo. There is no other platform on the market with such rich functionality. The competition tends to be point solutions that add up to a higher TCO and require separate integrations, eating up the time of your IT team",
+					"icon": {
+						"url": "https://assets.uiaas.io/web/aviso/netapp-logo.png",
+						"alt": "NetApp"
+					},
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/lori_harmon.webp",
+						"alt": "Lori Harmon"
+					},
+					"style": {
+						"background": "#1E46BA"
+					}
+				}
+			],
+			"style": {
+				"align": null,
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": null,
+				"itemAlign": "center",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "center",
+				"mediaWidth": "1/2",
+				"itemAnimation": "fade",
+				"itemAspectRatio": "16:9",
+				"itemBackground": ""
+			}
+		},
+		{
+			"module": "image-stack--image-cards-grid-group",
+			"uid": "resources",
+			"title": "Resources",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Gartner Market Guide for Revenue Intelligence Platforms 2021",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-sentimentanalysis.webp",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read Report",
+							"url": "https://www.aviso.com/wp-content/uploads/2021/11/Market_Guide_for_Rev_739765_ndx-1.pdf",
+							"size": "md",
+							"external": true
+						}
+					],
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/gartner.jpeg); background-size: cover; background-position: left; background-repeat: no-repeat;"
+					}
+				},
+				{
+					"title": "What Is Conversational AI And How Does It Work?",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-coversationalai.webp",
+						"alt": "Incredible"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Find out how",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%);"
+					}
+				},
+				{
+					"title": "Accelerate Remote Selling with Guided Collaboration",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-collab.webp",
+						"alt": "Generic"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Get to know how",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "url(https://images.unsplash.com/photo-1501526029524-a8ea952b15be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3JhcGh8ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60); background-size: cover; background-position: left; background-repeat: no-repeat;",
+						"invert": false
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"justify": "center",
+				"background": "#191919",
+				"columns": 3,
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "",
+			"title": "Ready to unlock your true revenue potential with Aviso AI?",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Book a demo",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #191919 0%, #191919 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center"
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md',
+align:'left', justify: 'left'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-grid" data-uk-grid>
+			<div class="uk-width-1-3@m">
+				<div
+					class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}"
+				>
+					<div>
+						{%- render "@macro-texts", {heading:"2",
+						weight:"normal", size:'lg', justify:style.justify,
+						align:style.align, color:style.color, subtitle:subtitle,
+						title:title, description:description, ctas:ctas } -%}
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-2-3@m">
+				<div class="uk-grid {{ style | setColumns }}" data-uk-grid>
+					{%- for item in items -%}
+					<div>
+						<div
+							class="uk-grid-small uk-flex-top uk-flex"
+							data-uk-grid
+						>
+							<div class="uk-text-success uk-width-auto">
+								<span
+									class="uk-text-bold"
+									data-uk-icon="icon: plus-circle; ratio: 2"
+								></span>
+							</div>
+							<div class="uk-width-expand">
+								{%- set color = style.itemColor -%} {%- render
+								"@macro-texts", {heading:"4", weight:"bold",
+								size:'lg', justify:style.itemJustify,
+								align:style.itemAlign, color:color,
+								subtitle:item.subtitle, title:item.title,
+								description:item.description, ctas:item.ctas }
+								-%}
+							</div>
+						</div>
+					</div>
+					{%- endfor -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

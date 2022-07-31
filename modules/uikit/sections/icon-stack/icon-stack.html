@@ -1,0 +1,45 @@
+{% set style = style | setDefaults({background:'#fff',spacing:'md',
+align:'center', justify: 'center', columns: 3, itemIconPos: 'left',
+itemIconSize: 'md', itemIconBackground: "var(--primary)"}) %}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-flex-top uk-grid {{ style | setColumns }}"
+			data-uk-grid
+			{%-
+			if
+			style.animate
+			-%}
+			data-uk-scrollspy="cls: uk-animation-scale-up; target: .uk-card; delay: 300; repeat:false"
+			{%-
+			endif
+			-%}
+		>
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%}
+			<div class=" {{ style | setIconPos }}">
+				{%- render "@macro-icon", {style:style, icon:item.icon} -%}
+				<div class="uk-card">
+					{%- render "@macro-texts", {heading:"3", hstyle:"uk-h4",
+					weight:"bold", size:'lg', justify:style.itemJustify,
+					align:style.itemAlign, color:style.itemColor,
+					subtitle:item.subtitle, title:item.title,
+					description:item.description, ctas:item.ctas } -%}
+				</div>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

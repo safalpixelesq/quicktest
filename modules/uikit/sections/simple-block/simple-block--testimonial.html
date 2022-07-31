@@ -1,0 +1,24 @@
+{%- set style = style | setDefaults({background:'#efefef',spacing:'md',
+align:'left', justify: 'center'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="{{ style | setContainer }} uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}"
+	>
+		<div class="uk-width-2-3@m">
+			<span uk-icon="icon: quote-right; ratio: 3"></span>
+			<h3 class="uk-margin-small-top uk-text-light">
+				{{ title | safe }}
+			</h3>
+			<div
+				class="uk-text-{{align}} uk-text-bold uk-margin-remove-bottom uk-margin-remove-top desc"
+			>
+				{{description | safe}}
+			</div>
+			<div class="uk-text-{{align}} desc">{{ subtitle | safe }}</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,108 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"title": "About Us | Aviso",
+		"description": "AI for Sales. Aviso uses Machine Learning and Time-Series data to predict the probablity that a deal will close. Find your revenue True North.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-shape",
+			"subtitle": "",
+			"title": "Blog",
+			"description": "Aviso uses Machine Learning and Time-Series data to predict the probablity that a deal will close.",
+			"style": {
+				"align": "left",
+				"justify": "left",
+				"background": "#111",
+				"container": "md",
+				"spacing": "md",
+				"mediaWidth": "2/5",
+				"shapeFill": "#ECEEFD"
+			}
+		},
+		{
+			"module": "image-stack--image-cards-grid",
+			"subtitle": "",
+			"title": "Featured",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "Sriram Kothandaraman",
+					"title": "Important Sales Metrics Your Revenue Teams Should Be Tracking",
+					"description": "AI For Sales",
+					"image": {
+						"url": "http://localhost:3000/_next/image?url=https%3A%2F%2Fwww.aviso.com%2Fwp-content%2Fuploads%2F2021%2F03%2FBlog-Header-Sales-Metrics.jpg&w=1920&q=75",
+						"alt": "Sleek"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read now",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				},
+				{
+					"subtitle": "Austin Twamugabo",
+					"title": "25 Common Sales Objections And How To Handle Them?",
+					"description": "",
+					"image": {
+						"url": "http://localhost:3000/_next/image?url=https%3A%2F%2Fwww.aviso.com%2Fwp-content%2Fuploads%2F2021%2F04%2FBlog-Sales-objections-handling.jpeg&w=1920&q=75",
+						"alt": "Awesome"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read now",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				},
+				{
+					"title": "Forrester Announces New Revenue Operations And Intelligence (RO&I) Category Featuring Aviso",
+					"description": "",
+					"image": {
+						"url": "http://localhost:3000/_next/image?url=https%3A%2F%2Fwww.aviso.com%2Fwp-content%2Fuploads%2F2021%2F10%2FBlog-Header-Forrester.png&w=1920&q=75",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Get Started",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#ECEEFD",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		}
+	]
+}

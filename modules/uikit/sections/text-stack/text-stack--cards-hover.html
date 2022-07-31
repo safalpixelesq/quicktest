@@ -1,0 +1,50 @@
+{%- set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'center', justify: 'center'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-grid {{ style | setColumns }}"
+			data-uk-grid
+			data-uk-height-match="target: .uk-card"
+		>
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%} {%- set
+			color = style.itemColor -%}
+			<div>
+				<a
+					class="{{ style | setItem('class') }} uk-card uk-card-hover uk-card-default uk-card-body uk-padding uk-border-rounded uk-display-block"
+					style="{{ style | setItem('style') }}"
+					href="{{item.ctas[0].url}}"
+				>
+					<div class="match-content">
+						{%- render "@macro-texts", {heading:"4", weight:"bold",
+						size:'lg', justify:style.itemJustify,
+						align:style.itemAlign, subtitle: item.subtitle,
+						title:item.title, description:item.description } -%}
+					</div>
+					{%- set cta = item.ctas[0] -%}
+					<div
+						class="uk-button uk-button-link"
+						target="{{ '_blank' if cta.external else '_self' }}"
+						rel="{{ 'noopener' if cta.external else '' }}"
+					>
+						{{cta.label}} →
+					</div>
+				</a>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

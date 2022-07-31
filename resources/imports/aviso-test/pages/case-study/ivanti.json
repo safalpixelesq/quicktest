@@ -1,0 +1,305 @@
+{
+	"meta": {
+		"apimode": "page",
+		"purge": false,
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"theme": "aviso",
+		"upload": true,
+		"title": "Ivanti | Case Study",
+		"description": "Aviso Enabled Ivanti With “Single Pane of Glass” For Deal Intelligence To Fuel Continued Organic and M&A Growth",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "CASE STUDY",
+			"title": "Ivanti Replaces Clari With Aviso to Get a <span class='uk-text-primary'>Single Pane of Glass</span> ",
+			"description": "",
+			"image": {
+				"url": "https://www.thesoftwarereport.com/wp-content/uploads/2020/10/Ivanti.jpg",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Get a Demo",
+					"url": "#requestDemo"
+				},
+				{
+					"type": "link",
+					"label": "Download PDF",
+					"external": true,
+					"url": "https://assets.uiaas.io/web/aviso/Ivanti_Aviso_Summary_CaseStudy.pdf"
+				}
+			],
+			"style": {
+				"background": "#f3f3f3",
+				"invert": true,
+				"container": "md",
+				"mediaWidth": "1/2",
+				"spacing": "lg"
+			}
+		},
+		{
+			"module": "image-stack--image-split-features",
+			"subtitle": "TECHNOLOGY",
+			"title": "<img class=' uk-margin-bottom' width='200px' src='https://assets.uiaas.io/web/aviso/ivanti-red.svg' alt='Ivanti Logo'>",
+			"description": "Founded in 1985, Ivanti produces IT security, cybersecurity, IT service and asset management, and unified endpoint management software",
+
+			"items": [
+				{
+					"subtitle": "<span data-uk-icon='icon:quote-right; ratio:2.5'></span>",
+					"title": "What I loved about Aviso is how easy & simple it was to pull data from different CRM instances. Aviso took away heavy lifting for IT. Impressive!",
+					"description": "<img class='uk-border-circle uk-margin-right' width='120px' src='https://assets.uiaas.io/web/aviso/al-arun.webp' alt='Ivanti Logo'><span class='uk-text-middle'> Al Arun, Chief Customer Officer, Ivanti</span>",
+
+					"style": {
+						"background": "#333366; border-top-left-radius: 12px; border-top-right-radius: 12px;"
+					}
+				}
+			],
+			"image": {
+				"url": ""
+			},
+			"style": {
+				"align": "left",
+				"background": "#fff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"mediaWidth": "3/5",
+				"mediaPos": "left",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#ff0",
+				"itemMediaPos": "right"
+			}
+		},
+		{
+			"module": "text-stack--giant-card",
+			"uid": "overview",
+			"subtitle": "",
+			"title": "Ivanti faced significant performance issues with previous provider (Clari) and replaced it with Aviso to drive revenue growth and market leadership",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"subtitle": "",
+					"title": "Challenges Faced",
+					"description": "<ul class='list-bad uk-margin-medium-top'><li>Multiple disconnected instances of Salesforce CRM acquired over time</li><li>Manual forecast rollup with XLS & PPT</li><li>Scattered data across CRM and various spreadsheets</li><li>Lack of deal insights into opportunities and activities</li><li>Complex hierarchy requirements</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1620608964186-18a8cfc2ad44?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExOHxhZXU2ckwtajZld3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Refined"
+					},
+					"ctas": [
+						{
+							"type": "link",
+							"label": "Get Started",
+							"url": "#",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {}
+				},
+				{
+					"subtitle": "",
+					"title": "Solution Provided",
+					"description": "<ul class='list-good'><li>Read and write back to multiple CRM instances</li><li>Customized access for sales reps to view their respective opportunity pipeline</li><li>Interactive page layouts for different instances</li><li>Ability to handle varying dollar values for multiple pivots</li><li>Dynamic views of opportunity owners as last node</li><li>Easy ramp to Conversational & Activity Intelligence</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3MXxKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+						"alt": "Intelligent"
+					},
+
+					"style": {
+						"background": "#f2f2f2"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 2,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "#fff",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left"
+			}
+		},
+
+		{
+			"module": "text-stack--feature-list-offset",
+			"subtitle": "",
+			"title": "Benefits for Ivanti",
+			"description": "Aviso Enabled Ivanti With <span class='uk-text-primary'>“Single Pane of Glass”</span> For <span class='uk-text-primary'>Deal Intelligence</span> To Fuel Continued Organic and M&A Growth",
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Get a Demo",
+					"url": "#requestDemo"
+				}
+			],
+			"items": [
+				{
+					"title": "“Single pane of glass” solution providing real-time deal and forecasting intelligence",
+					"description": "",
+					"ctas": null,
+					"style": {}
+				},
+				{
+					"title": "Integrated analytical view of entire business and opportunities pipeline",
+					"style": {}
+				},
+				{
+					"title": "Increase in sales rep productivity which allowed for more focus on customer engagement",
+					"style": {}
+				},
+				{
+					"title": "Significant reduction in IT costs through consolidation of CRM systems",
+					"style": {}
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#ffffff",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "image-stack--image-cards-grid-group",
+			"uid": "resources",
+			"title": "Related Resources",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "Armis Increases Agility And Performance Of It’s Sales Team with Aviso’s AI Forecasting and Deal Signals",
+					"description": "",
+					"image": {
+						"url": "https://www.armis.com/wp-content/uploads/2021/04/Pattern.svg",
+						"alt": "Unbranded"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Read Case Study",
+							"url": "/case-study/armis",
+							"size": "md"
+						}
+					],
+					"style": {
+						"background": "url(https://www.armis.com/wp-content/uploads/2021/04/Pattern.svg); background-size: cover; background-position: left; background-repeat: no-repeat;background:linear-gradient(90deg, rgba(46, 14, 68, 0.8) 0%, rgba(46, 14, 68, 0.8) 100%), url(https://www.armis.com/wp-content/uploads/2021/04/Pattern.svg); "
+					}
+				},
+				{
+					"subtitle": "<span style='color:#fff'>AVISO ACCELERATE</span>",
+					"title": "Nudge Your Way Into Winning Deals - Faster",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>",
+					"image": {
+						"url": "https://assets.uiaas.io/web/aviso/blog-coversationalai.webp",
+						"alt": "Incredible"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Product Overview",
+							"url": "/product/deal-acceleration",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "var(--primary)"
+					}
+				},
+				{
+					"subtitle": "Al Arun, Chief Customer Officer, Ivanti",
+					"title": "Enabling Everywhere Workplace: An introduction to Ivanti",
+					"description": "",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z\" /></svg>",
+					"image": {
+						"url": "",
+						"alt": "Generic"
+					},
+					"ctas": [
+						{
+							"type": "primary",
+							"label": "Watch Video",
+							"url": "https://www.youtube.com/watch?v=K5snPQLIuig",
+							"size": "md",
+							"external": false
+						}
+					],
+					"style": {
+						"background": "#fff",
+						"invert": false
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"justify": "center",
+				"background": "#F2f2f2",
+				"columns": 3,
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemInvert": null,
+				"itemJustify": "left",
+				"itemBackground": "#fff",
+				"itemMediaPos": "left"
+			}
+		},
+		{
+			"module": "simple-block--full-card",
+			"uid": "requestDemo",
+			"subtitle": "",
+			"title": "Ready to unlock your true revenue potential with Aviso AI?",
+			"description": "",
+			"ctas": [
+				{
+					"label": "Sign up for a demo",
+					"url": "#",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "linear-gradient(to bottom, #F2f2f2 0%, #F2f2f2 50%, #fff 50%, #fff 100%);",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center"
+			}
+		}
+	]
+}

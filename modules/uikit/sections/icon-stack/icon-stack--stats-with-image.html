@@ -1,0 +1,141 @@
+{% set style = style | setDefaults({background:'#fff', spacing:'md',
+align:'center', justify: 'center', columns: 1, itemAlign:'left', itemJustify:
+'left', itemIconPos: 'left', itemIconSize: 'sm', itemIconBackground:
+"var(--primary)", mediaWidth: '2/5', mediaPos: 'right', animate:true }) %}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+
+		<div
+			class="uk-grid uk-grid-large {{ style | setMediaContainer }} uk-margin-medium-top"
+			data-uk-grid
+		>
+			<div class="{{ style | setGrid }} uk-flex-top">
+				<div
+					class="uk-grid uk-grid-collapse uk-border-rounded uk-box-shadow-medium uk-overflow-hidden {{ style | setColumns }}"
+					data-uk-grid
+				>
+					{%- for item in items -%} {%- if item.style -%} {%- set
+					style = style | setAttribute('item', item.style) -%} {%-
+					endif -%}
+					<div
+						class="{{ style | setItem('class') }} uk-card"
+						style="border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; {{ style | setItem('style') }}"
+					>
+						<div class="uk-padding {{ style | setIconPos }}">
+							<div
+								class="uk-text-{{style.itemAlign}} uk-flex uk-flex-{{style.itemJustify}}"
+							>
+								{%- if item.icon -%} {%- render "@macro-icon",
+								{style:style, icon:item.icon, overlay:false} -%}
+								{%- endif -%}
+							</div>
+							<div
+								class="uk-text-{{style.itemAlign}} uk-flex-{{style.itemJustify}}"
+							>
+								{%- if item.subtitle -%}
+								<div
+									class="uk-text-{{style.itemAlign}} uk-text-medium"
+									{%-
+									if
+									color
+									-%}
+									style="color: {{color}} !important; opacity: 0.9;"
+									{%-
+									endif
+									-%}
+								>
+									<span class="uk-badge"
+										>{{item.subtitle | safe}}</span
+									>
+								</div>
+								{%- endif -%} {%- if title -%}
+								<h3
+									class="uk-text-{{style.itemAlign}} uk-text-primary uk-margin-remove-bottom uk-margin-small-top uk-hero uk-text-medium uk-h1"
+									{%-
+									if
+									color
+									-%}
+									style="color: {{color}} !important"
+									{%-
+									endif
+									-%}
+								>
+									{{ item.title | safe }}
+								</h3>
+								{%- endif -%} {%- if item.description -%}
+								<h5
+									class="uk-text-{{align}} uk-margin-remove-top uk-margin-remove-bottom"
+									{%-
+									if
+									color
+									-%}
+									style="color: {{color}} !important; opacity: 0.85;"
+									{%-
+									endif
+									-%}
+								>
+									{{ item.description | safe }}
+								</h5>
+								{%- endif -%}
+							</div>
+						</div>
+					</div>
+					{%- endfor -%}
+				</div>
+			</div>
+			<div class="{{ style | setGrid('media') }}">
+				<div class="uk-padding">
+					{%- if video -%}
+					<div class="uk-position-relative uk-margin-bottom">
+						<video
+							src="{{video.url}}"
+							autoplay="autoplay"
+							loop="loop"
+							width="100%"
+							muted="muted"
+							playsinline="playsinline"
+							data-uk-cover
+							{%-
+							if
+							style.animate
+							-%}
+							data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false"
+							{%-
+							endif
+							-%}
+						></video>
+					</div>
+					{%- else -%}
+					<img
+						class="img"
+						width="100%"
+						data-uk-img
+						data-src="{{image.url}}"
+						alt="{{image.alt}}"
+						{%-
+						if
+						style.animate
+						-%}
+						data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false"
+						{%-
+						endif
+						-%}
+					/>
+					{%- endif -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,86 @@
+{%- set style = style | setDefaults({background:'#f4f4f4', spacing:'none',
+align:'center', justify: 'center', itemAnimation: 'pull'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="uk-position-relative uk-visible-toggle"
+		tabindex="-1"
+		uk-slideshow="animation: {{style.itemAnimation}}; autoplay:true; min-height: 500;max-height:{{ style | setMaxHeight }};"
+	>
+		<ul class="uk-slideshow-items">
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%}
+			<li class="">
+				<div
+					class="uk-position-relative uk-height-1-1"
+					style="z-index: 100"
+				>
+					<div
+						class="{{ style | setContainer }} uk-height-1-1 uk-text-{{style.itemAlign}} uk-flex uk-flex-middle uk-flex-{{style.itemJustify}}"
+					>
+						<div class="uk-width-2-3@m">
+							<span
+								{%-
+								if
+								style.itemColor
+								-%}
+								style="color: {{style.itemColor}} !important"
+								{%-
+								endif
+								-%}
+								uk-icon="icon: quote-right; ratio: 3"
+							></span>
+							<h3
+								class="uk-margin-small-top uk-h4 uk-body-font uk-text-light"
+								{%-
+								if
+								style.itemColor
+								-%}
+								style="color: {{style.itemColor}} !important"
+								{%-
+								endif
+								-%}
+							>
+								{{ item.title | safe }}
+							</h3>
+							{% if item.image and item.image.url %}
+							<img
+								class="uk-border-circle"
+								src="{{item.image.url}}"
+								alt="{{item.image.alt}}"
+								width="80px"
+							/>
+							{% endif %}
+
+							<div
+								class="uk-text-{{align}} uk-head-font uk-h3 uk-margin-remove-bottom uk-margin-small-top"
+							>
+								{{item.description | safe}}
+							</div>
+							<div class="uk-text-{{align}} desc ">
+								{{ item.subtitle | safe }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			{%- endfor -%}
+		</ul>
+
+		<a
+			class="uk-position-center-left uk-position-small"
+			href="#"
+			uk-slidenav-previous
+			uk-slideshow-item="previous"
+		></a>
+		<a
+			class="uk-position-center-right uk-position-small"
+			href="#"
+			uk-slidenav-next
+			uk-slideshow-item="next"
+		></a>
+	</div>
+</section>

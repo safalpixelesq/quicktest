@@ -1,0 +1,59 @@
+{% set style = style | setDefaults({background:'#fff',spacing:'md', container:
+'md', align:'center', justify: 'center', columns: 3, itemIconPos: 'left',
+itemIconSize: 'lg', itemIconBackground: "var(--primary)",
+itemIconShape:"rounded"}) %}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-flex-top uk-grid {{ style | setColumns }}"
+			data-uk-grid
+		>
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%}
+			<div class="{{ style | setIconPos }}">
+				<div
+					class="uk-text-{{style.itemAlign}} uk-flex uk-flex-{{style.itemJustify}}"
+				>
+					<div
+						class="uk-flex uk-flex-center uk-flex-middle {{ style | setIcon('class') }}"
+						style="{{ style | setIcon('style') }}"
+					>
+						<div
+							class="uk-text-medium uk-h1 uk-margin-remove-bottom"
+							{%-
+							if
+							style.itemIconColor
+							-%}
+							style="color: {{style.itemIconColor}} !important"
+							{%-
+							endif
+							-%}
+						>
+							{{loop.index}}
+						</div>
+					</div>
+				</div>
+				<div>
+					{%- render "@macro-texts", {heading:"4", weight:"bold",
+					size:'lg', justify:style.itemJustify, align:style.itemAlign,
+					color:style.itemColor, subtitle:item.subtitle,
+					title:item.title, description:item.description,
+					ctas:item.ctas } -%}
+				</div>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

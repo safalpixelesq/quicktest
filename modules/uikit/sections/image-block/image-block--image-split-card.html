@@ -1,0 +1,60 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'lg',
+align:'left', justify: 'left', mediaWidth: '1/2', mediaPos: 'right'}) -%}
+<section class="uk-position-relative uk-padding" style="" id="{{uid}}">
+	<div
+		class="{{ style | setContainer }} uk-border-rounded uk-overflow-hidden uk-position-relative uk-box-shadow-large uk-padding-remove-horizontal"
+		style="{{ style | setSection('style') }}"
+	>
+		<div
+			class="{{ style | setMediaContainer }} uk-flex uk-flex-middle uk-grid uk-grid-collapse"
+			data-uk-grid
+			data-uk-height-match
+		>
+			<div class="{{ style | setGrid }} ">
+				<div
+					class="{{ style | setSection('class') }} uk-margin-large-right uk-margin-large-left uk-flex-middle"
+				>
+					{%- render "@macro-texts", {heading:"2", weight:"normal",
+					size:'lg', align:style.align, justify:style.justify,
+					color:style.color, subtitle: subtitle, title:title,
+					description:description, ctas:ctas } -%}
+				</div>
+			</div>
+			<div
+				class="{{ style | setGrid('media') }} uk-position-relative"
+				style=""
+			>
+				<div
+					class="
+						uk-position-absolute
+						uk-background-cover
+						uk-background-top-{{'left' if style.mediaPos==='right' else 'right'}}
+						uk-box-shadow-large
+					"
+					style="
+						background-image:url({{image.url}});
+						left: 0px;
+						right: -1px;
+						bottom: -1px;
+						left: -1px;
+						top: -1px;
+						height: 100%;
+						top: 0px;
+					"
+				></div>
+				<div
+					class="
+						uk-hidden@m uk-height-medium
+						uk-background-cover
+						uk-background-top-{{'left' if style.mediaPos==='right' else 'right'}}
+						uk-box-shadow-large
+
+					"
+					style="
+						background-image:url({{image.url}});
+					"
+				></div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,30 @@
+{%- set style = style | setDefaults({background:'#ffffff',spacing:'md',
+container: 'md', align:'left', justify: 'left'}) -%}
+<section
+	class="{{ style | setSection('class') }} uk-preserve-color"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }} text-{{style.align}} ">
+		<div class=" uk-flex uk-flex-{{style.justify}}">
+			<div
+				class="uk-margin-remove-bottom uk-width-3-4@m uk-padding-large"
+			>
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align, color:
+				style.color,subtitle:subtitle, title:title } -%}
+			</div>
+		</div>
+		<div class=" uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-margin-bottom uk-width-3-4@m uk-dark">
+				<div
+					class="uk-card uk-padding uk-padding-large uk-card-default uk-border-rounded"
+				>
+					{%- render "@macro-texts", {heading:"2", weight:"normal",
+					size:'lg', justify:style.justify, align:style.align, color:
+					style.color, description:description } -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

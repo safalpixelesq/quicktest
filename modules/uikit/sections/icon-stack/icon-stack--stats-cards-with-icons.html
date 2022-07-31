@@ -1,0 +1,52 @@
+{% set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'left', columns:3, justify: 'left', itemJustify: 'middle', itemAlign:
+'left', itemBackground:'#121', itemIconPos: 'left', itemIconSize: 'md',
+itemIconBackground: "var(--primary)", itemIconShape: 'rounded'}) %}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-grid uk-grid-collapse {{ style | setColumns }} uk-border-rounded uk-box-shadow-medium uk-overflow-hidden"
+			data-uk-grid
+			data-uk-height-match="target: .uk-cards"
+		>
+			{%- for item in items -%} {%- if item.style -%} {%- set style =
+			style | setAttribute('item', item.style) -%} {%- endif -%}
+
+			<div class="" style="border-right: 1px solid #efefef">
+				<div
+					class="{{ style | setItem('class') }} uk-card"
+					style="{{ style | setItem('style') }}"
+				>
+					<div class="uk-padding">
+						<div class="{{ style | setIconPos }} uk-flex-middle">
+							{%- render "@macro-icon", {style:style,
+							icon:item.icon, overlay:false} -%}
+							<div>
+								{%- render "@macro-texts", {heading:"1",
+								weight:"bold", size:'lg',
+								justify:style.itemJustify,
+								align:style.itemAlign, color:style.itemColor,
+								hero:true, subtitle:item.subtitle,
+								title:item.title, description:item.description }
+								-%}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>

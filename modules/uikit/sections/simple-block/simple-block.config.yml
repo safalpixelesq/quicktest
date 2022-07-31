@@ -1,0 +1,300 @@
+title: Simple Block
+status: wip
+default: simple-block
+collated: true
+meta:
+    placement: [2, 3, 4]
+    group: cta
+    tags:
+        - simple
+        - generic
+    config:
+        - align
+        - background
+        - color
+        - invert
+        - container
+        - spacing
+    fields:
+        - subtitle
+        - title
+        - description
+        - ctas
+context:
+    subtitle: "@utils.text.caps"
+    title: "@utils.text.title"
+    description: "@utils.text.xxl"
+    ctas: "@utils.buttons.md"
+variants:
+    - name: simple-block
+      status: ready
+      meta:
+          placement: [2, 3, 4]
+          group: content
+          tags:
+              - simple
+              - generic
+      context:
+          style:
+              align: center
+              background: "#fff"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify: center
+    - name: two-column
+      status: ready
+      meta:
+          placement: [2, 3, 4]
+          group: cta
+          tags:
+              - simple
+              - two-column
+              - generic
+      context:
+          subtitle:
+          title: "@utils.text.md"
+          description: "@utils.text.xxl"
+          # ctas:
+          style:
+              align: left
+              background: "#fff"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify: left
+    - name: simple-hero
+      status: ready
+      meta:
+          placement: [1, 2]
+          group: hero
+          tags:
+              - hero
+              - simple
+      context:
+          style:
+              # background: "linear-gradient(20deg, #b721ff 0%, #21d4fd 100%);"
+              align: center
+              background: "#F3F4F6"
+              color:
+              invert: false
+              container: md
+              spacing: lg
+              justify: center
+    - name: simple-hero-sticky
+      status: ready
+      meta:
+          placement: [1, 2]
+          group: hero
+          tags:
+              - hero
+              - simple
+      context:
+          style:
+              # background: "linear-gradient(20deg, #b721ff 0%, #21d4fd 100%);"
+              align: center
+              background: "#F3F4F6"
+              color:
+              invert: false
+              container: md
+              spacing: lg
+              justify: center
+    - name: simple-hero-shape
+      status: ready
+      meta:
+          placement: [1, 2]
+          group: hero
+          tags:
+              - hero
+              - simple
+      context:
+          style:
+              # background: "linear-gradient(20deg, #b721ff 0%, #21d4fd 100%);"
+              align: left
+              background: "#F3F4F6"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify: left
+    - name: simple-banner
+      status: ready
+      meta:
+          placement: [1, 2, 3, 4, 5]
+          group: cta
+          tags:
+              - banner
+              - callout
+              - cta
+      context:
+          title: <i>A long title with ctas which can callout special pages/events</i>
+          description:
+          ctas:
+              - label: Get Started
+                type: primary
+                url: "#"
+                size: md
+          style:
+              align: left
+              background: "#1F2937"
+              color:
+              invert: false
+              container: md
+              spacing:
+              justify:
+    - name: banner
+      status: ready
+      meta:
+          placement: [2, 3, 4]
+          group: cta
+          tags:
+              - cta
+              - banner
+              - callout
+      context:
+          title: Callout special pages/events
+          description: "@utils.text.xxl"
+          style:
+              align: left
+              background: "#1E40AF"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify:
+    - name: testimonial
+      status: ready
+      meta:
+          placement: [2, 3, 4]
+          group: testimonial
+          tags:
+              - testimonial
+              - callout
+          fields:
+              - title
+              - description
+              - subtitle
+          config:
+              - align
+              - background
+              - invert
+              - container
+              - spacing
+              - justify
+      context:
+          title: "Thank you for making it painless, pleasant and most of all hassle free! You've saved our business! Needless to say we are extremely satisfied with the results."
+          subtitle: "Marketing company"
+          description: Hailey Roberts
+          style:
+              align: center
+              background: "#fff"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify: center
+    - name: hero-card
+      status: ready
+      meta:
+          placement: [1]
+          group: hero
+          tags:
+              - hero
+              - card
+      context:
+          title: "@utils.text.title"
+          description: "We're making forward progress towards guiding principles by implementing quality-assured progress that is both state-of-the-art and mobile."
+          style:
+              align: center
+              background: linear-gradient(to bottom, rgba(76, 81, 191, 0.9), rgba(76, 81, 191, 0.7)),url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+              # background: "#f4f5f6"
+              color:
+              invert: false
+              container: md
+              spacing: lg
+              justify: center
+    - name: hero-halfwide
+      status: ready
+      meta:
+          placement: [1]
+          group: hero
+          tags:
+              - hero
+              - halfwide
+      context:
+          style:
+              align: left
+              background: url(https://images.unsplash.com/photo-1515204230490-1ad00b70ed3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1c2luZXNzfGVufDB8MHwwfHdoaXRlfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60)
+              color:
+              invert: true
+              container: md
+              spacing: lg
+              justify: left
+    - name: card
+      status: ready
+      meta:
+          placement: [3, 4, 5]
+          group: cta
+          tags:
+              - cta
+              - callout
+              - card
+          config:
+              - align
+              - background
+              - color
+              - invert
+              - container
+              - spacing
+              - justify
+      context:
+          description: "@utils.text.xl3"
+          ctas:
+              - label: Get Started
+                url: "#"
+                type: primary
+                size: md
+          style:
+              align: left
+              background: url(https://images.unsplash.com/photo-1579419964575-8c5d90b6522b?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHJuU0tESHd3WVVrfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60)
+              color:
+              invert: false
+              container: md
+              spacing: lg
+              justify: left
+    - name: article
+      status: ready
+      meta:
+          placement: [3, 4, 5]
+          group: cta
+          tags:
+              - cta
+              - callout
+              - card
+          config:
+              - align
+              - background
+              - color
+              - invert
+              - container
+              - spacing
+              - justify
+      context:
+          subtitle: safbsdfjs
+          title: Awesome title
+          description: "@utils.text.xl3"
+          ctas:
+              - label: Get Started
+                url: "#"
+                type: primary
+                size: md
+          style:
+              align: center
+              background: "#f2f2f2"
+              color:
+              invert: false
+              container: md
+              spacing: md
+              justify: center

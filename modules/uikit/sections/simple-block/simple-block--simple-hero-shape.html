@@ -1,0 +1,58 @@
+{%- set style = style | setDefaults({background:'linear-gradient(20deg, #b721ff
+0%, #21d4fd 100%);', spacing:'lg', container:'md', align:'center', justify:
+'center'}) -%}
+<section
+	class="{{ style | setSection('class') }} uk-position-relative"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="{{ style | setContainer }} uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}"
+	>
+		<div class="uk-width-2-3@m">
+			{%- render "@macro-texts", {heading:"1", weight:"normal", size:'lg',
+			justify:style.justify, align:style.align, color: style.color, hero:
+			true, subtitle:subtitle, title:title, description:description,
+			ctas:ctas } -%}
+		</div>
+	</div>
+	<div class="uk-height-small with-shape"></div>
+	<div class="shape-divider-bottom">
+		<svg
+			data-name="Layer 1"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 1200 120"
+			preserveAspectRatio="none"
+		>
+			<path
+				d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+				class="shape-fill"
+			></path>
+		</svg>
+	</div>
+</section>
+<style>
+	.uk-height-small.with-shape {
+		height: 100px;
+	}
+		.shape-divider-bottom {
+			position: absolute;
+			bottom: -1px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+			line-height: 0;
+		}
+
+		.shape-divider-bottom svg {
+			position: relative;
+			display: block;
+			width: calc(100% + 1.3px);
+			height: 100px;
+			transform: rotateY(180deg);
+		}
+
+		.shape-divider-bottom .shape-fill {
+			fill: {{style.shapeFill}};
+		}
+</style>

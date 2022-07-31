@@ -1,0 +1,102 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'lg',
+align:'center', justify: 'center', mediaWidth: '1/2', mediaPos: 'right'}) -%}
+{%- if ctas and ctas[0].type==="video" -%} {%- set video = true -%} {%- endif
+-%}
+<section
+	class="uk-padding-remove-vertical"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="{{ style | setContainer }}"
+		style="padding-left: 0px; padding-right: 0px"
+	>
+		<div
+			class="{{ style | setMediaContainer }} uk-flex uk-flex-middle"
+			data-uk-grid
+			data-uk-height-match
+		>
+			<div class="{{ style | setGrid }} ">
+				<div
+					class="{{ style | setSection('class') }} uk-margin-medium-right uk-margin-medium-left uk-flex-middle"
+				>
+					<span
+						class="uk-text-primary"
+						data-uk-icon="icon: quote-right; ratio: 3"
+					></span>
+					<h3 class="uk-margin-small-top uk-text-light">
+						{{ title | safe }}
+					</h3>
+					<div
+						class="uk-text-{{align}} uk-text-bold uk-margin-remove-bottom uk-margin-remove-top desc"
+					>
+						{{description | safe}}
+					</div>
+					<div class="uk-text-{{align}} desc">
+						{{ subtitle | safe }}
+					</div>
+				</div>
+			</div>
+			<div
+				class="{{ style | setGrid('media') }} uk-background-cover uk-position-relative"
+				style="background-image:url({{image.url}})"
+			>
+				<div class="uk-height-medium uk-hidden@s">&nbsp;</div>
+				{%- if video -%}
+				<a
+					class="uk-background-cover uk-display-block uk-height-1-1 uk-width-1-1 uk-border-rounded uk-box-shadow-large uk-visible@s video-link"
+					href="#modal-media-youtube{{uid}}"
+					data-uk-toggle
+				>
+					<div
+						class="uk-position-small uk-position-center icon-play"
+						data-uk-icon="icon:play-circle; ratio:6"
+					></div>
+				</a>
+				<a
+					class="uk-background-cover uk-border-rounded uk-box-shadow-large uk-height-medium uk-hidden@s"
+					href="#modal-media-youtube{{uid}}"
+				>
+					&nbsp;
+				</a>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+	<div
+		id="modal-media-youtube{{uid}}"
+		class="uk-flex-top uk-modal"
+		data-uk-modal
+	>
+		<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+			<button
+				class="uk-modal-close-outside"
+				type="button"
+				uk-close
+			></button>
+			<iframe
+				class="uk-responsive-width"
+				src="{{ctas[0].url}}"
+				width="800"
+				height="600"
+				data-uk-video
+				data-uk-responsive
+			></iframe>
+		</div>
+	</div>
+</section>
+<style>
+	.video-link .icon-play {
+		color: var(--primary);
+	}
+	.video-link .uk-icon svg {
+		transition-duration: 0.5s;
+		transform-origin: center;
+	}
+	.video-link:hover .uk-icon svg {
+		transform: scale(1.2);
+	}
+	.video-link:hover .uk-icon {
+		color: #fff;
+	}
+</style>

@@ -1,0 +1,51 @@
+{%- set style = style | setDefaults({background:'#f4f4f4',spacing:'md',
+align:'center', container:'md', justify: 'center', itemMediaPos: 'left'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="uk-margin-medium-top uk-grid uk-child-width-1-2@s"
+			data-uk-grid
+			data-uk-height-match="target: .hmatch"
+		>
+			{%- for grp in items | batch(3) -%} {%- set item1 = grp[0] -%} {%-
+			set item2 = grp[1] -%} {%- set item3 = grp[2] -%} {%- if item1 -%}
+			{%- set item = item1 -%} {%- if item.style -%} {%- set style = style
+			| setAttribute('item', item.style) -%} {%- endif -%}
+			<div class="hmatch">
+				{%- render "@macro-cards", {type:"vcard", item:item,
+				style:style} -%}
+			</div>
+			{%- endif -%} {%- if item2 or item3 -%}
+			<div class="hmatch uk-flex uk-flex-column uk-flex-between">
+				{%- if item2 -%} {%- set item = item2 -%} {%- if item.style -%}
+				{%- set style = style | setAttribute('item', item.style) -%} {%-
+				endif -%}
+				<div class="">
+					{%- render "@macro-cards", {type:"hcard", item:item,
+					style:style} -%}
+				</div>
+				{%- endif -%} {%- if item3 -%} {%- set item = item3 -%} {%- if
+				item.style -%} {%- set style = style | setAttribute('item',
+				item.style) -%} {%- endif -%}
+				<div class="uk-margin-medium-top">
+					{%- render "@macro-cards", {type:"hcard", item:item,
+					style:style} -%}
+				</div>
+				{%- endif -%}
+			</div>
+			{%- endif -%} {%- endfor -%}
+		</div>
+	</div>
+</section>

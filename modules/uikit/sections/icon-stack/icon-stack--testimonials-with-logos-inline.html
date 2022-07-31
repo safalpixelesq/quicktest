@@ -1,0 +1,234 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md',
+align:'center', justify: 'center', mediaWidth:'3/5', columns:1 , itemAlign:
+'left', mediaPos: 'right', itemJustify: 'middle', itemAnimation: 'fade',
+itemAspectRatio: '16:9'}) -%}
+<section
+	class="{{ style | setSection('class') }}"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div>
+			<div
+				class="uk-visible@s"
+				data-uk-slideshow="animation:{{style.itemAnimation}}; autoplay:true; ratio:{{style.itemAspectRatio}}; velocity: 600;"
+			>
+				<div class="uk-margin-medium-top uk-position-relative">
+					<div class="uk-position-relative" tabindex="-1">
+						<ul
+							class="uk-slideshow-items"
+							uk-height-match="target: > .uk-card"
+						>
+							{%- for item in items -%} {%- if item.style -%} {%-
+							set style = style | setAttribute('item', item.style)
+							-%} {%- endif -%} {%- set color = style.itemColor
+							-%}
+							<li
+								class="{{ style | setItem('class') }} uk-card uk-card-default  uk-border-rounded"
+								style="{{ style | setItem('style') }}"
+							>
+								<div
+									class="{{ style | setMediaContainer }} uk-flex  uk-height-1-1 uk-grid uk-grid-collapse uk-flex-top"
+									data-uk-grid
+								>
+									<div
+										class="{{ style | setGrid }} uk-dark uk-height-1-1"
+										style="background: #fff"
+									>
+										<div
+											class="uk-padding uk-padding-large uk-text-left"
+										>
+											<span
+												class="uk-text-primary uk-display-inline-block uk-margin-bottom"
+												data-uk-icon="icon: quote-right; ratio: 3"
+											></span>
+											{%- render "@macro-texts",
+											{heading:"4", weight:"light",
+											size:'lg',
+											justify:style.itemJustify,
+											align:style.itemAlign,
+											color:style.itemColor, title:
+											item.description} -%}
+											<div
+												class="logo-img uk-margin-medium-top"
+											>
+												<img
+													src="{{item.icon.url or item.icon}}"
+													alt="{{item.icon.alt or item.title}}"
+													class="uk-height-max-xsmall"
+												/>
+											</div>
+										</div>
+									</div>
+									<div
+										class="{{ style | setGrid('media') }} uk-height-1-1 uk-flex uk-flex-middle uk-flex-center uk-position-relative"
+									>
+										<div
+											class="uk-padding logo-img uk-text-center uk-light"
+										>
+											<img
+												data-src="{{item.image.url}}"
+												class="uk-width-3-4"
+												width="100%"
+												alt="{{item.image.alt}}"
+												data-uk-img
+											/>
+											<div class="uk-margin-medium-top">
+												{%- render "@macro-texts",
+												{heading:"3", weight:"bold",
+												size:'lg',
+												justify:style.itemJustify,
+												align:'center',
+												color:style.itemColor, title:
+												item.title } -%}
+											</div>
+											<div class="uk-margin-small-top">
+												{%- render "@macro-texts",
+												{heading:"5", weight:"light",
+												size:'lg',
+												justify:style.itemJustify,
+												align:'center',
+												color:style.itemColor, title:
+												item.subtitle } -%}
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							{%- endfor -%}
+						</ul>
+					</div>
+					<div class="uk-position-top-right uk-position-small">
+						<a
+							aria-label="slide-previous"
+							class="uk-text-large"
+							href="#"
+							uk-slidenav-previous
+							uk-slideshow-item="previous"
+						></a>
+						<a
+							aria-label="slide-next"
+							class="uk-text-large"
+							href="#"
+							uk-slidenav-next
+							uk-slideshow-item="next"
+						></a>
+					</div>
+					<ul
+						class="uk-slideshow-nav uk-margin-large-top uk-dotnav uk-flex uk-flex-center"
+					>
+						{%- for item in items -%}
+						<li uk-slideshow-item="{{loop.index - 1}}">
+							<a
+								aria-label="slide-{{loop.index - 1}}"
+								href="#"
+							></a>
+						</li>
+						{%- endfor -%}
+					</ul>
+				</div>
+			</div>
+			<div
+				class="uk-hidden@s"
+				data-uk-slider="animation:{{style.itemAnimation}}; autoplay:false; ratio:3:5"
+			>
+				<div class="uk-position-relative" tabindex="-1">
+					<ul class="uk-slider-items">
+						{%- for item in items -%} {%- if item.style -%} {%- set
+						style = style | setAttribute('item', item.style) -%} {%-
+						endif -%} {%- set color = style.itemColor -%}
+						<li
+							class="{{ style | setItem('class') }} uk-card uk-card-default uk-padding uk-border-rounded"
+							style="{{ style | setItem('style') }}"
+						>
+							<div
+								class="uk-overlay-primary uk-position-cover"
+							></div>
+							<div
+								class="uk-position-relative"
+								style="z-index: 100"
+							>
+								<div class="uk-text-center">
+									<div
+										class="logo-img uk-margin-top uk-margin-medium-bottom uk-text-center"
+									>
+										<img
+											data-src="{{item.image.url}}"
+											class="uk-width-3-4"
+											alt="{{item.image.alt}}"
+											data-uk-img
+											width="100%"
+										/>
+									</div>
+
+									{%- render "@macro-texts", {heading:"3",
+									weight:"light", size:'lg',
+									color:style.itemColor,
+									title:item.description } -%}
+									<div class="uk-margin-medium-top">
+										{%- render "@macro-texts", {heading:"3",
+										weight:"bold", size:'lg',
+										color:style.itemColor, title: item.title
+										} -%}
+									</div>
+									<div class="uk-margin-remove-top">
+										{%- render "@macro-texts", {heading:"5",
+										weight:"light", size:'lg',
+										color:style.itemColor, title:
+										item.subtitle } -%}
+									</div>
+								</div>
+							</div>
+						</li>
+						{%- endfor -%}
+					</ul>
+				</div>
+				{#
+				<ul class="uk-slideshow-nav uk-list uk-flex uk-flex-around">
+					{%- for item in items -%}
+					<li class="card" uk-slideshow-item="{{loop.index - 1}}">
+						<div class="logo-img uk-visible@m">
+							<img
+								src="{{item.image.url}}"
+								alt="{{item.image.alt}}"
+								class="uk-height-max-xsmall"
+							/>
+						</div>
+					</li>
+					{%- endfor -%}
+				</ul>
+				#}
+			</div>
+		</div>
+	</div>
+</section>
+<style>
+	.card {
+		cursor: pointer;
+	}
+	.logo-img .uk-height-max-small {
+		max-height: 80px;
+		max-width: 300px;
+	}
+
+	{# .logo-img .uk-height-max-small-m {
+		max-height: 300px;
+		max-width: 300px;
+	} #}
+
+	.logo-img .uk-height-max-xsmall {
+		max-height: 50px;
+		max-width: 200px;
+	}
+	.uk-active .logo-img img {
+		filter: none !important;
+	}
+</style>

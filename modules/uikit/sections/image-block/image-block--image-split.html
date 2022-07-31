@@ -1,0 +1,36 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'lg',
+align:'center', justify: 'center', mediaWidth: '1/2', mediaPos: 'right'}) -%}
+<section
+	class="uk-padding-remove-vertical"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div
+		class="{{ style | setContainer }}"
+		style="padding-left: 0px; padding-right: 0px"
+	>
+		<div
+			class="{{ style | setMediaContainer }} uk-flex uk-grid uk-height-match uk-flex-middle uk-grid-collapse"
+			data-uk-grid
+			data-uk-height-match
+		>
+			<div class="{{ style | setGrid }} ">
+				<div class="{{ style | setSection('class') }} uk-flex-middle">
+					<div class="uk-padding uk-padding-remove-vertical">
+						{%- render "@macro-texts", {heading:"2",
+						weight:"normal", size:'lg', align:style.align,
+						justify:style.justify, color:style.color, subtitle:
+						subtitle, title:title, description:description,
+						ctas:ctas } -%}
+					</div>
+				</div>
+			</div>
+			<div
+				class="{{ style | setGrid('media') }} uk-background-cover uk-background-top-center"
+				style="background-image:url({{image.url}})"
+			>
+				<div class="uk-height-large uk-hidden@s">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</section>

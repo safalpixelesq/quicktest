@@ -1,0 +1,109 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md', container:
+'md', align:'center', justify: 'center', columns: 5, columnGap:'sm'}) -%}
+<section
+	class="{{ style | setSection('class') }} uk-overflow-hidden"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div
+			class="{{ 'uk-margin-medium-top' if title or description }} uk-flex uk-flex-middle {{ style | setColumns }}"
+			style=""
+		>
+			{%- for i in range(0,30) -%} {%- for item in items -%} {%- if
+			item.style -%} {%- set style = style | setAttribute('item',
+			item.style) -%} {%- endif -%} {% if loop.index > items.length/2 %}
+			<div>
+				<div
+					class="{{ style | setItem('class') }} "
+					style="{{ style | setItem('style') }}; background:transparent;"
+				>
+					<div
+						class="uk-padding logo-container uk-border uk-border-rounded uk-flex uk-flex-middle"
+					>
+						<img
+							src="{{item.image.url}}"
+							class=""
+							alt="{{item.image.alt}}"
+							style="
+								height: 50px;
+								min-width: 120px;
+								object-fit: contain;
+							"
+						/>
+					</div>
+				</div>
+			</div>
+			{% endif %} {%- endfor -%} {%- endfor -%}
+		</div>
+
+		<div
+			class="uk-margin-top uk-flex uk-flex-middle {{ style | setColumns }}"
+			style=""
+		>
+			{%- for i in range(0,30) -%} {%- for item in items -%} {%- if
+			item.style -%} {%- set style = style | setAttribute('item',
+			item.style) -%} {%- endif -%} {% if loop.index <= items.length/2 %}
+			<div>
+				<div
+					class="{{ style | setItem('class') }} uk-flex uk-flex-middle"
+					style="{{ style | setItem('style') }}; background:transparent;"
+				>
+					<div
+						class="uk-padding logo-container reverse uk-border uk-border-rounded uk-flex uk-flex-middle"
+					>
+						<img
+							src="{{item.image.url}}"
+							class=""
+							alt="{{item.image.alt}}"
+							style="
+								height: 50px;
+								min-width: 120px;
+								object-fit: contain;
+							"
+						/>
+					</div>
+				</div>
+			</div>
+			{% endif %} {%- endfor -%} {%- endfor -%}
+		</div>
+	</div>
+</section>
+<style>
+
+	.logo-container {
+		animation: moveSlideshow 120s linear infinite;
+	}
+	@keyframes moveSlideshow {
+		0% {
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+		}
+		100% {
+			-webkit-transform: translateX(-5000%);
+			transform: translateX(-5000%);
+		}
+	}
+	.logo-container.reverse {
+		animation: moveSlideshowReverse 120s linear infinite;
+		{# transform: translateX(-4500px); #}
+	}
+	@keyframes moveSlideshowReverse {
+		0% {
+			-webkit-transform: translateX(-5000%);
+			transform: translateX(-5000%);
+		}
+		100% {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+	}
+</style>

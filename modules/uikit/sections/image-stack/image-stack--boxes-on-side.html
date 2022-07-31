@@ -1,0 +1,113 @@
+{%- set style = style | setDefaults({background:'#fff',spacing:'md',
+mediaWidth:'1/2', align:'center', justify: 'center', columns: 3, itemMediaPos:
+'left', itemMediaWidth: '1/2', itemAspectRatio: '4:3'}) -%}
+<section
+	class="{{ style | setSection('class') }} boxes-on-side"
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+>
+	<div class="{{ style | setContainer }}">
+		<div class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}">
+			<div class="uk-width-2-3@m">
+				{%- render "@macro-texts", {heading:"2", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align,
+				color:style.color, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+		<div class="uk-margin-large-top">
+			<div
+				data-uk-slideshow="animation:{{style.itemAnimation}}; autoplay:true;pause-on-hover:false; ratio:{{style.itemAspectRatio}}; velocity: 600; easing:ease"
+				class="uk-slideshow"
+			>
+				<div
+					class="{{ style | setMediaContainer }} uk-margin-medium-top uk-grid uk-grid-large"
+					data-uk-grid
+				>
+					<div class="{{ style | setGrid }} uk-position-relative">
+						<ul
+							class="
+								uk-slideshow-nav 
+								uk-grid uk-grid-small
+								uk-child-width-1-{{style.columns}}@m
+							"
+							data-uk-grid
+						>
+							{%- for item in items -%}
+							<li
+								class="{{'bottom-block' if loop.last }} each-block"
+								uk-slideshow-item="{{loop.index - 1}}"
+							>
+								<div
+									class="parallel-block uk-flex uk-flex-center uk-flex-middle"
+								>
+									{{item.subtitle | safe}}
+								</div>
+							</li>
+							{%- endfor -%}
+						</ul>
+					</div>
+					<div class="{{ style | setGrid('media') }}">
+						<div
+							class="uk-position-relative uk-visible-toggle"
+							tabindex="-1"
+						>
+							<ul class="uk-slideshow-items">
+								{%- for item in items -%}
+								<li class="uk-flex uk-flex-middle uk-flex-left">
+									<div class="uk-text-left">
+										<div class="uk-margin-bottom">
+											<img
+												src="{{item.image.url}}"
+												width="100px"
+												alt=""
+											/>
+										</div>
+										{%- render "@macro-texts", {heading:"4",
+										hstyle:"uk-h3", weight:"light",
+										size:'lg', justify:'left', align:'left',
+										color:style.itemColor, title:item.title
+										} -%}
+										<div
+											class="uk-h4 uk-body-font uk-margin-small-top"
+										>
+											{{item.description | safe}}
+										</div>
+										{%- render "@macro-texts",
+										{ctas:item.ctas } -%}
+									</div>
+								</li>
+								{%- endfor -%}
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				{#
+				<div class="uk-height-small">asd</div>
+				#}
+			</div>
+		</div>
+	</div>
+</section>
+<style>
+	.each-block {
+		{# --color-shadow-1: var(--primary);
+		--color-shadow-2: var(--primary);
+		--color-shadow-3: var(--secondary);
+
+		background-color: var(--secondary, transparent);
+		border: 1px solid #fff; #}
+		{# box-shadow: -1px 1px 0 1px var(--color-shadow-1),
+			-2px 2px 0 1px var(--color-shadow-1),
+			-3px 3px 0 1px var(--color-shadow-2),
+			-4px 4px 0 1px var(--color-shadow-2),
+			-5px 5px 0 1px var(--color-shadow-2),
+			-6px 6px 0 1px var(--color-shadow-3),
+			-7px 7px 0 1px var(--color-shadow-3),
+			-8px 8px 0 1px var(--color-shadow-3);
+		transition: color 0.15s, opacity 0.15s, background-color 0.15s,
+			transform 0.15s ease-in-out; #}
+		width: 100%;
+	}
+</style>

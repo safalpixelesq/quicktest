@@ -1,0 +1,375 @@
+[
+	{
+		"title": "Full Body Sales Alignment at FireEye",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/Fireeye.png",
+			"alt": ""
+		},
+		"description": "Full Body Sales Alignment at FireEye",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Next Best Deal Actions with Sirius Descisions",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/Sirius.png",
+			"alt": ""
+		},
+		"description": "Next Best Deal Actions with Sirius Descisions",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso Enabled Ivanti with Single Pane of glass",
+		"image": {
+			"url": "https://www.thesoftwarereport.com/wp-content/uploads/2020/10/Ivanti.jpg",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/ivanti",
+			"label": ""
+		}
+	},
+	{
+		"title": "Armis Increases Agility And Performance",
+		"image": {
+			"url": "https://www.armis.com/wp-content/uploads/2021/05/About-Page-Hero.png",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/armis",
+			"label": ""
+		}
+	},
+
+	{
+		"title": "Aviso AI Builds Better Sales Discipline and Coaching for RingCentral",
+		"image": {
+			"url": "https://pilbox.themuse.com/image.jpg?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fcompanies%2F11688%2Fabout_modules%2F80949%2Ff7653bf6-1f29-4742-b47a-024463993eaa.jpg%3Fv%3Daaf37029cdc11f2a4ea6da9bd3bfee35655196f34ad55552e325e3c56378df4d&fmt=jpeg&h=800&mode=crop&pos=top&prog=1&q=90&w=1200",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/ringcentral",
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso drives Digital Sales Transformation at Honeywell",
+		"image": {
+			"url": "https://dawodx.com/wp-content/uploads/2017/12/DSC_8432-2.jpg",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/honeywell",
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso Enabled Seagate With A “Single Pane of Glass”",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/seagate-cs.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/seagate",
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso’s Conversational Intelligence Provided Robust X-Ray for NetApp Sellers",
+		"image": {
+			"url": "https://www.netapp.com/media/web-card-band-images-Proud-at-NetApp_tcm19-19313.jpg?v=139986",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/netapp",
+			"label": ""
+		}
+	},
+	{
+		"title": "Interview with Ken Laversin",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/KenLaversin.png",
+			"alt": ""
+		},
+		"description": "Interview with Ken Laversin",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Interview with Randall Runk",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/RandallRunk.png",
+			"alt": ""
+		},
+		"description": "Interview with Randall Runk",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Interview with Henri Richard",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/HenriRichard.png",
+			"alt": ""
+		},
+		"description": "Interview with Henri Richard",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Interview with Bill Heil",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/BillHeil.png",
+			"alt": ""
+		},
+		"description": "Interview with Bill Heil",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso Revenue Intelligence In Action",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/aviso-overview-icon.webp",
+			"alt": ""
+		},
+		"description": "Aviso’s Revenue Intelligence System",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/Aviso-AI-Overview.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Forecasting Maturity Model",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/forecast-maturity.webp",
+			"alt": ""
+		},
+		"description": "Where do you Stack Up and How to get to the Next Level?",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://www.aviso.com/wp-content/uploads/2021/11/Aviso-AI-Overview.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Adaptive Forecasting",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/adaptive-forecasting.png",
+			"alt": ""
+		},
+		"description": "True AI Can Make Revenue Operations Simpler and More Predictable for CROs",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://www.aviso.com/wp-content/uploads/2021/11/Aviso-AI-Overview.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Consumption Forecasting",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/consumption-forecasting.png",
+			"alt": ""
+		},
+		"description": "Do You Have the Right Tools Required to Support Consumption-Based Models?",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://www.aviso.com/wp-content/uploads/2021/11/Aviso-AI-Overview.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Gartner Market Guide for Revenue Intelligence Platforms 2021",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-gartner.png",
+			"alt": ""
+		},
+		"description": "Intelligence Across Every Customer Touch Point to Maximize Revenue Potential",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.aviso.com/wp-content/uploads/2021/11/Market_Guide_for_Rev_739765_ndx-1.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Bain: Perspective Analytics",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-bain.png",
+			"alt": ""
+		},
+		"description": "How analytics can guide companies from insight to action.",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.bain.com/globalassets/noindex/2019/bain_brief_do_this_not_that_prescriptive_analytics_in_sales_and_marketing.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Gartner: Algorthmic Guided Selling",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-gartner-algorithmic-gs.png",
+			"alt": ""
+		},
+		"description": "True AI Can Make Revenue Operations Simpler and More Predictable for CROs",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.businesswire.com/news/home/20190903005237/en/Algorithmic-Guided-Selling-Significant-Impact-Sales-Productivity-Gartner?utm_campaign=2019%20Awaken%20Database&utm_source=hs_email&utm_medium=email&amp",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Gartner: Sales Effectiveness with AI",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-gartner-se.png",
+			"alt": ""
+		},
+		"description": "Leverage Artificial Intelligence to Improve Sales Effectiveness ",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.aviso.com/wp-content/uploads/2020/04/GARTNER-Sales-Effectiveness-with-AI.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Mastering Virtual Sales Calls",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/Amitpande.png",
+			"alt": ""
+		},
+		"description": "Mastering Virtual Sales Calls",
+		"type": "webinar",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Lost in CRM Webinar",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/lost-incrm.png",
+			"alt": ""
+		},
+		"description": "Lost in CRM? How AI can be your compass",
+		"type": "webinar",
+		"cta": {
+			"url": "https://vimeo.com/377629851",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "CRM Has hit a wall",
+		"image": {
+			"url": "https://www.aviso.com/wp-content/webp-express/webp-images/uploads/2020/02/CRM-has-hit-a-wall.png.webp",
+			"alt": ""
+		},
+		"description": "CRM Starts with: How can I force Reps to enter data in me?",
+		"type": "webinar",
+		"cta": {
+			"url": "https://vimeo.com/377630358",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Team AI Compass",
+		"image": {
+			"url": "https://www.aviso.com/wp-content/webp-express/webp-images/uploads/2020/02/DIGITAL-SALES-REV.png.webp",
+			"alt": ""
+		},
+		"description": "One Compass to find your revenue true north",
+		"type": "webinar",
+		"cta": {
+			"url": "https://vimeo.com/377634646",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "AI Guidance Cycle",
+		"image": {
+			"url": "https://www.aviso.com/wp-content/webp-express/webp-images/uploads/2020/02/ai-guidance-cycle.png.webp",
+			"alt": ""
+		},
+		"description": "AI Guidance Cycle",
+		"type": "webinar",
+		"cta": {
+			"url": "https://vimeo.com/377635036",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Digital War Rooms",
+		"image": {
+			"url": "https://www.aviso.com/wp-content/webp-express/webp-images/uploads/2020/07/SELL-FROM-ANYWHERE.png.webp",
+			"alt": ""
+		},
+		"description": "Helping Fortune 500 Leaders win during COVID",
+		"type": "webinar",
+		"cta": {
+			"url": "https://info.aviso.com/sell-from-anywhere-with-digital-warrooms-and-covid19-metrics?__hstc=27879020.01b7a6266d5ade076d704b43b1a41c5d.1634676739179.1639653433680.1639658417167.83&__hssc=27879020.1.1639658417167&__hsfp=3982190487",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Mastering Virtual Sales Calls",
+		"image": {
+			"url": "https://www.aviso.com/wp-content/webp-express/webp-images/uploads/2021/03/CONVERSATIONAL-INTELLIGENCE.png.webp",
+			"alt": ""
+		},
+		"description": "Mastering Virtual Sales Calls",
+		"type": "webinar",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	}
+]

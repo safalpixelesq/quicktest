@@ -1,0 +1,11 @@
+{% set abs = 'abs' if overlay else '' %}
+<div class="uk-text-{{style.itemAlign}} uk-flex uk-flex-{{style.itemJustify}}">
+	<div
+		class="uk-flex uk-flex-center uk-flex-middle {{ style | setIcon('class') }} {{ 'uk-position-absolute uk-box-shadow-large' if overlay else '' }}"
+		style="{{ style | setIcon('style', abs ) }}"
+	>
+		{% if icon and 'svg' in icon %} {{icon | safe}} {% else %}
+		<span class="uk-icon" data-uk-icon="icon: {{icon}};ratio:5"></span>{%
+		endif %}
+	</div>
+</div>

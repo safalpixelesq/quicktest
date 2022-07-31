@@ -1,0 +1,1162 @@
+{
+	"title": "Image Block",
+	"meta": {
+		"placement": [],
+		"group": "content",
+		"tags": ["image", "showcase", "video"],
+		"config": [
+			"align",
+			"background",
+			"color",
+			"invert",
+			"container",
+			"spacing",
+			"mediaPos",
+			"mediaWidth"
+		],
+		"fields": ["subtitle", "title", "description", "ctas", "image", "video"]
+	},
+	"default": "image-block",
+	"variants": [
+		{
+			"name": "image-block",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "cta",
+				"tags": ["image", "cta", "showcase", "generic"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1573496774426-fe3db3dd1731?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzk1fHx3b3JrfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"justify": "left",
+					"mediaPos": "left",
+					"mediaWidth": "2/5"
+				}
+			}
+		},
+		{
+			"name": "hero-image",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": [
+					"image",
+					"hero",
+					"video",
+					"cta",
+					"showcase",
+					"generic"
+				],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1573496774426-fe3db3dd1731?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzk1fHx3b3JrfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"justify": "left",
+					"mediaPos": "right",
+					"mediaWidth": "1/2"
+				}
+			}
+		},
+		{
+			"name": "hero-image-shape",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": [
+					"image",
+					"hero",
+					"video",
+					"cta",
+					"showcase",
+					"generic"
+				],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": null,
+				"image": null,
+				"style": {
+					"align": "left",
+					"background": "#f2f2f2",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"justify": "left",
+					"mediaPos": "right",
+					"mediaWidth": "2/5"
+				}
+			}
+		},
+		{
+			"name": "blog-hero",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": [
+					"image",
+					"hero",
+					"video",
+					"cta",
+					"showcase",
+					"generic"
+				],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": [
+					{
+						"label": "AI for Sales",
+						"url": "",
+						"type": "link"
+					}
+				],
+				"image": {
+					"url": "https://assets.uiaas.io/web/modules/hero-image-slideshow.xl.webp"
+				},
+				"style": {
+					"align": "left",
+					"background": "#f2f2f2",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"justify": "left",
+					"mediaPos": "right",
+					"mediaWidth": "2/5"
+				}
+			}
+		},
+		{
+			"name": "image-top",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "content",
+				"tags": ["image", "cta", "showcase", "generic"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": null,
+				"image": {
+					"url": "https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODM3fHx3b3JrfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#fff",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"justify": "center",
+					"mediaWidth": "3/5"
+				}
+			}
+		},
+		{
+			"name": "image-bottom",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "content",
+				"tags": ["image", "cta", "showcase", "generic"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": null,
+				"image": {
+					"url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHdvcmt8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaWidth": "3/4",
+					"justify": "center"
+				}
+			}
+		},
+		{
+			"name": "image-showcase",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "content",
+				"tags": ["image", "cta", "showcase", "generic"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1566241477600-ac026ad43874?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2NyZWVuc2hvdHxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#1F2937",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "2/5",
+					"justify": "center"
+				}
+			}
+		},
+		{
+			"name": "hero-screenshot",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": ["image", "app", "hero", "showcase", "screenshot"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Cutting-edge critical paths swiftly do the right thing about venture capital, so price points create established committees.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2NyZWVuc2hvdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#1F2937",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaWidth": "3/5",
+					"justify": "center"
+				}
+			}
+		},
+		{
+			"name": "image-split",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "content",
+				"tags": ["image", "split", "showcase"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Est eius aut sunt impedit quia accusamus asperiores velit. Atque ea quia deleniti saepe. Sunt exercitationem consequatur similique quidem commodi. Magnam ratione dignissimos.",
+				"ctas": null,
+				"image": {
+					"url": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGFwcHxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "md",
+					"mediaPos": "left",
+					"mediaWidth": "2/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "image-split-card",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "content",
+				"tags": ["image", "split", "showcase"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXBwfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#333",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "2/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "testimonial-with-image",
+			"status": "ready",
+			"meta": {
+				"placement": [3, 4],
+				"group": "testimonial",
+				"tags": ["image", "split", "testimonials"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "Marketing company",
+				"title": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"description": "Emma Brewer",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1609902726285-00668009f004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGhhcHB5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "sm",
+					"mediaPos": "right",
+					"mediaWidth": "1/4",
+					"justify": "center"
+				}
+			}
+		},
+		{
+			"name": "testimonial-image",
+			"status": "ready",
+			"meta": {
+				"placement": [3, 4],
+				"group": "testimonial",
+				"tags": ["image", "split", "testimonials"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "Marketing company",
+				"title": "Emma Brewer",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1609902726285-00668009f004?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGhhcHB5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "center",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "sm",
+					"mediaPos": "right",
+					"mediaWidth": "1/4",
+					"justify": "center"
+				}
+			}
+		},
+		{
+			"name": "image-angled-split",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "cta",
+				"tags": ["image", "cta", "showcase", "angled", "split"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Expedite interactive infomediaries",
+				"description": "Et omnis qui ut dicta sit autem totam. Voluptatem et ullam non quasi et aliquam velit sit qui. Perferendis harum sit dicta dignissimos asperiores animi ut consequuntur voluptatem.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#1D4ED8",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "2/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "hero-image-split",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": ["hero", "app", "image", "split", "showcase"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Expedite interactive infomediaries",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU4fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#fff",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "1/2",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "hero-image-angled-split",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": ["hero", "app", "image", "split", "showcase", "angled"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#1F2937",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "lg",
+					"mediaPos": "right",
+					"mediaWidth": "1/2",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "app-screenshot-peek",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "cta",
+				"tags": ["image", "card", "overlay"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"label": "Get Started",
+						"url": "#",
+						"type": "primary",
+						"size": "md"
+					}
+				],
+				"image": {
+					"url": "https://assets.uiaas.io/web/app-screenshot.webp",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#1D4ED8",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "3/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "image-card-overlay",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "cta",
+				"tags": ["image", "card", "overlay"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Animi esse sit vel est similique. Ut nostrum minus est aut et. Culpa alias libero aliquid facilis vitae distinctio expedita reprehenderit et. Et quidem dolores praesentium hic accusantium ut non. Blanditiis reiciendis rerum sed.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1522202801620-eb6f71f5bf05?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwN3xKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#F3F4F6",
+					"color": null,
+					"invert": false,
+					"container": "ex",
+					"spacing": "md",
+					"mediaPos": "left",
+					"mediaWidth": "2/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "overlapping-image",
+			"status": "ready",
+			"meta": {
+				"placement": [2, 3, 4],
+				"group": "cta",
+				"tags": ["image", "card", "showcase", "overlap"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Est eius aut sunt impedit quia accusamus asperiores velit. Atque ea quia deleniti saepe. Sunt exercitationem consequatur similique quidem commodi. Magnam ratione dignissimos.",
+				"ctas": [
+					{
+						"label": "Find out more",
+						"url": "#",
+						"type": "link",
+						"size": "md"
+					}
+				],
+				"image": {
+					"url": "https://images.unsplash.com/photo-1576633587217-5c9b4930956b?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxN3xKOXlyUGFIWFJRWXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#E5E7EB",
+					"color": null,
+					"invert": false,
+					"container": "md",
+					"spacing": "md",
+					"mediaPos": "left",
+					"mediaWidth": "2/5",
+					"justify": "left"
+				}
+			}
+		},
+		{
+			"name": "hero-app-peek",
+			"status": "ready",
+			"meta": {
+				"placement": [1],
+				"group": "hero",
+				"tags": ["image", "card", "overlay", "hero", "screenshot"],
+				"config": [
+					"align",
+					"background",
+					"color",
+					"invert",
+					"container",
+					"spacing",
+					"mediaPos",
+					"mediaWidth"
+				],
+				"fields": [
+					"subtitle",
+					"title",
+					"description",
+					"ctas",
+					"image",
+					"video"
+				]
+			},
+			"context": {
+				"subtitle": "SELF-ENABLING",
+				"title": "Innovative tertiary standardization",
+				"description": "Blanditiis vero sit nemo labore unde eaque expedita tenetur hic. Aut nihil ducimus.",
+				"ctas": [
+					{
+						"type": "primary",
+						"label": "Get Started",
+						"url": "#",
+						"size": "md",
+						"external": false
+					},
+					{
+						"type": "default",
+						"label": "Learn more",
+						"url": "#",
+						"size": "md",
+						"external": false
+					}
+				],
+				"image": {
+					"url": "https://assets.uiaas.io/web/app-screenshot.webp",
+					"alt": "Image",
+					"caption": "An optional caption describing the image"
+				},
+				"style": {
+					"align": "left",
+					"background": "#1F2937",
+					"color": null,
+					"invert": false,
+					"container": "lg",
+					"spacing": "md",
+					"mediaPos": "right",
+					"mediaWidth": "1/2",
+					"justify": "left"
+				}
+			}
+		}
+	]
+}

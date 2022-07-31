@@ -1,0 +1,102 @@
+context:
+    categories:
+        header:
+            title: Header
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        hero:
+            title: Hero
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        content:
+            title: Content
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        features:
+            title: Features
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        stats:
+            title: Stats
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        steps:
+            title: Steps
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        pricing:
+            title: Pricing
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        testimonial:
+            title: Testimonial
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        faqs:
+            title: FAQs
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        team:
+            title: Team
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        logos:
+            title: Logos
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        cta:
+            title: CTAs
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        newsletter:
+            title: Newsletter
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        footer:
+            title: Footer
+            desc: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    text:
+        title: An <b>awesome</b> title
+        desc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores qui quaerat consectetur vitae aliquid soluta similique doloribus ullam explicabo nobis.
+        caps: LOREM IPSUM DOLOR
+        xs: Lorem ipsum dolor
+        sm: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        md: Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ut sunt sed fugiat quidem quos eaque vero. Rem, sunt quibusdam.
+        lg: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit rem odit reprehenderit aperiam minima, corrupti ex voluptate praesentium molestias quae eum. Molestias eum nisi repellat quae mollitia repudiandae quisquam.
+        xl: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia cupiditate magnam qui vero expedita, sunt culpa nesciunt rerum consequuntur, facilis autem eaque reprehenderit atque quis provident nihil eum! Magnam temporibus nobis molestiae ea placeat odio et repellendus minima consequuntur!
+        2xl: <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia cupiditate magnam qui vero expedita, sunt culpa nesciunt rerum consequuntur, facilis autem eaque reprehenderit atque quis provident nihil eum!</p><p>Facilis autem eaque reprehenderit atque quis provident nihil eum! Magnam temporibus nobis molestiae ea placeat odio et repellendus minima consequuntur corrupti ex voluptate praesentium molestias quae eum. Molestias eum nisi repellat quae mollitia repudiandae quisquam.</p>
+    img:
+        bg:
+            pencils: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+        media:
+            url: https://images.unsplash.com/photo-1585648062858-04d334c9354f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+            alt: Image
+            caption:
+    ctas:
+        buttons:
+            - type: primary
+              external: false
+              url: "/docs"
+              label: Primary Button
+              size:
+            - type: default
+              external: true
+              url: "https://uiaas.io"
+              label: Secondary Button
+              size:
+    items:
+        sm:
+            two:
+                - title: "Lorem ipsum dolor sit amet"
+                  description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  ctas:
+                      - type: primary
+                        external: false
+                        url: "/docs"
+                        label: Primary Button
+                        size:
+                      - type: default
+                        external: true
+                        url: "https://uiaas.io"
+                        label: Secondary Button
+                        size:
+                - title: "Lorem ipsum dolor sit amet"
+                  description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  ctas:
+                      - type: primary
+                        external: false
+                        url: "/docs"
+                        label: Primary Button
+                        size:
+                      - type: default
+                        external: true
+                        url: "https://uiaas.io"
+                        label: Secondary Button
+                        size:

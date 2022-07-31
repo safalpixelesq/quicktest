@@ -1,0 +1,69 @@
+{% set style = style | setDefaults({background:'#fff',spacing:'xs',
+align:'center', justify: 'center'}) %}
+<div
+	class="{{ style | setSection('class') }} subnav uk-box-shadow-small "
+	style="{{ style | setSection('style') }}"
+	data-uk-sticky
+>
+	<div class="{{ style | setContainer }}">
+		<div
+			class="uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}} uk-width-expand"
+			data-uk-navbar
+		>
+			{%- if logo.url -%}
+			<div class="uk-navbar-left uk-margin-large-right pname">
+				<span class=""
+					>{%- render "@macro-logo", {logo:logo, subnav:true}
+					-%}</span
+				>
+			</div>
+			{%- endif -%}
+
+			<div class="uk-navbar-left">
+				<div
+					class="uk-navbar-{{style.align}} uk-visible@{{'s' if primary.length < 5 else 'm'}}"
+				>
+					{%- render "@macro-offmenu", {mode:'menu',primary:primary,
+					subnav:true} -%}
+				</div>
+			</div>
+			<div
+				class="uk-navbar-right uk-visible@{{'s' if primary.length < 5 else 'm'}}"
+			>
+				{# {%- render "@macro-offmenu", {mode:'menu',primary:secondary}
+				-%} #}
+				<div class="uk-flex uk-flex-middle" style="margin-top: -12px">
+					{%- render "@macro-texts", { justify:'right',
+					align:style.align, ctas:ctas } -%}
+				</div>
+			</div>
+			<a
+				href="#"
+				class="uk-navbar-toggle uk-hidden@{{'s' if primary.length < 5 else 'm'}} uk-flex-right"
+				uk-navbar-toggle-icon
+				data-uk-toggle="target: #subnavOffmenu"
+			></a>
+		</div>
+	</div>
+	<nav id="subnavOffmenu" data-uk-offcanvas="flip: true" class="uk-offcanvas">
+		{%- render "@macro-offmenu", {mode:'offmenu', primary:primary} -%}
+	</nav>
+</div>
+<style>
+	.subnav .pname .uk-logo {
+		font-family: var(--head-font-family) !important;
+		font-weight: 500 !important;
+		color: var(--secondary);
+	}
+	.subnav .pname {
+		display: none;
+		font-family: var(--head-font-family);
+	}
+	.subnav.uk-sticky.uk-active .pname {
+		display: block;
+	}
+
+	.subnav li.uk-active a {
+		color: var(--primary) !important;
+	}
+</style>

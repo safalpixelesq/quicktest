@@ -1,0 +1,21 @@
+{%- set style = style | setDefaults({background:'linear-gradient(20deg, #b721ff
+0%, #21d4fd 100%);',spacing:'lg', align:'left', justify: 'left'}) -%}
+<div
+	class="{{ style | setSection('class') }} uk-background-cover uk-background-norepeat uk-background-center-center "
+	style="{{ style | setSection('style') }}"
+	id="{{uid}}"
+	data-uk-parallax="bgy: -350; viewport: .6"
+>
+	<div
+		class="{{ style | setContainer }} uk-text-{{style.align}} uk-flex uk-flex-{{style.justify}}"
+	>
+		<div class="uk-width-1-2@m uk-width-2-3@s">
+			<div class="uk-width-3-4">
+				{%- render "@macro-texts", {heading:"1", weight:"normal",
+				size:'lg', justify:style.justify, align:style.align, color:
+				style.color, hero: true, subtitle:subtitle, title:title,
+				description:description, ctas:ctas } -%}
+			</div>
+		</div>
+	</div>
+</div>

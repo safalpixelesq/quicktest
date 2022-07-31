@@ -1,0 +1,569 @@
+{
+	"meta": {
+		"apimode": "component",
+		"assetUrl": "https://aviso-demo.pages.dev/assets",
+		"title": "Careers | Aviso",
+		"description": "AI for Sales. Aviso uses Machine Learning and Time-Series data to predict the probablity that a deal will close. Find your revenue True North.",
+		"image": "https://www.aviso.com/wp-content/uploads/2019/07/Aviso_Icon_Orange.png",
+		"jsonld": ""
+	},
+	"content": [
+		{
+			"module": "image-block--hero-image-angled-split",
+			"subtitle": "CAREERS",
+			"title": "<span class='uk-margin-medium-bottom uk-display-block'>Be a part of a <i class='uk-text-primary'>vibrant, remote-first,</i> and <i class='uk-text-primary'>passionate team</i> building the future of Revenue Intelligence.</span>",
+			"description": "",
+			"image": {
+				"url": "https://assets.uiaas.io/web/aviso/teambg.webp",
+				"alt": "Image",
+				"caption": ""
+			},
+			"ctas": [
+				{
+					"type": "primary",
+					"label": "Open Positions",
+					"url": "#usPositions",
+					"size": "md",
+					"external": false
+				},
+				{
+					"type": "link",
+					"label": "Benefits",
+					"url": "#benefitsUS",
+					"size": "md",
+					"external": false
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "",
+				"invert": true,
+				"container": "md",
+				"spacing": "lg",
+				"mediaWidth": "1/2"
+			}
+		},
+		{
+			"module": "text-stack--giant-card",
+			"subtitle": "",
+			"title": "Our Values",
+			"description": "",
+			"items": [
+				{
+					"title": "Customers >> Team >><br/> Self",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/asha_mcelfish.webp), #EDDBCC; background-size: cover; background-position: top;"
+					}
+				},
+				{
+					"title": "Bring your best science and art to every interaction",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_2.webp), #F8A9A4; background-size: cover; background-position: top;"
+					}
+				},
+
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_3.webp), #F8A9A4; background-size: cover; background-position: top;"
+					}
+				},
+				{
+					"title": "Do more with Less. There’s always a better way",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/trevor_rodrigues.webp), #BBDAE0; background-size: cover; background-position: top;"
+					}
+				},
+				{
+					"title": "Speed wins. Speed with quality wins repeatedly",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/maxim_tarasevich.webp), #BBDAE0; background-size: cover; background-position: top;"
+					}
+				},
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_1.webp), #EDDBCC; background-size: cover; background-position: top;"
+					}
+				},
+
+				{
+					"title": "Give and demand excellence in all types of work",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_4.webp), #EDDBCC; background-size: cover; background-position: top;"
+					}
+				},
+
+				{
+					"title": "Agree and Commit or Disagree and Commit",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_5.webp), #F8A9A4; background-size: cover; background-position: top;"
+					}
+				},
+
+				{
+					"title": "",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "url(https://assets.uiaas.io/web/aviso/team_img_6.webp), #BBDAE0; background-size: cover; background-position: top;"
+					}
+				},
+				{
+					"title": "Work while you work. Play while you play",
+					"description": "",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#fff",
+				"color": null,
+				"animate": true,
+				"invert": false,
+				"container": "md",
+				"spacing": "lg",
+				"justify": "center",
+				"columns": 4,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"mediaWidth": "3/5"
+			}
+		},
+		{
+			"module": "icon-stack--icon-stack",
+			"uid": "benefitsUS",
+			"subtitle": "",
+			"title": "Benefits for Employees in USA",
+			"description": "Employees with outstanding contributions are eligible to <br/> earn a cash award from the CEO every quarter",
+			"items": [
+				{
+					"title": "Health Insurance",
+					"description": "We offer multiple medical plan options for employees, spouses/domestic partners, and children. We also offer disability insurance. ",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" height=\"48px\" viewBox=\"0 0 20 20\" width=\"48px\" fill=\"currentColor\"><g><rect fill=\"none\" height=\"20\" width=\"20\" x=\"0\"/></g><g><path d=\"M9.25,13.25H7.5V15H6v-1.75H4.25v-1.5H6V10h1.5v1.75h1.75V13.25z M14,14.5v-1h-3.25v1H14z M15.75,12v-1h-5v1H15.75z M18,7.5v9c0,0.83-0.67,1.5-1.5,1.5h-13C2.67,18,2,17.33,2,16.5v-9C2,6.67,2.67,6,3.5,6h4.25V3.5c0-0.83,0.67-1.5,1.5-1.5h1.5 c0.83,0,1.5,0.67,1.5,1.5V6h4.25C17.33,6,18,6.67,18,7.5z M9.25,7.5h1.5v-4h-1.5V7.5z M16.5,7.5h-4.25c0,0.83-0.67,1.5-1.5,1.5 h-1.5c-0.83,0-1.5-0.67-1.5-1.5H3.5v9h13V7.5z\"/></g></svg>",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Unlimited Time Off",
+					"description": "We encourage everyone to recharge their batteries with a flexible Time Off Policy.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z\"/></svg>",
+					"style": {
+						"background": "#F3F4FF"
+					}
+				},
+				{
+					"title": "Flexible Spending Accounts",
+					"description": "We offer FSA for you to set aside pre-tax money from your paycheck for health care or dependent care expenses. You can contribute up to $7,600 per calendar year.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z\"/></svg>",
+					"ctas": null,
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Life Insurance",
+					"description": "We offer the same amount as your salary, or up to a maximum of $100,000.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" height=\"48px\" viewBox=\"0 0 20 20\" width=\"48px\" fill=\"currentColor\"><g><rect fill=\"none\" height=\"20\" width=\"20\" x=\"0\"/></g><g><path d=\"M9.25,13.25H7.5V15H6v-1.75H4.25v-1.5H6V10h1.5v1.75h1.75V13.25z M14,14.5v-1h-3.25v1H14z M15.75,12v-1h-5v1H15.75z M18,7.5v9c0,0.83-0.67,1.5-1.5,1.5h-13C2.67,18,2,17.33,2,16.5v-9C2,6.67,2.67,6,3.5,6h4.25V3.5c0-0.83,0.67-1.5,1.5-1.5h1.5 c0.83,0,1.5,0.67,1.5,1.5V6h4.25C17.33,6,18,6.67,18,7.5z M9.25,7.5h1.5v-4h-1.5V7.5z M16.5,7.5h-4.25c0,0.83-0.67,1.5-1.5,1.5 h-1.5c-0.83,0-1.5-0.67-1.5-1.5H3.5v9h13V7.5z\"/></g></svg>",
+					"style": {
+						"background": "#F3F4FF"
+					}
+				},
+
+				{
+					"title": "401k+ and Provident Fund",
+					"description": "We offer both traditional and Roth 401(k) plans.",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z\"/></svg>",
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Referral Bonus",
+					"description": "We offer a generous referral bonus for every candidate who gets hired based on internal employee referrals",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" height=\"48px\" viewBox=\"0 0 20 20\" width=\"48px\" fill=\"currentColor\"><g><rect fill=\"none\" height=\"20\" width=\"20\"/><rect fill=\"none\" height=\"20\" width=\"20\"/></g><g><g><g><circle cx=\"6\" cy=\"7\" r=\"3\"/></g><g><path d=\"M11.03,12.37C9.56,11.5,7.84,11,6,11s-3.56,0.5-5.03,1.37C0.36,12.72,0,13.39,0,14.09V16h12v-1.91 C12,13.39,11.64,12.72,11.03,12.37z\"/></g><g><path d=\"M15.03,12.37c-0.92-0.54-1.94-0.92-3.02-1.14c0.92,0.64,1.48,1.71,1.48,2.86V16H16v-1.91 C16,13.39,15.64,12.72,15.03,12.37z\"/></g><g><path d=\"M10,10c1.66,0,3-1.34,3-3s-1.34-3-3-3C9.79,4,9.58,4.02,9.38,4.06C10.07,4.85,10.5,5.87,10.5,7 c0,1.13-0.43,2.14-1.12,2.93C9.58,9.98,9.79,10,10,10z\"/></g><g><polygon points=\"19.5,7.75 17.75,7.75 17.75,6 16.25,6 16.25,7.75 14.5,7.75 14.5,9.25 16.25,9.25 16.25,11 17.75,11 17.75,9.25 19.5,9.25\"/></g></g></g></svg>",
+					"style": {
+						"background": "#F3F4FF"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#f2f2f2",
+				"color": null,
+				"invert": false,
+				"animate": true,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 3,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"mediaWidth": "3/5",
+				"itemIconColor": "#fff",
+				"itemIconShape": "rounded",
+				"itemIconPos": "top"
+			}
+		},
+		{
+			"module": "text-stack--links-grid",
+			"uid": "usPositions",
+			"subtitle": "",
+			"title": "USA Open Positions",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "",
+					"description": null,
+					"ctas": [
+						{
+							"label": "Account Executive",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Account-Executive-USA.pdf",
+							"external": true
+						},
+						{
+							"label": "Customer Success Manager",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Customer-Success-Manager-USA.pdf",
+							"external": true
+						}
+					]
+				},
+				{
+					"title": "",
+					"ctas": [
+						{
+							"label": "Sales Engineer",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Sales-Engineer-USA.pdf",
+							"external": true
+						}
+					]
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#ffffff",
+				"color": null,
+				"invert": null,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+		{
+			"module": "icon-stack--icon-stack",
+			"subtitle": "",
+			"title": "Benefits for Employees in India",
+			"description": "Employees with outstanding contributions are eligible to <br/> earn a cash award from the CEO every quarter",
+			"items": [
+				{
+					"title": "Leave Policy",
+					"description": "<ul class='uk-list'><li>21 earned Leaves/year and 12 Sick Leaves/year</li><li>26 weeks Maternity Leave to eligible women employees. Employees may take Paternity Leave up to 5 days off with pay upon the birth of their child.</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z\"/></svg>",
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Medical Insurance",
+					"description": "<ul class='uk-list'><li>100% premium paid by Aviso Software India LLP. Maximum of INR 5,00,000 per policy period for Employee+Family</li><li>Maternity benefit up to INR 50,000 per childbirth.</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" height=\"48px\" viewBox=\"0 0 20 20\" width=\"48px\" fill=\"currentColor\"><g><rect fill=\"none\" height=\"20\" width=\"20\" x=\"0\"/></g><g><path d=\"M9.25,13.25H7.5V15H6v-1.75H4.25v-1.5H6V10h1.5v1.75h1.75V13.25z M14,14.5v-1h-3.25v1H14z M15.75,12v-1h-5v1H15.75z M18,7.5v9c0,0.83-0.67,1.5-1.5,1.5h-13C2.67,18,2,17.33,2,16.5v-9C2,6.67,2.67,6,3.5,6h4.25V3.5c0-0.83,0.67-1.5,1.5-1.5h1.5 c0.83,0,1.5,0.67,1.5,1.5V6h4.25C17.33,6,18,6.67,18,7.5z M9.25,7.5h1.5v-4h-1.5V7.5z M16.5,7.5h-4.25c0,0.83-0.67,1.5-1.5,1.5 h-1.5c-0.83,0-1.5-0.67-1.5-1.5H3.5v9h13V7.5z\"/></g></svg>",
+					"ctas": null,
+					"style": {
+						"background": "#F3F4FF"
+					}
+				},
+				{
+					"title": "Education Reimbursement",
+					"description": "<ul class='uk-list'><li>Reimbursement of certication fees up to maximum of INR 2,50,000.</li><li>Reimbursement of professional training fees up to maximum of per year.</li></ul>",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z\"/></svg>",
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Employee Referral Policy",
+					"description": "A referral bonus of upto INR 1,50,000 will be paid to employees per eligible referral",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 20 20\" height=\"48px\" viewBox=\"0 0 20 20\" width=\"48px\" fill=\"currentColor\"><g><rect fill=\"none\" height=\"20\" width=\"20\"/><rect fill=\"none\" height=\"20\" width=\"20\"/></g><g><g><g><circle cx=\"6\" cy=\"7\" r=\"3\"/></g><g><path d=\"M11.03,12.37C9.56,11.5,7.84,11,6,11s-3.56,0.5-5.03,1.37C0.36,12.72,0,13.39,0,14.09V16h12v-1.91 C12,13.39,11.64,12.72,11.03,12.37z\"/></g><g><path d=\"M15.03,12.37c-0.92-0.54-1.94-0.92-3.02-1.14c0.92,0.64,1.48,1.71,1.48,2.86V16H16v-1.91 C16,13.39,15.64,12.72,15.03,12.37z\"/></g><g><path d=\"M10,10c1.66,0,3-1.34,3-3s-1.34-3-3-3C9.79,4,9.58,4.02,9.38,4.06C10.07,4.85,10.5,5.87,10.5,7 c0,1.13-0.43,2.14-1.12,2.93C9.58,9.98,9.79,10,10,10z\"/></g><g><polygon points=\"19.5,7.75 17.75,7.75 17.75,6 16.25,6 16.25,7.75 14.5,7.75 14.5,9.25 16.25,9.25 16.25,11 17.75,11 17.75,9.25 19.5,9.25\"/></g></g></g></svg>",
+					"style": {
+						"background": "#333366"
+					}
+				},
+				{
+					"title": "Meal Coupons",
+					"description": "Monthly allotment of INR 2,500 worth Sodexo meal coupons",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z\"/></svg>",
+					"style": {
+						"background": "#F3F4FF"
+					}
+				},
+				{
+					"title": "Gratuity",
+					"description": "15 days basic salary per year of completed service, eligible after 5 years of continuous service, fully paid by Company",
+					"icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48px\" viewBox=\"0 0 24 24\" width=\"48px\" fill=\"currentColor\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z\"/></svg>",
+					"style": {
+						"background": "#F3F4FF"
+					}
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#F3F4F6",
+				"color": null,
+				"invert": false,
+				"animate": true,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center",
+				"columns": 3,
+				"columnGap": "md",
+				"itemAlign": "left",
+				"itemBackground": "linear-gradient(45deg, rgba(51,51,153,1) 0%, rgba(220,71,62,1) 100%)",
+				"itemColor": null,
+				"itemInvert": false,
+				"itemJustify": "left",
+				"mediaWidth": "3/5",
+				"itemIconColor": "#fff",
+				"itemIconShape": "rounded",
+				"itemIconPos": "top"
+			}
+		},
+		{
+			"module": "text-stack--links-grid",
+			"uid": "indiaPositions",
+			"subtitle": "",
+			"title": "India Open Positions",
+			"description": "",
+			"ctas": "",
+			"items": [
+				{
+					"title": "",
+					"description": null,
+					"ctas": [
+						{
+							"label": "Customer Success Manager",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Customer-Success-Manager-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Sales Engineer",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Sales-Engineer-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Sales Development Representative",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Sales-Development-Representative-India.pdf",
+							"external": true
+						},
+						{
+							"label": "CRM Technical Architect",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/CRM-Architect-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Senior Product Manager",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Senior-Product-Manager-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Principal Data Scientist (VP Level)",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Data-Scientist-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Sr Python Developer (Day & Night)",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Sr-Python-Developer-India.pdf",
+							"external": true
+						},
+						{
+							"label": "DBA Architect or Lead Level",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Senior-Database-Administrator-India.pdf",
+							"external": true
+						}
+					]
+				},
+				{
+					"title": "",
+					"ctas": [
+						{
+							"label": "Sr QA Automation Engineer",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Lead-Engineer-Automation-QA-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Front End Developer",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Front-end-Developer-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Solutions Architect",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Solutions-Architect-India.pdf",
+							"external": true
+						},
+						{
+							"label": "ABM Manager",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/ABM-Manager-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Digital Marketing Manager",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Digital-Marketing-Manager-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Design Expert (Senior & Lead)",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Design-Expert-India.pdf",
+							"external": true
+						},
+						{
+							"label": "Pre-Sales Engineer",
+							"type": "link",
+							"url": "https://assets.uiaas.io/web/aviso/Solutions-Architect2-India.pdf",
+							"external": true
+						}
+					]
+				}
+			],
+			"style": {
+				"align": "left",
+				"background": "#ffffff",
+				"color": null,
+				"invert": null,
+				"container": "md",
+				"spacing": "md",
+				"justify": "left",
+				"columns": 2,
+				"columnGap": "lg",
+				"itemAlign": "left",
+				"itemColor": null,
+				"itemJustify": "left"
+			}
+		},
+
+		{
+			"module": "simple-block",
+			"uid": "contact",
+			"subtitle": "",
+			"title": "Not seeing a position that is right for you?",
+			"description": "We're always happy to hear from talented people interested in joining us!",
+			"ctas": [
+				{
+					"label": "careers@aviso.com",
+					"url": "mailto:careers@aviso.com",
+					"type": "primary",
+					"size": "md"
+				}
+			],
+			"style": {
+				"align": "center",
+				"background": "#232644",
+				"color": null,
+				"invert": false,
+				"container": "md",
+				"spacing": "md",
+				"justify": "center"
+			}
+		}
+	]
+}

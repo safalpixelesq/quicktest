@@ -1,0 +1,591 @@
+[
+	{
+		"title": "Aviso AI Time-Series Database",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/avisotimeseriesdb.webp",
+			"alt": "Aviso AI Time-series Database"
+		},
+		"description": "",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/White%20Paper%20-%20AI%20Time-series%20Database-Final.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Close More Deals, Replicate Top Rep Behaviors, Develop Deal-Winning Confidence",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/infogr-close-more-deals.webp",
+			"alt": "Close More Deals"
+		},
+		"description": "",
+		"type": "infographic",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/sales-rep-close-more-deals.png",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "Aviso Essential Guide to Conversational Intelligence",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/essentil-guide-white-paper.webp",
+			"alt": "Aviso AI Overview - Feb 2022"
+		},
+		"description": "",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/White_Paper-Conversational-Intelligence-web.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Overview - Feb 2022",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/aioverview-feb.webp",
+			"alt": "Aviso AI Overview - Feb 2022"
+		},
+		"description": "Maximise Revenue potential through AI intelligence",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Aviso-AI-Overview-Feb-2022.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Have More Effective Calls and Win Deals Faster",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/infogr-more-effective-calls.webp",
+			"alt": "Infographic"
+		},
+		"description": "",
+		"type": "infographic",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/more-effective-calls-n-win-deals-faster.png",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "How to be a Revenue Champion in 2022 (with AI!)",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/webinar-revenue-champion.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "webinar",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/How%20to%20be%20a%20revenue%20champion%20in%202022%20%28with%20AI%21%29.mp4",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Making Sales Forecasts More Accurate: How LaunchDarkly uses AI insights",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/tammy_headshot.webp",
+			"alt": "Tammy Sexton"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=gtC8nxqspsU",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Evolution of the Commercial Sales Process with More and Better Data",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/brian-young-new.jpeg",
+			"alt": "Brian Young"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/CQnB7fwxeMs",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "Importance of a Single Pane of Glass for Revenue Operations",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/brian-young-new.jpeg",
+			"alt": "Brian Young"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/U8tmQrCf0SU",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Sales Managers - How is Your Risk Visibility this Quarter?",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/infogr-sales-manager-persona.webp",
+			"alt": "Infographic"
+		},
+		"description": "",
+		"type": "infographic",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/sales-manager-persona.png",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "The Evolution of CRM Systems and its Role in the Future",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/simon_davies_nobg.webp",
+			"alt": "Simon Davies"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/X1Wrlln9Q9Q",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "Role of Advanced AI and ML in the Commercial Sales and Revenue Process",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/brian-young-new.jpeg",
+			"alt": "Brian Young"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/fht5AoUD8l8",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "How Conversational Intelligence Helps Sales Teams and Customers",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/simon_davies_nobg.webp",
+			"alt": "Simon Davies"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=033pIW85fcg",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "The Value of Insights from Thousands of Sales Teams",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/simon_davies_nobg.webp",
+			"alt": "Simon Davies"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/dxKynrgsZ6Y",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Make Revenue-Focused Alignment Easier",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/infogr-make-revenue-focused.webp",
+			"alt": "Infographic"
+		},
+		"description": "",
+		"type": "infographic",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/make-revenue-focused-alignment-easier.png",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Enabling remote, digital sales teams for success: Aviso’s conversational intelligence powers NetApp",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+			"alt": "Lori Harmon"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=5B7kwQN33DE",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Ivanti Replaces Clari With Aviso to Get a Single Pane of Glass",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ivanti-case-study-feat.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/ivanti",
+			"label": ""
+		}
+	},
+	{
+		"title": "Armis Replaces Clari and top Conversational Intelligence app With Aviso to Increase Agility and Performance",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/armis-case-study-bg.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/armis",
+			"label": ""
+		}
+	},
+	{
+		"title": "How Aviso’s Time-Series AI Engine Tackles Problems with Data",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/simon_davies_nobg.webp",
+			"alt": "Simon Davies"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/j17kVCvlk9w",
+			"external": true,
+			"label": ""
+		}
+	},
+
+	{
+		"title": "A Central View Across the Customer Lifecycle is the New Normal for Sales",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/simon_davies_nobg.webp",
+			"alt": "Simon Davies"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://youtu.be/y46gP6dxdMs",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "RingCentral Builds Better Sales Discipline and Coaching with Aviso",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ringcentral-case-study-feat.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/ringcentral",
+			"label": ""
+		}
+	},
+	{
+		"title": "Honeywell Drives Global Digital Sales Transformation with Aviso",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/honeywell_bg.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/honeywell",
+			"label": ""
+		}
+	},
+	{
+		"title": "Seagate Enables Single Pane of Glass for RevOps with Aviso",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/seagate-cs.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/seagate",
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso’s Conversational Intelligence Provided Robust X-Ray for NetApp Sellers",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/netapp-cs-feat.webp",
+			"alt": ""
+		},
+		"description": "",
+		"type": "case-study",
+		"cta": {
+			"url": "/case-study/netapp",
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso Revenue Intelligence In Action",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/aviso-overview-icon.webp",
+			"alt": ""
+		},
+		"description": "Aviso’s Revenue Intelligence System",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/resources/Aviso-AI-Overview.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Forecasting Maturity Model",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/forecast-maturity.webp",
+			"alt": ""
+		},
+		"description": "Where do you Stack Up and How to get to the Next Level?",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Aviso-AI-Forecasting-Maturity-Model-1.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Adaptive Forecasting",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/adaptive-forecasting.png",
+			"alt": ""
+		},
+		"description": "True AI Can Make Revenue Operations Simpler and More Predictable for CROs",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Aviso-AI-Adaptive-Forecasting.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aviso AI Consumption Forecasting",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/consumption-forecasting.png",
+			"alt": ""
+		},
+		"description": "Do You Have the Right Tools Required to Support Consumption-Based Models?",
+		"type": "white-paper",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Aviso-AI-Consumption-Forecasting.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Gartner Market Guide for Revenue Intelligence Platforms 2021",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-gartner.png",
+			"alt": ""
+		},
+		"description": "Intelligence Across Every Customer Touch Point to Maximize Revenue Potential",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Market_Guide_for_Rev_739765_ndx-1.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "The Biggest Mistakes Made by Sales Leaders Today",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/tammy_headshot.webp",
+			"alt": "Tammy Sexton"
+		},
+		"description": "What traps are revenue leaders falling into when they try to optimize sales processes?",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=7VHv35meQ_w",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Why Aviso Beats CRM for LaunchDarkly’s Sales Leaders, Managers, and Reps",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/tammy_headshot.webp",
+			"alt": "Tammy Sexton"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=vlqss5IJhD8",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "The Importance of Sales Analytics – How LaunchDarkly Gets Better Insights with AI",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/tammy_headshot.webp",
+			"alt": "Tammy Sexton"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=MGQhjbkXz78&t=8s",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "As a Sales Leader, how can AI overcome the limitations of CRM?",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/al-arun.webp",
+			"alt": "Al Arun"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/embed/NaL6pu_A7l0",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Enabling Everywhere Workplace: An introduction to Ivanti",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/al-arun.webp",
+			"alt": "Al Arun"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=K5snPQLIuig",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Aligning Sellers and CRM : How Ivanti Uses Aviso to Close Deals Faster",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/al-arun.webp",
+			"alt": "Al Arun"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=3VF5WwF-BSs",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "AI empowers sales: How to turn \"B-team players\" into \"A-team players\"",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+			"alt": "Lori Harmon"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=8mylupBktlU",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "The impact of Conversational Intelligence for Channel Partners",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+			"alt": "Lori Harmon"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=OBJfNrhcps4",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Journey as a sales leader - Meet NetApp’s Lori Harmon",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/lori_harmon_headshot.webp",
+			"alt": "Lori Harmon"
+		},
+		"description": "",
+		"type": "video",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=s2X1i7rteFY",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Bain: Perspective Analytics",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-bain.png",
+			"alt": ""
+		},
+		"description": "How analytics can guide companies from insight to action.",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.bain.com/globalassets/noindex/2019/bain_brief_do_this_not_that_prescriptive_analytics_in_sales_and_marketing.pdf",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Gartner: Algorthmic Guided Selling",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/ar-gartner-algorithmic-gs.png",
+			"alt": ""
+		},
+		"description": "True AI Can Make Revenue Operations Simpler and More Predictable for CROs",
+		"type": "analyst-resource",
+		"cta": {
+			"url": "https://www.businesswire.com/news/home/20190903005237/en/Algorithmic-Guided-Selling-Significant-Impact-Sales-Productivity-Gartner?utm_campaign=2019%20Awaken%20Database&utm_source=hs_email&utm_medium=email&amp",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Mastering Virtual Sales Calls",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/Amitpande.png",
+			"alt": ""
+		},
+		"description": "Mastering Virtual Sales Calls",
+		"type": "webinar",
+		"cta": {
+			"url": "https://www.youtube.com/watch?v=cb1mp6sL_Aw",
+			"external": true,
+			"label": ""
+		}
+	},
+	{
+		"title": "Sell from anywhere with Digital War Rooms",
+		"image": {
+			"url": "https://assets.uiaas.io/web/aviso/webinar-digitalwarooms.webp",
+			"alt": ""
+		},
+		"description": "Helping Fortune 500 Leaders win during COVID",
+		"type": "webinar",
+		"cta": {
+			"url": "https://assets.uiaas.io/web/aviso/Sell%20from%20Anywhere%20with%20Digital%20WarRooms.mp4",
+			"external": true,
+			"label": ""
+		}
+	}
+]
